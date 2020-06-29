@@ -1,13 +1,92 @@
 @media screen and (max-width: 450px) {
     .Footer {
         width: 100vw;
-        height: 30vh;
+        height: 225px;
+        background-color: #F6F4F3;
 
         .socialMedia {
+            padding-top: 20px;
+            color: #707070;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
+            .header {
+                font-size: 20px;
+                font-weight: 500;
+            }
 
-            .facebook {
-                font-size: 25px;
+            .iconContainer {
+                width: 80vw;
+                padding-top: 18px;
+                display: flex;
+                justify-content: space-around;
+
+                .facebook,
+                .instagram,
+                .linkedIn {
+                    font-size: 50px;
+                }
+            }
+        }
+
+        .newsletter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+
+            input {
+                height: 25px;
+                border-radius: 0;
+                border: none;
+                background-color: #F6F4F3;
+                color: #707070;
+                border-bottom: 1px solid #707070;
+                width: 60vw;
+            }
+
+            button {
+                color: #707070;
+                font-size: 15px;
+                font-weight: 500;
+                height: 25px;
+                border: 1px solid #707070;
+                width: 20vw;
+            }
+        }
+
+        .bottom {
+            padding-top: 20px;
+            width: 75vw;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .rules,
+            .private-policy {
+                font-size: 15px;
+                color: #707070;
+                font-weight: 500;
+            }
+        }
+
+        .copyright {
+            padding-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+
+            img {
+                width: 20px;
+            }
+
+            div {
+                font-size: 10px;
+                font-weight: 400;
+                color: #707070;
+                padding-left: 2px;
             }
         }
     }
