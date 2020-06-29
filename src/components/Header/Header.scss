@@ -1,0 +1,17 @@
+@media screen and (max-width: 450px) {
+    .Header {
+        z-index: 1;
+        position: fixed;
+        background-color: #F6F4F3;
+        width: 100vw;
+        height: 8vh;
+        border-bottom: 1px solid #707070;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: calc(8vh - 1px);
+        }
+    }
+}
