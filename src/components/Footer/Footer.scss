@@ -26,6 +26,7 @@
                 .instagram,
                 .linkedIn {
                     font-size: 50px;
+                    opacity: 0.8;
                 }
             }
         }
@@ -37,13 +38,14 @@
             padding-top: 20px;
 
             input {
+                padding-left: 15px;
                 height: 25px;
                 border-radius: 0;
                 border: none;
                 background-color: #F6F4F3;
                 color: #707070;
                 border-bottom: 1px solid #707070;
-                width: 60vw;
+                width: 50vw;
             }
 
             button {
@@ -52,7 +54,7 @@
                 font-weight: 500;
                 height: 25px;
                 border: 1px solid #707070;
-                width: 20vw;
+                width: 30vw;
             }
         }
 
