@@ -3,14 +3,13 @@ import Logo from "./../../assets/lisc_kolor.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingBag, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 // use react-scroll later
-// do animations to moveIn and moveOut menu
 
 const Header = () => {
     const [active, setActive] = useState(false);
 
     return (
         <div className='Header'>
-            {active ? <div className='shadow' /> : ''}
+            {active ? <div className='shadow' onClick={() => setActive(false)} /> : ''}
             <div className={active ? 'nav-links x' : 'nav-links'}>
                 <div>Sklep</div>
                 <div>O nas</div>
