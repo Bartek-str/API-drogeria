@@ -177,6 +177,7 @@
         }
 
         .copyright {
+            cursor: default;
             width: 100vw;
             display: flex;
             justify-content: center;
@@ -279,6 +280,7 @@
         }
 
         .copyright {
+            cursor: default;
             width: 100vw;
             display: flex;
             justify-content: center;
@@ -301,6 +303,7 @@
 
 @media screen and (min-width: 1440px) {
     .Footer {
+        position: relative;
         width: 100vw;
         height: 175px;
         background-color: #F6F4F3;
@@ -337,7 +340,7 @@
 
         .newsletter {
             position: absolute;
-            top: 304vh;
+            top: 5vh;
             right: 25px;
             display: flex;
             justify-content: center;
@@ -381,7 +384,8 @@
         }
 
         .copyright {
-            padding-top: 150px;
+            cursor: default;
+            bottom: 0;
             position: absolute;
             width: 100vw;
             display: flex;

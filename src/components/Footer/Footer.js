@@ -14,7 +14,7 @@ const Footer = () => (
             </div>
         </div>
         <div className='newsletter'>
-            <input value='adres e-mail' />
+            <input />
             <button>Newsletter</button>
         </div>
         <div className='bottom'>

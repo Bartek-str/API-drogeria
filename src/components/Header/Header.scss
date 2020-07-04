@@ -2,7 +2,7 @@
     .Header {
         z-index: 100;
         position: fixed;
-        background-color: #F6F4F3;
+        background-color: #FDFDFD;
         width: 100vw;
         height: 9vh;
         border-bottom: 1px solid #707070;
@@ -49,6 +49,7 @@
         }
 
         .logo {
+            cursor: pointer;
             position: absolute;
             display: flex;
             flex-direction: row;
@@ -156,7 +157,7 @@
     .Header {
         z-index: 100;
         position: fixed;
-        background-color: #F6F4F3;
+        background-color: #FDFDFD;
         width: 100vw;
         height: 8vh;
         border-bottom: 1px solid #707070;
@@ -169,6 +170,7 @@
         }
 
         .logo {
+            cursor: pointer;
             display: flex;
             flex-direction: row;
 
@@ -241,7 +243,7 @@
     .Header {
         z-index: 100;
         position: fixed;
-        background-color: #F6F4F3;
+        background-color: #FDFDFD;
         width: 100vw;
         height: 8vh;
         border-bottom: 1px solid #707070;
@@ -254,6 +256,7 @@
         }
 
         .logo {
+            cursor: pointer;
             display: flex;
             flex-direction: row;
 
@@ -295,10 +298,10 @@
             flex-direction: row;
             justify-content: space-between;
             color: #707070;
-            width: 25vw;
+            width: calc(25vw - 25px);
 
             div:nth-child(1) {
-                padding-left: 25px;
+                padding-left: 50px;
             }
 
             & > div {
