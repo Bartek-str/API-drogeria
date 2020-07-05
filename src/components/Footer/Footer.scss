@@ -1,6 +1,5 @@
 .Footer {
     width: 100vw;
-    height: 225px;
     background-color: #F6F4F3;
 
     .socialMedia {
@@ -8,6 +7,100 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        .header {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .iconContainer {
+            width: 30vw;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            .facebook,
+            .instagram,
+            .linkedIn {
+                font-size: 50px;
+                opacity: 0.8;
+
+                &:hover {
+                    color: #C786AD;
+                }
+            }
+        }
+    }
+
+    .newsletter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+
+        input {
+            height: 25px;
+            border-radius: 0;
+            border: none;
+            background-color: #F6F4F3;
+            color: #707070;
+            border-bottom: 1px solid #707070;
+            width: 40vw;
+        }
+
+        button {
+            color: #707070;
+            font-size: 15px;
+            font-weight: 500;
+            height: 25px;
+            border: 1px solid #707070;
+            width: 30vw;
+
+            &:hover {
+                background-color: #C786AD;
+                color: white;
+                border: none;
+            }
+        }
+    }
+
+    .bottom {
+        padding-top: 20px;
+        width: 75vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .rules,
+        .private-policy {
+            font-size: 15px;
+            color: #707070;
+            font-weight: 500;
+
+            &:hover {
+                color: #C786AD;
+            }
+        }
+    }
+
+    .copyright {
+        width: 100vw;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 20px;
+        }
+
+        div {
+            font-size: 10px;
+            font-weight: 400;
+            color: #707070;
+            padding-left: 2px;
+        }
     }
 }
 
@@ -17,50 +110,8 @@
         .socialMedia {
             padding-top: 20px;
 
-            .header {
-                font-size: 20px;
-                font-weight: 500;
-            }
-
             .iconContainer {
-                width: 80vw;
-                padding-top: 18px;
-                display: flex;
-                justify-content: space-around;
-
-                .facebook,
-                .instagram,
-                .linkedIn {
-                    font-size: 50px;
-                    opacity: 0.8;
-                }
-            }
-        }
-
-        .newsletter {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
-
-            input {
-                padding-left: 15px;
-                height: 25px;
-                border-radius: 0;
-                border: none;
-                background-color: #F6F4F3;
-                color: #707070;
-                border-bottom: 1px solid #707070;
-                width: 50vw;
-            }
-
-            button {
-                color: #707070;
-                font-size: 15px;
-                font-weight: 500;
-                height: 25px;
-                border: 1px solid #707070;
-                width: 30vw;
+                width: 75vw;
             }
         }
 
@@ -70,129 +121,48 @@
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-
-            .rules,
-            .private-policy {
-                font-size: 15px;
-                color: #707070;
-                font-weight: 500;
-            }
-        }
-
-        .copyright {
-            width: 100vw;
-            padding-top: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-
-            img {
-                width: 20px;
-            }
-
-            div {
-                font-size: 10px;
-                font-weight: 400;
-                color: #707070;
-                padding-left: 2px;
-            }
         }
     }
 }
 
 @media screen and (min-width: 751px) {
     .Footer {
-        height: 175px;
+        position: relative;
         display: flex;
         flex-direction: row;
         align-items: center;
 
         .socialMedia {
-            padding-left: 25px;
-
-            .header {
-                font-size: 20px;
-                font-weight: 500;
-            }
-
-            .iconContainer {
-                width: 30vw;
-                padding-top: 18px;
-                display: flex;
-                justify-content: space-around;
-
-                .facebook,
-                .instagram,
-                .linkedIn {
-                    font-size: 50px;
-                    opacity: 0.8;
-                }
-            }
+            padding: 25px;
         }
 
         .newsletter {
             position: absolute;
-            top: 153vh;
+            top: 25px;
             right: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
 
             input {
-                padding-left: 15px;
-                height: 25px;
-                border-radius: 0;
-                border: none;
-                background-color: #F6F4F3;
-                color: #707070;
-                border-bottom: 1px solid #707070;
-                width: 40vw;
+                width: 35vw;
             }
 
             button {
-                color: #707070;
-                font-size: 15px;
-                font-weight: 500;
-                height: 25px;
-                border: 1px solid #707070;
                 width: 20vw;
             }
         }
 
         .bottom {
-            margin-left: 23vw;
-            padding-top: 50px;
+            position: absolute;
+            top: 70px;
+            right: 25px;
             width: 40vw;
-            display: flex;
-            justify-content: space-between;
-
-            .rules,
-            .private-policy {
-                font-size: 15px;
-                color: #707070;
-                font-weight: 500;
-            }
         }
 
         .copyright {
-            cursor: default;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-
-            img {
-                width: 20px;
-            }
+            bottom: 0;
+            position: absolute;
 
             div {
                 font-size: 15px;
-                font-weight: 400;
-                color: #707070;
-                padding-left: 2px;
             }
         }
     }
@@ -202,186 +172,52 @@
     .Footer {
 
         .socialMedia {
-
-            .header {
-                font-size: 20px;
-                font-weight: 500;
-            }
+            padding-left: 100px;
 
             .iconContainer {
-                width: 30vw;
-                padding-top: 18px;
-                display: flex;
-                justify-content: space-around;
-
-                .facebook,
-                .instagram,
-                .linkedIn {
-                    font-size: 50px;
-                    opacity: 0.8;
-                }
+                width: 25vw;
             }
         }
 
         .newsletter {
-            position: absolute;
-            top: 304vh;
-            right: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
+            right: 100px;
 
             input {
-                padding-left: 15px;
-                height: 25px;
-                border-radius: 0;
-                border: none;
-                background-color: #F6F4F3;
-                color: #707070;
-                border-bottom: 1px solid #707070;
-                width: 40vw;
-            }
-
-            button {
-                color: #707070;
-                font-size: 15px;
-                font-weight: 500;
-                height: 25px;
-                border: 1px solid #707070;
-                width: 20vw;
+                width: 30vw;
             }
         }
 
         .bottom {
-            margin-left: 24vw;
-            padding-top: 50px;
-            width: 40vw;
-            display: flex;
-            justify-content: space-between;
-
-            .rules,
-            .private-policy {
-                font-size: 15px;
-                color: #707070;
-                font-weight: 500;
-            }
-        }
-
-        .copyright {
-            cursor: default;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-
-            img {
-                width: 20px;
-            }
-
-            div {
-                font-size: 15px;
-                font-weight: 400;
-                color: #707070;
-                padding-left: 2px;
-            }
+            right: 100px;
         }
     }
 }
 
 @media screen and (min-width: 1440px) {
     .Footer {
-        position: relative;
 
         .socialMedia {
-            padding-left: 25px;
-
-            .header {
-                font-size: 20px;
-                font-weight: 500;
-            }
+            padding-left: 150px;
 
             .iconContainer {
-                width: 30vw;
-                padding-top: 18px;
-                display: flex;
-                justify-content: space-around;
-
-                .facebook,
-                .instagram,
-                .linkedIn {
-                    font-size: 50px;
-                    opacity: 0.8;
-                }
-            }
-        }
-
-        .newsletter {
-            position: absolute;
-            top: 5vh;
-            right: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
-
-            input {
-                padding-left: 15px;
-                height: 25px;
-                border-radius: 0;
-                border: none;
-                background-color: #F6F4F3;
-                color: #707070;
-                border-bottom: 1px solid #707070;
-                width: 40vw;
-            }
-
-            button {
-                color: #707070;
-                font-size: 15px;
-                font-weight: 500;
-                height: 25px;
-                border: 1px solid #707070;
                 width: 20vw;
             }
         }
 
-        .bottom {
-            margin-left: 34vw;
-            padding-top: 55px;
-            width: 30vw;
-            display: flex;
-            justify-content: space-between;
+        .newsletter {
+            right: 150px;
 
-            .rules,
-            .private-policy {
-                font-size: 15px;
-                color: #707070;
-                font-weight: 500;
+            input {
+                width: 35vw;
+            }
+
+            button {
+                width: 15vw;
             }
         }
 
-        .copyright {
-            cursor: default;
-            bottom: 0;
-            position: absolute;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-
-            img {
-                width: 20px;
-            }
-
-            div {
-                font-size: 15px;
-                font-weight: 400;
-                color: #707070;
-                padding-left: 2px;
-            }
+        .bottom {
+            right: 150px;
         }
     }
 }
