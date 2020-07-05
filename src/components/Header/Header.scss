@@ -1,16 +1,71 @@
+.Header {
+    z-index: 10;
+    position: fixed;
+    background-color: #FDFDFD;
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+
+    .shadow {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        color: #707070;
+    }
+
+    .logo {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+
+        .api {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                font-weight: 200;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    .nav-shop {
+        display: flex;
+        justify-content: space-around;
+
+        .icon {
+            color: #707070;
+            font-size: 2.5rem;
+        }
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 750px) {
     .Header {
-        z-index: 100;
-        position: fixed;
-        background-color: #FDFDFD;
-        width: 100vw;
-        height: 9vh;
-        border-bottom: 1px solid #707070;
-        display: flex;
         justify-content: center;
-        align-items: center;
 
         .shadow {
+            display: block;
             position: absolute;
             width: 100vw;
             height: 92vh;
@@ -22,16 +77,14 @@
         }
 
         .nav-links {
-            display: flex;
             flex-direction: column;
             position: absolute;
             top: 8vh;
             right: 0;
-            background-color: #F6F4F3;
+            background-color: #FDFDFD;
             width: 60vw;
             height: 92vh;
             padding-top: 5vh;
-            color: #707070;
             transform: translateX(100%);
             transition: transform 0.25s ease-in-out;
 
@@ -49,27 +102,15 @@
         }
 
         .logo {
-            cursor: pointer;
             position: absolute;
-            display: flex;
-            flex-direction: row;
 
             .api {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 font-size: 40px;
                 height: 45px;
-                font-weight: 300;
-                letter-spacing: 2px;
             }
 
             .container {
                 height: 45px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
 
                 img {
                     height: 2rem;
@@ -77,15 +118,11 @@
 
                 div {
                     font-size: 2rem;
-                    font-weight: 200;
-                    letter-spacing: 2px;
                 }
             }
         }
 
         .nav-shop {
-            display: flex;
-            justify-content: space-around;
             position: absolute;
             top: 10vh;
             right: 0;
@@ -94,12 +131,12 @@
             transition: transform 0.25s ease-in-out;
 
             .icon {
-                color: #707070;
                 font-size: 2.5rem;
             }
         }
 
         .burger {
+            display: block;
             width: 4vh;
             height: 3.5vh;
             opacity: 1;
@@ -110,7 +147,6 @@
             cursor: pointer;
 
             div {
-                display: block;
                 position: absolute;
                 height: 5px;
                 width: 100%;
@@ -155,41 +191,17 @@
 
 @media screen and (min-width: 751px){
     .Header {
-        z-index: 100;
-        position: fixed;
-        background-color: #FDFDFD;
-        width: 100vw;
-        height: 8vh;
-        border-bottom: 1px solid #707070;
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-
-        .shadow {
-            display: none;
-        }
 
         .logo {
-            cursor: pointer;
-            display: flex;
-            flex-direction: row;
 
             .api {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 font-size: 60px;
                 height: 60px;
-                font-weight: 300;
-                letter-spacing: 2px;
             }
 
             .container {
                 height: 60px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
 
                 img {
                     height: 3rem;
@@ -197,21 +209,12 @@
 
                 div {
                     font-size: 3rem;
-                    font-weight: 200;
-                    letter-spacing: 2px;
                 }
             }
         }
 
-        .burger {
-            display: none;
-        }
-
         .nav-links {
-            display: flex;
-            flex-direction: row;
             justify-content: space-between;
-            color: #707070;
             width: 30vw;
 
             div:nth-child(1) {
@@ -224,10 +227,7 @@
         }
 
         .nav-shop {
-            display: flex;
             flex-direction: row;
-            justify-content: space-around;
-            color: #707070;
             width: 25vw;
             padding-left: calc(5vw - 25px);
             padding-right: 25px;
@@ -241,41 +241,17 @@
 
 @media screen and (min-width: 1024px) {
     .Header {
-        z-index: 100;
-        position: fixed;
-        background-color: #FDFDFD;
-        width: 100vw;
-        height: 8vh;
-        border-bottom: 1px solid #707070;
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-
-        .shadow {
-            display: none;
-        }
 
         .logo {
-            cursor: pointer;
-            display: flex;
-            flex-direction: row;
 
             .api {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 font-size: 60px;
                 height: 60px;
-                font-weight: 300;
-                letter-spacing: 2px;
             }
 
             .container {
                 height: 60px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
 
                 img {
                     height: 3rem;
@@ -283,21 +259,12 @@
 
                 div {
                     font-size: 3rem;
-                    font-weight: 200;
-                    letter-spacing: 2px;
                 }
             }
         }
 
-        .burger {
-            display: none;
-        }
-
         .nav-links {
-            display: flex;
-            flex-direction: row;
             justify-content: space-between;
-            color: #707070;
             width: calc(25vw - 25px);
 
             div:nth-child(1) {
@@ -310,10 +277,7 @@
         }
 
         .nav-shop {
-            display: flex;
             flex-direction: row;
-            justify-content: space-around;
-            color: #707070;
             width: 20vw;
             padding-left: calc(5vw - 25px);
             padding-right: 25px;
