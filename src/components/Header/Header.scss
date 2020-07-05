@@ -208,6 +208,8 @@
         justify-content: space-between;
 
         .logo {
+            position: absolute;
+            right: calc(50vw - 111.36px);
 
             .api {
                 font-size: 60px;
@@ -230,10 +232,7 @@
         .nav-links {
             justify-content: space-between;
             width: 30vw;
-
-            div:nth-child(1) {
-                padding-left: 25px;
-            }
+            padding-left: 25px;
 
             div, a {
                 font-size: 2rem;
@@ -242,8 +241,8 @@
 
         .nav-shop {
             flex-direction: row;
-            width: 25vw;
-            padding-left: calc(5vw - 25px);
+            justify-content: space-between;
+            width: 20vw;
             padding-right: 25px;
 
             .icon {
@@ -255,50 +254,27 @@
 
 @media screen and (min-width: 1024px) {
     .Header {
-        justify-content: space-between;
-
-        .logo {
-
-            .api {
-                font-size: 60px;
-                height: 60px;
-            }
-
-            .container {
-                height: 60px;
-
-                img {
-                    height: 3rem;
-                }
-
-                div {
-                    font-size: 3rem;
-                }
-            }
-        }
 
         .nav-links {
-            justify-content: space-between;
-            width: calc(30vw - 25px);
-
-            div:nth-child(1) {
-                padding-left: 150px;
-            }
-
-            div, a {
-                font-size: 2rem;
-            }
+            padding-left: 100px;
         }
 
         .nav-shop {
-            flex-direction: row;
             width: 25vw;
-            padding-left: calc(5vw - 125px);
-            padding-right: 125px;
+            padding-right: 100px;
+        }
+    }
+}
 
-            .icon {
-                font-size: 2rem;
-            }
+@media screen and (min-width: 1440px) {
+    .Header {
+
+        .nav-links {
+            padding-left: 150px;
+        }
+
+        .nav-shop {
+            padding-right: 150px;
         }
     }
 }
