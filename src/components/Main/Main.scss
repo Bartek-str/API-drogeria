@@ -1,172 +1,191 @@
+.MainContainer {
+
+    .first {
+        background-image: url("./../../assets/pink-flowers-photography-1128797.jpg");
+        background-position: 70% 0;
+        background-size: cover;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .headLine {
+                font-weight: 500;
+                color: #202020;
+            }
+
+            .line {
+                width: 100%;
+                font-weight: 400;
+                color: #707070;
+            }
+
+            .goToShop {
+                border: 1px solid #505050;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 500;
+                color: #202020;
+                box-shadow: 5px 5px 5px 0 #505050;
+
+                &:hover {
+                    background-color: #C786AD;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .second {
+        background-color: #f6f4f3;
+    }
+
+    .fourth {
+        background-color: white;
+    }
+
+    .second,
+    .fourth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px;
+            width: 80%;
+
+            .headerIdea,
+            .headerOpinions {
+                font-weight: 600;
+                color: #707070;
+            }
+
+            .text {
+                padding-top: 15px;
+                font-weight: 400;
+                color: #707070;
+                letter-spacing: 0.2px;
+                line-height: 1.4;
+                text-align: center;
+            }
+
+            .container1 {
+                width: 75%;
+            }
+        }
+    }
+
+    .third,
+    .fifth {
+        z-index: -1;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .third {
+        background-image: url("./../../assets/forget-me-not-4151689_1920.jpg");
+        transform: scaleX(-1);
+    }
+
+    .fifth {
+        background-image: url("./../../assets/aromatherapy-beautiful-blooming-blur-286763.jpg");
+    }
+}
+
 @media screen and (max-width: 750px) {
     .MainContainer {
-        top: 0;
 
         .first {
-            background-image: url("./../../assets/pink-flowers-photography-1128797.jpg");
-            background-position: 70% 0;
-            background-size: cover;
-            width: 100vw;
-            min-height: 92vh;
-            height: 100vh;
-            display: flex;
             justify-content: center;
-            align-items: center;
 
             .container {
                 width: 88vw;
                 height: 35vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
                 align-items: center;
 
                 .headLine {
                     text-align: center;
                     font-size: 25px;
-                    font-weight: 500;
-                    color: #202020;
                 }
 
                 .line {
                     text-align: center;
                     font-size: 20px;
-                    font-weight: 400;
-                    color: #707070;
                 }
 
                 .goToShop {
                     width: 75vw;
                     height: 10vh;
-                    border: 1px solid #505050;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-weight: 500;
                     font-size: 20px;
-                    color: #202020;
-                    box-shadow: 5px 5px 5px 0 #505050;
                 }
             }
         }
 
         .second,
         .fourth {
-            background-color: #F6F4F3;
             width: 100vw;
             min-height: 46vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
 
             .container {
-                margin: 30px;
-                width: 80vw;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
 
                 .headerIdea,
                 .headerOpinions {
                     font-size: 20px;
-                    font-weight: 600;
-                    color: #707070;
                 }
 
                 .text {
-                    padding-top: 15px;
                     font-size: 15px;
-                    font-weight: 400;
-                    color: #707070;
-                    letter-spacing: 0.2px;
-                    line-height: 1.4;
-                    text-align: center;
                 }
-            }
-
-            .container1 {
-                width: 75vw;
             }
         }
 
         .third,
         .fifth {
-            z-index: -1;
             width: 100vw;
             height: 46vh;
-            background-size: cover;
-            background-position: center;
         }
-
-        .fourth {
-            background-color: white;
-        }
-
-        .third {
-            background-image: url("./../../assets/forget-me-not-4151689_1920.jpg");
-            transform: scaleX(-1);
-        }
-
-        .fifth {
-            background-image: url("./../../assets/aromatherapy-beautiful-blooming-blur-286763.jpg");
-        }
-
     }
 }
 
 @media screen and (min-width: 751px) {
     .MainContainer {
-        top: 0;
         display: flex;
         flex-direction: column;
 
         .first {
-            padding-left: 50vw;
-            background-image: url("./../../assets/pink-flowers-photography-1128797.jpg");
-            background-position: 70% 0;
-            background-size: cover;
-            width: 100vw;
-            min-height: 42vh;
             height: 50vh;
-            display: flex;
             justify-content: flex-end;
-            align-items: center;
 
             .container {
-                padding-right: 5vw;
+                padding-right: 25px;
                 width: 45vw;
                 height: 15vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
                 align-items: flex-end;
 
                 .headLine {
                     text-align: end;
                     font-size: 21px;
-                    font-weight: 500;
-                    color: #202020;
                 }
 
                 .line {
-                    width: 100%;
                     text-align: right;
                     font-size: 18px;
-                    font-weight: 400;
-                    color: #707070;
                 }
 
                 .goToShop {
                     width: 30vw;
                     height: 5vh;
-                    border: 1px solid #505050;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-weight: 500;
                     font-size: 20px;
-                    color: #202020;
-                    box-shadow: 5px 5px 5px 0 #505050;
                 }
             }
         }
@@ -179,195 +198,95 @@
 
         .second,
         .fourth {
-            background-color: #F6F4F3;
             width: 50vw;
             height: 50vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
 
             .container {
-                margin: 30px;
-                width: 80%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
 
                 .headerIdea,
                 .headerOpinions {
                     font-size: 20px;
-                    font-weight: 600;
-                    color: #707070;
                 }
 
                 .text {
-                    padding-top: 15px;
                     font-size: 15px;
-                    font-weight: 400;
-                    color: #707070;
-                    letter-spacing: 0.2px;
-                    line-height: 1.4;
-                    text-align: center;
                 }
             }
-
-            .container1 {
-                width: 75%;
-            }
-        }
-
-        .fourth {
-            background-color: white;
         }
 
         .third,
         .fifth {
-            z-index: -1;
             width: 50vw;
             height: 50vh;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .third {
-            background-image: url("./../../assets/forget-me-not-4151689_1920.jpg");
-            transform: scaleX(-1);
         }
 
         .fifth {
             position: absolute;
             top: 100vh;
             right: 0;
-            background-image: url("./../../assets/aromatherapy-beautiful-blooming-blur-286763.jpg");
         }
     }
 }
 
 @media screen and (min-width: 1024px) {
     .MainContainer {
-        top: 0;
-        display: flex;
-        flex-direction: column;
 
         .first {
-            padding-left: 50vw;
-            background-image: url("./../../assets/pink-flowers-photography-1128797.jpg");
-            background-position: 70% 0;
-            background-size: cover;
-            width: 100vw;
-            min-height: 91vh;
             height: 100vh;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
 
             .container {
-                padding-right: 5vw;
-                width: 50vw;
+                padding-right: 150px;
+                width: 100vw;
                 height: 30vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
                 align-items: flex-end;
 
                 .headLine {
-                    text-align: end;
                     font-size: 5.5rem;
-                    font-weight: 500;
-                    color: #202020;
                 }
 
                 .line {
-                    width: 100%;
-                    text-align: right;
                     font-size: 3rem;
-                    font-weight: 400;
-                    color: #707070;
                 }
 
                 .goToShop {
                     width: 30vw;
                     height: 10vh;
-                    border: 1px solid #505050;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-weight: 500;
                     font-size: 3rem;
-                    color: #202020;
-                    box-shadow: 5px 5px 5px 0 #505050;
                 }
             }
         }
 
         .second {
-            position: absolute;
             top: 100vh;
-            right: 0;
-            background-color: #F6F4F3;
-        }
-
-        .fourth {
-            background-color: white;
         }
 
         .second,
         .fourth {
-            width: 50vw;
             height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 0 150px;
 
             .container {
-                margin: 30px;
-                width: 80%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                margin: 0;
+                width: 100%;
 
                 .headerIdea,
                 .headerOpinions {
                     font-size: 30px;
-                    font-weight: 600;
-                    color: #707070;
                 }
 
                 .text {
-                    padding-top: 15px;
                     font-size: 20px;
-                    font-weight: 400;
-                    color: #707070;
-                    letter-spacing: 0.2px;
-                    line-height: 1.4;
-                    text-align: center;
                 }
-            }
-
-            .container1 {
-                width: 75%;
             }
         }
 
         .third,
         .fifth {
-            z-index: -1;
-            width: 50vw;
             height: 100vh;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .third {
-            background-image: url("./../../assets/forget-me-not-4151689_1920.jpg");
-            transform: scaleX(-1);
         }
 
         .fifth {
-            position: absolute;
             top: 200vh;
-            right: 0;
-            background-image: url("./../../assets/aromatherapy-beautiful-blooming-blur-286763.jpg");
         }
     }
 }
