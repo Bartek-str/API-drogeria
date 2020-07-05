@@ -17,14 +17,20 @@
         flex-direction: row;
         color: #707070;
 
-        div:hover {
-            color: #C786AD;
+        a {
+            color: #707070;
+
+            &:hover {
+                color: #C786AD;
+            }
         }
     }
 
     .logo {
         display: flex;
         flex-direction: row;
+        text-decoration: none;
+        color: #202020;
 
         .api {
             display: flex;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "./../../assets/lisc_kolor.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingBag, faUserCircle } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-scroll";
+import { Link as ReactLink } from "react-router-dom";
 
 const Header = () => {
     const [active, setActive] = useState(false);
@@ -11,17 +11,17 @@ const Header = () => {
         <div className='Header'>
             {active ? <div className='shadow' onClick={() => setActive(false)} /> : ''}
             <div className={active ? 'nav-links x' : 'nav-links'}>
-                <div>Sklep</div>
-                <div><Link to='aboutUs' smooth={true} duration={500} offset={-70}>O nas</Link></div>
-                <div><Link to='contact' smooth={true} duration={500}>Kontakt</Link></div>
+                <div><ReactLink to='/sklep'>Sklep</ReactLink></div>
+                <div><ReactLink to='/o-nas'>O nas</ReactLink></div>
+                <div><ReactLink to='/kontakt'>Kontakt</ReactLink></div>
             </div>
-            <div className='logo'>
+            <ReactLink to='/' className='logo'>
                 <div className='api'>API</div>
                 <div className='container'>
                     <img src={Logo} alt='lisc'/>
                     <div className='drogeria'>drogeria</div>
                 </div>
-            </div>
+            </ReactLink>
             <div className={active ? 'nav-shop x' : 'nav-shop'}>
                 <FontAwesomeIcon icon={faSearch} className='icon' />
                 <FontAwesomeIcon icon={faUserCircle} className='icon'/>

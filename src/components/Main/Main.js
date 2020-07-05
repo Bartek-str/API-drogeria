@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ReactLink } from "react-router-dom";
 
 const Main = () => (
     <div className='MainContainer'>
@@ -6,7 +7,7 @@ const Main = () => (
             <div className='container'>
                 <div className='headLine'>Kosmetyki wybierane z pasji</div>
                 <div className='line'>chcesz wiedzieć więcej</div>
-                <div className='goToShop'>Sprawdź asortyment</div>
+                <ReactLink to='/sklep'><div className='goToShop'>Sprawdź asortyment</div></ReactLink>
             </div>
         </div>
         <div className='second' id='aboutUs'>
