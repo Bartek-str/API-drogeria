@@ -1,12 +1,22 @@
-import React from "react";
-import Categories from "./Categories";
-import MainPhoto from "./MainPhoto";
+import React, { useState } from "react";
 
-const Shop = () => (
-    <div className='Shop'>
-        <Categories />
-        <MainPhoto />
-    </div>
-);
+const Shop = () => {
+    const [category, setCategory] = useState();
+    const [subcategory, setSubcategory] = useState();
+
+    return (
+        <div className='Shop'>
+            <div className='Categories'>
+                <div>Pielęgnacja</div>
+                <div>Dla mężczyzn</div>
+                <div>Makijaż</div>
+                <div>Marki</div>
+            </div>
+            <div className='MainPhoto'>
+
+            </div>
+        </div>
+    );
+};
 
 export default Shop;

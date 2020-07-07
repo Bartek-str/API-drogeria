@@ -1,13 +1,246 @@
 {
-    "brands": [
+    "products": [
         {
-            "brand": "Mokosh Cosmetics"
+            "id": "mokosh-5902729031325",
+            "product": "Regenerujący krem do twarzy anti-pollution Malina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-cream"],
+            "volume": ["60ml", "15ml"],
+            "price": ["149,00zł", "45,00zł"],
+            "quantity": ["0", "0"],
+            "description": "Krem powstał by chronić skórę przed szkodliwym działaniem czynników zewnętrznych, zapewniając jednocześnie kompleksową pielęgnację skóry twarzy Zawarte w kremie oleje roślinne są bogactwem nienasyconych kwasów tłuszczowych, a także źródłem witaminy E, która w naturalnej formie głęboko wnika w skórę, chroniąc ją przed szkodliwym działaniem wolnych rodników Kompleks ekstraktów chroni przed szkodliwym działaniem metali ciężkich Naturalne soki owocowe z jabłek i brzoskwiń zawierające witaminy z grupy C i B, kwasy owocowe oraz składniki mineralne wykazują działanie nawilżające, rozjaśniające skórę oraz przeciwrodnikowe Wyciąg z korzenia żeń szenia wspomaga działanie antyoksydacyjne, zwalczając wolne rodniki tlenowe odpowiedzialne za przedwczesne starzenie się skóry Kwas hialuronowy jako naturalny składnik macierzy międzykomórkowej ma zdolność wiązania wody na powierzchni skóry, dzięki czemu skutecznie nawilża oraz chroni skórę twarzy Ekstrakty z nasion zbóż, takie jak pszenica i jęczmień działają odżywczo i ujędrniająco stanowiąc przy tym barierę dla niepożądanych czynników środowiskowych.",
+            "ingredients": "Aqua, Coco-Caprylate/Caprate, Glyceryl stearate, Argania Spinosa Kernel Oil, Cetearyl alcohol, Glyceryl Stearate Citrate, Cetearyl Olivate, Rubus Idaeus (Raspberry) Seed Oil, Oenothera Biennis (Evening Primrose) Oil, Sorbitan Olivate, Propanediol, Sodium Hyaluronate, Pyrus Malus (Apple) Juice, Prunus Persica (Peach) Juice, Triticum Vulgare (Wheat) Seed Extract, Hordeum Vulgare Seed Extract, Panax Ginseng Root Extract, Daucus Carota Sativa Root Oil, Squalane, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glucosyl Ceramide, Glycerin, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Cellulose, Glyceryl Caprylate, Glyceryl Undecylenate, Parfum, Dehydroacetic Acid, Pentylene Glycol, Benzyl Alcohol"
         },
         {
-            "brand": "Holika Holika"
+            "id": "mokosh-5902729030281",
+            "product": "Wygładzający krem do twarzy Figa",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-cream"],
+            "volume": ["60ml", "15ml"],
+            "price": ["139,00zł", "45,00zł"],
+            "quantity": ["0", "0"],
+            "description": "Innowacyjny, a zarazem naturalny krem o apetycznym zapachu figi do regularnej pielęgnacji każdego typu skóry Stworzony na bazie naturalnych olei i ekstraktów wykazuje silne właściwości nawilżające, regenerujące i odżywcze W swoim składzie zawiera m in egzotyczny olej z baobabu, który działa przeciwzapalnie i regenerująco w różnych warstwach naskórka, olej arganowy o silnym działaniu nawilżającym i odmładzającym, olej jojoba który zmiękcza skórę i odbudowuje jej płaszcz hydrolipidowy Dodatkowo aktywnie działające naturalne ekstrakty z figi, lnu i bawełny oraz kompleks AQUAXYL™ z naturalnym ksylitolem nawilżają, rozświetlają, odżywiają skórę oraz chronią przed szkodliwym działaniem czynników zewnętrznych i wolnych rodników.",
+            "ingredients": "Aqua, Coco-Caprylate Caprate, Macadamia Ternifolia Seed Oil, Polyglyceryl-3 Dicitrate/Stearate, Simmondsia Chinensis (Jojoba) Seed Oil, Isostearyl Isostearate, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glycerin, Glyceryl Stearate, Argania Spinosa Kernel Oil, Adansonia Digitata Seed Oil, Stearyl Alcohol, Cellulose, Xylitylglucoside, Xanthan Gum, Anhydroxylitol, Xylitol, Ficus Carica (Fig) Fruit Extract, Gossypium Herbaceum (Cotton) Seed Extract, Linum Usitatissimum (Linsed) Seed Extract, Benzyl Alcohol, Dehydroacetic Acid, Tocopherol, Benzoic Acid, Tetrasodium Glutamate Diacetate, Helianthus Annuus (Sunflower) Seed Oil, Parfum, Coumarin, Linalool"
         },
         {
-            "brand": "Krayna"
+            "id": "mokosh-5902729032193",
+            "product": "Ujędrniający krem do twarzy anti-aging Róża z jagodą",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-cream"],
+            "volume": ["60ml", "15ml"],
+            "price": ["155,00zł", "45,00zł"],
+            "quantity": ["0", "0"],
+            "description": "Krem jest połączeniem drogocennych ekstraktów i olei z wyjątkowymi składnikami aktywnymi, które dogłębnie nawilżają, ujędrniają, chronią i wygładzają delikatną skórę twarzy Ekstrakt z róży damasceńskiej, owoców borówki amerykańskiej, wanilii, malin i winogron wykazuje silne działanie antyoksydacyjne neutralizując wolne rodniki Olej z dzikiej róży dogłębnie nawilża i regeneruje skórę twarzy Chroni także przed negatywnym wpływem wolnych rodników Witamina C zawarta w kremie wykazuje działanie rozjaśniające i rozświetlające, redukując przebarwienia skórne LINEFILL ® daje efekt wypełnienia zmarszczek, a LINGOSTEM ® zawiera w swoim składzie roślinne komórki macierzyste z borówki brusznicy Roślina ta zabezpiecza skórę przed negatywnym wpływem promieni UV oraz IR Udowodniono także jej hamujące działanie na wewnątrzkomórkową produkcję reaktywnych form tlenu co chroni przed uszkodzeniami wywołanymi działaniem światła niebieskiego, czyli np światła emitowanego przez ekrany komputerów Oba składniki odpowiadają za redukcję zmarszczek i chronią przed fotostarzeniem skóry, poprawiając jej ogólną kondycję.",
+            "ingredients": "Aqua, Rosa Moschata Seed Oil, Coco-Caprylate/Caprate, Triethyl Citrate, Ascorbyl Tetraisopalmitate, Glycerin, Glyceryl Stearate Citrate, Cetearyl Alcohol, Cellulose, Glyceryl Stearate, Caprylic/Capric Triglyceride, Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Vaccinium Vitis-Idaea Fruit Extract, Rosa Damascena Extract, Passiflora Incarnata Fruit Extract, Vanilla Planifolia Fruit Extract, Rubus Idaeus (Raspberry) Fruit Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Gardenia Florida Flower Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Stem Extract, Prunus Armeniaca (Apricot) Fruit Extract, Coffea Arabica (Coffee) Leaf/Seed Extract, Citrus Aurantium Dulcis (Orange) Fruit Extract, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Sesamum Indicum Seed Extract, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Xanthan Gum, Dimethyl Isosorbide, Tetrasodium Glutamate Diacetate, Benzyl Alcohol, Dehydroacetic Acid, Limonene"
+        },
+        {
+            "id": "mokosh-5902729030298",
+            "product": "Korygujący krem pod oczy Zielona herbata",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "eye-cream"],
+            "volume": ["30ml", "15ml"],
+            "price": ["119,00zł", "75,00zł"],
+            "quantity": ["0", "0"],
+            "description": "Krem zawiera aktywny wyciąg z alg morskich które zapobiegają rozszerzaniu się naczyń krwionośnych zlokalizowanych w okolicy oczu oraz kofeinę stymulującą mikrokrążenie w skórze Dzięki temu, stosowany systematycznie, wpływa na redukcję cieni i opuchnięć pod oczami Z uwagi na wykorzystanie ekstraktu z zielonej herbaty o działaniu antyoksydacyjnym, opóźnia oznaki starzenia skóry powstające pod wpływem promieniowania UV Oleje sezamowy, arganowy oraz kokosowy regenerują i odbudowują zniszczoną skórę długotrwale ją nawilżając Dodatek mineralnej miki optycznie poprawia koloryt skóry nadając jej rozświetlony wygląd Lekka i przyjemna konsystencja, ułatwia rozsmarowywanie i wchłanianie kremu.",
+            "ingredients": "Aqua, Decyl Cocoate, Argania Spinosa Kernel Oil, Sesamum Indicum (Sesame) Seed Oil, Glycerin, Glyceryl Stearate Citrate, Cetearyl Alcohol, Betaine, Isostearyl Isostearate, Camellia Sinensis (Green Tea) Leaf Extract, Cocos Nucifera (Coconut) Oil, Cetyl Ricinoleate, C10-18 Triglycerides, Ascophyllum Nodosum (Brown Algae) Extract, Asparagopsis Armata (Red Algae) Extract, Caffeine, Glyceryl Caprylate, Xanthan Gum, Sodium Hyaluronate, Benzyl Alcohol, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Hyaluronic Acid, Dehydroacetic Acid, Tetrasodium Glutamate Diacetate, Parfum, Mica, Titanium Dioxide, Tin Dioxide"
+        },
+        {
+            "id": "mokosh-5902729030618",
+            "product": "Ujędrniające serum do twarzy Pomarańcza",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-serum"],
+            "volume": "12ml",
+            "price": "69,00zł",
+            "quantity": "0",
+            "description": "Serum z maceratów z kwiatów pomarańczy i opuncji figowej oraz z naturalnych olejków eterycznych skutecznie wspomaga proces walki z brakiem jędrności skóry i upływającym czasem Maceraty z kwiatów pomarańczy i opuncji figowej rewitalizują skórę, łagodzą podrażnienia i zaczerwienienia oraz poprawiają strukturę płaszcza hydrolipidowego Olejek eteryczny z pomarańczy pozytywnie wpływa na elastyczność skóry zaś olejek z drzewa herbacianego działa antybakteryjnie zmniejszając ryzyko powstawania stanów zapalnych Naturalne oleje roślinne nawilżają skórę i działają antyoksydacyjnie Serum charakteryzuje się subtelnym pomarańczowym zapachem z delikatną nutą ziołową. Bezpieczeństwo stosowania serum nie powinno być używane przez kobiety w ciąży i matki karmiące oraz w przypadku nietolerancji któregokolwiek ze składników preparatu bezpośrednio po użyciu serum należy unikać ekspozycji skóry na działanie promieni UV (słońce, solarium) serum nie powinno być stosowane łącznie z kuracją wykonywaną z użyciem kwasów (peelingi chemiczne) lub z użyciem retinolu (zarówno w wersji doustnej, jak i do użytku zewnętrznego).",
+            "ingredients": "Argania Spinosa Kernel Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Oeonthera Biennis (Evening Primrose) Seed Oil, Citrus Aurantium Dulcis Peel Oil Expressed, Caprylic/Capric Triglyceride, Citrus Aurantium Amara (Bitter Orange) Flower Extract, Opuntia Ficus-Indica Fruit Extract, Melaleuca Alternifolia Leaf Oil, Limonene, Linalool, Citral"
+        },
+        {
+            "id": "mokosh-5902729030953",
+            "product": "Wygładzające serum do twarzy Figa",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-serum"],
+            "volume": "12ml",
+            "price": "79,00zł",
+            "quantity": "0",
+            "description": "Wygładzające serum olejowe do twarzy stworzone z drogocennych, zimnotłoczonych olei roślinnych i ekstraktów botanicznych Serum zawiera silnie nawilżające i regenerujące oleje, takie jak arganowy macadamia oraz jojoba Ekstrakt z owoców figi wykazuje działanie silnie antyoksydacyjne oraz nawadniające skórę twarzy Macerat z opuncji figowej rewitalizuje skórę, łagodzi podrażnienia i poprawia strukturę płaszcza hydrolipidowego W składzie serum znajduje się niespotykanie duża ilość ekstraktów botanicznych, m.in. z bergamotki, cynamonu, goździka, limonki, jaśminu, róży damasceńskiej, wanilii, tymianku Ekstrakty te silnie działają na skórę wspomagając naturalne procesy jej odnowy Dodatkowo zmiękczają, wygładzają i odżywiają naskórek oraz neutralizują wolne rodniki Mają także działanie przeciwzapalne i regenerujące Poza tym, ekstrakty z goździka i jaśminu to silne afrodyzjaki, które zwiększają pewność siebie i poprawiają nastrój.",
+            "ingredients": "Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Helianthus Annuus Seed Oil, Ficus Carica Fruit Extract, Caprylic/Capric Triglyceride, Opuntia Ficus-Indica Fruit Extract, Citrus Aurantium Bergamia (Bergamot) Fruit Extract, Cinnamomum Zeylanicum (Cinnamon) Bark Extract, Eugenia Caryophyllus (Clove) Flower Extract, Citrus Aurantifolia (Lime) Peel Extract, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Dipteryx Odorata (Cumaru) Seed Extract, Rosa Damascena Flower Extract, Vanilla Planifolia Fruit Extract, Thymus Vulgaris (Thyme) Flower/Leaf Extract, Tocopherol, Parfum, Cinnamal, Coumarin, Eugenol, Linalool, Limonene"
+        },
+        {
+            "id": "mokosh-5902729031301",
+            "product": "Liposomowe serum pod oczy Ogórek",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "eye-serum"],
+            "volume": "12ml",
+            "price": "129,00zł",
+            "quantity": "0",
+            "description": "Serum stworzone z niskocząsteczkowego kwasu hialuronowego, ceramidów i skwalanu zamkniętych w strukturach liposomów podobnych do budowy membran komórkowych umożliwia skuteczną penetrację delikatnej skóry wokół oczu. Liposomy w skórze ulegają rozpadowi i stopniowo uwalniają kwas hialuronowy, który pęcznieje i wypycha zmarszczki skóry. Ceramidy i skwalan skutecznie uzupełniają niedobory lipidów w warstwie rogowej naskórka. Naturalne oleje roślinne: arganowy, jojoba, z krokosza silnie nawilżają i regenerują skórę. Olej z pestek ogórka ma działanie przeciwzapalne, a także wygładzające, zaś macerat z opuncji figowej rewitalizuje skórę, łagodzi podrażnienia i poprawia strukturę płaszcza hydrolipidowego.Serum charakteryzuje się świeżym zapachem ogórka.",
+            "ingredients": "Argania Spinosa Kernel Oil, Cucumis Sativus (Cucumber) Seed Oil, Squalane, Caprylic/Capric Trigliceride, Glycerin, Sodium Hyaluronate, Glucosyl Ceramide, Opuntia Ficus Indica-Fruit Extract, Tocopherol, Simmondsia Chinensis (Jojoba) Seed Oil, Carthamus Tinctorius (Safflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Pentylene Glycol, Parfum"
+        },
+        {
+            "id": "mokosh-5902729032032",
+            "product": "Odżywczo-nawilżający żel do mycia twarzy Figa",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "cleansing"],
+            "volume": "200ml",
+            "price": "69,00zł",
+            "quantity": "0",
+            "description": "Odżywczy i nawilżający żel do mycia twarzy o apetycznym zapachu figi łagodnie usuwa zanieczyszczenia z powierzchni skóry dzięki zastosowaniu naturalnych (otrzymywanych z oleju kokosowego) substancji myjących Żel zawiera kompleks pięciu minerałów krzemu, magnezu, miedzi, żelaza i cynku pochodzących z drożdży Saccharomyces cerevisiae poddanych procesowi biofermentacji. Minerały w postaci fermentów charakteryzuje znacznie większa biodostępność, co wpływa na lepsze odżywienie skóry, a także jej wygładzenie i poprawę funkcji ochronnych Ekstrakt z owoców figi zawarty w żelu wykazuje silne działanie antyoksydacyjne oraz nawadniające skórę twarzy Podobnie działa ekstrakt z opuncji figowej, który dodatkowo łagodzi podrażnienia Wyciąg z bawełny nawilża i odżywia skórę oraz chroni przed szkodliwym działaniem wolnych rodników",
+            "ingredients": "Aqua, Coco Glucoside, Cocamidopropyl Betaine, Glycerin, Disodium Lauryl Sulfosuccinate, Polyglyceryl-4 Caprate, Citric Acid, Saccharomyces Zinc Ferment, Saccharomyces Copper Ferment, Saccharomyces Magnesium Ferment, Saccharomyces Iron Ferment, Saccharomyces Silicon Ferment, Ficus Carica (Fig) Fruit Extract, Gossypium Herbaceum (Cotton) Seed Extract, Linum Usitatissimum (Linseed) Seed Extract, Opuntia Ficus-Indica Stem Extract, Glyceryl Oleate, Tetrasodium Glutamate Diacetate, Sodium Benzoate, Potassium Sorbate, Parfum"
+        },
+        {
+            "id": "mokosh-5902729031004",
+            "product": "Balsam do ust Malina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "lips"],
+            "volume": "15ml",
+            "price": "45,00zł",
+            "quantity": "0",
+            "description": "Balsam do ust o apetycznym i słodkim zapachu maliny stworzony na bazie naturalnej, hipoalergicznej lanoliny, oleju z pestek malin, masła shea i oleju jojoba nawilża, regeneruje i nabłyszcza usta Zawarta w balsamie witamina E to skuteczny przeciwutleniacz, który neutralizuje działanie wolnych rodników. Naturalny barwnik mineralny znajdujący się w balsamie podkreśli kolor ust. Działanie: długotrwale nawilża i natłuszcza regeneruje suchą i popękaną skórę nabłyszcza usta i delikatnie podkreśla ich naturalny kolor zabezpiecza przed działaniem czynników zewnętrznych działa antyoksydacyjnie.",
+            "ingredients": "Lanolin, Squalane, Rubus Idaeus (Raspberry) Seed Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Butyrospermum Parkii (Shea) Butter, Cera Alba, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica, Titanium Dioxide, Tin Dioxide, Parfum"
+        },
+        {
+            "id": "mokosh-5902729031332",
+            "product": "Peeling do ust Malina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "lips-peeling"],
+            "volume": "15ml",
+            "price": "32,00zł",
+            "quantity": "0",
+            "description": "Peeling do ust Malina został stworzony, aby w naturalny sposób pielęgnować delikatną skórę warg. Drobiny ksylitolu czyli cukru brzozowego, skutecznie złuszczają i wygładzają usta, a także działają antybakteryjnie. Hipoalergiczna lanolina, masło shea oraz wosk pszczeli natłuszczają wargi oraz chronią przed działaniem niekorzystnych czynników zewnętrznych. Olej z pestek malin wpływa na poprawę miękkości skóry ust, a pozostałe oleje silnie ją regenerują oraz zapobiegają wysuszeniu. Zawarta w peelingu witamina E to skuteczny przeciwutleniacz, który neutralizuje działanie wolnych rodników.",
+            "ingredients": "Xylitol, Lanolin, Argania Spinosa Kernel Oil, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Butter, Rubus Idaeus (Raspberry) Seed Oil, Jojoba Esters, Squalane, Cera Alba, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica, Titanium Dioxide, Tin Dioxide, Parfum"
+        },
+        {
+            "id": "mokosh-5902729031905",
+            "product": "Aktywny peeling do twarzy Róża z jagodą",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-peeling"],
+            "volume": "60ml",
+            "price": "89,00zł",
+            "quantity": "0",
+            "description": "Aktywny\npeeling do twarzy Róża z jagodą dzięki połączeniu mineralnego\nkorundu i enzymów dokładnie złuszcza, rozjaśnia i wygładza naskórek Olej\nz nasion dzikiej róży dzięki unikalnej zawartości wielonienasyconych kwasów\ntłuszczowych uelastycznia i nawilża skórę oraz silnie ją regeneruje odbudowując\njej komórki Udowodniono, że olej ten pobudza komórki do produkcji kolagenu\ni elastyny oraz przeciwdziała fotostarzeniu się skóry Ekstrakty z róży\ndamasceńskiej, owoców borówki amerykańskiej, wanilii, malin, winogron\nwykazują silne działanie antyoksydacyjne neutralizując wolne rodniki Wyciąg\nz owoców męczennicy cielistej działa antybakteryjnie Enzymy z papai i ananasa\ndzięki zdolności do rozkładania białek usuwają martwe komórki naskórka,\na także regulują wydzielanie sebum",
+            "ingredients": "Alumina Aqua Rosa Moschata Seed Oil Triethyl\nCitrate Glyceryl Stearate Citrate Glycerin Cetearyl Olivate\nSorbitan Olivate Rosa Damascena Extract Passiflora Incarnata Fruit\nExtract Vanilla Planifolia Fruit Extract Rubus Idaeus Raspberry Fruit\nExtract Vaccinium Angustifolium Blueberry Fruit Extract Vitis Vinifera\nGrape Fruit Extract Gardenia Florida Flower Extract Lavandula Angustifolia\nLavender Flower/ Leaf Stem Extract Prunus Armeniaca Apricot Fruit\nExtract Coffea Arabica Coffee Leaf Seed Extract Citrus Aurantium Dulcis\n( Fruit Extract Jasminum Officinale Jasmine Flower/ Leaf Extract\nPapain Bromelain Tocopherol Helianthus Annuus Sunflower Seed Oil\nCaprylic Capric Triglyceride Glucose XanthanGum Benzyl\nAlcohol Dehydroacetic Acid Limonene"
+        },
+        {
+            "id": "mokosh-5902729031905",
+            "product": "Aktywny peeling do twarzy Róża z jagodą",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-peeling"],
+            "volume": "60ml",
+            "price": "89,00zł",
+            "quantity": "0",
+            "description": "Aktywny\npeeling do twarzy Róża z jagodą dzięki połączeniu mineralnego\nkorundu i enzymów dokładnie złuszcza, rozjaśnia i wygładza naskórek Olej\nz nasion dzikiej róży dzięki unikalnej zawartości wielonienasyconych kwasów\ntłuszczowych uelastycznia i nawilża skórę oraz silnie ją regeneruje odbudowując\njej komórki Udowodniono, że olej ten pobudza komórki do produkcji kolagenu\ni elastyny oraz przeciwdziała fotostarzeniu się skóry Ekstrakty z róży\ndamasceńskiej, owoców borówki amerykańskiej, wanilii, malin, winogron\nwykazują silne działanie antyoksydacyjne neutralizując wolne rodniki Wyciąg\nz owoców męczennicy cielistej działa antybakteryjnie Enzymy z papai i ananasa\ndzięki zdolności do rozkładania białek usuwają martwe komórki naskórka,\na także regulują wydzielanie sebum",
+            "ingredients": "Alumina Aqua Rosa Moschata Seed Oil Triethyl\nCitrate Glyceryl Stearate Citrate Glycerin Cetearyl Olivate\nSorbitan Olivate Rosa Damascena Extract Passiflora Incarnata Fruit\nExtract Vanilla Planifolia Fruit Extract Rubus Idaeus Raspberry Fruit\nExtract Vaccinium Angustifolium Blueberry Fruit Extract Vitis Vinifera\nGrape Fruit Extract Gardenia Florida Flower Extract Lavandula Angustifolia\nLavender Flower/ Leaf Stem Extract Prunus Armeniaca Apricot Fruit\nExtract Coffea Arabica Coffee Leaf Seed Extract Citrus Aurantium Dulcis\n( Fruit Extract Jasminum Officinale Jasmine Flower/ Leaf Extract\nPapain Bromelain Tocopherol Helianthus Annuus Sunflower Seed Oil\nCaprylic Capric Triglyceride Glucose XanthanGum Benzyl\nAlcohol Dehydroacetic Acid Limonene"
+        },
+        {
+            "id": "mokosh-5902729030434",
+            "product": "Błoto z Morza Martwego\nMaska na twarz i ciało",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-mask", "body-mask"],
+            "volume": "250ml",
+            "price": "31,90zł",
+            "quantity": "0",
+            "description": "Błoto\nz Morza Martwego stosuje się powszechnie w zabiegach wyszczuplających\ni antycellulitowych, ponieważ przyspiesza metabolizm komórkowy i działa\ndetoksykująco Unikalny skład błota sprawia, że skóra jest dobrze nawilżona,\nwzrasta jej napięcie i elastyczność, polepsza się kondycja włókien elastyny\ni kolagenu Pierwiastki zawarte w błocie wspomagają terapię trądziku\noczyszczają skórę, absorbują nadmiar sebum zwężają pory i łagodzą\npodrażnienia Błoto z Morza Martwego jest pomocne w terapii łuszczycy, AZS\ni chorób reumatycznych\nDziałanie\nWygładza\nskórę, oczyszcza, matuje, działa detoksykująco, odżywia skórę",
+            "ingredients": "Maris Limus"
+        },
+        {
+            "id": "mokosh-5902729030625",
+            "product": "Brązujący balsam do ciała i twarzy\nPomarańcza z cynamonem",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "face-balm", "body-balm", "bronzing-balm"],
+            "volume": "180ml",
+            "price": "79,00zł",
+            "quantity": "0",
+            "description": "Odżywczyinawilżającybalsamoorientalnymzapachupomarańczyzcynamonem,wnaturalnysposóbnadającyskórzepięknyodcieńopalenizny.Bogactwonaturalnycholei:zbaobabu,słonecznikowego,zmarchewkizapobiegawysuszeniuskóry,woskzborówkisilnienawilża,zaśmaceratzkwiatówgorzkiejpomarańczyrewitalizujeiłagodzipodrażnienia.BalsamzawierałagodzącyaloesorazdziałającąantyoksydacyjniewitaminęE.Dodatkowozostałwzbogaconyoinnowacyjnyskładnikpochodzenianaturalnego„MelanoBronze”zekstraktemzniepokalankapospolitego,któryzwiększanaturalnąpigmentacjęskórypoprzezstymulacjęprodukcjimelaninywmelanocytach.Dziękitemuskórastajesięciemniejszawtakisamsposób,jakpodczaszażywaniakąpielisłonecznej,jednakbezkoniecznościnarażaniajejnapromieniowanieUV.",
+            "ingredients": "Aqua Caprylic Capric Triglyceride Decyl Cocoate Aloe\nBarbadensis Leaf Juice Cetearyl Alcohol Dihydroxyacetone Sorbitol\nGlycerin Glyceryl Stearate SE Rhus Verniciflua Peel Cera, Trehalose\nHelianthus Annuus Sunflower Seed Oil Adansonia Digitata ( Seed Oil\nCetearyl Glucoside Benzyl Alcohol Vitex Agnus Castus Chasteberry\nExtract Acetyl Tyrosine Stearic Acid Daucus Carota Sativa Carrot Tissue\nOil Citrus Aurantium Amara Bitter Orange) Flower Extract Xanthan Gum\nParfum Tocopherol Tetrasodium Glutamate Diacetate Dehydroacetic\nAcid Cinnamal Citral Citronellol Eugenol Geraniol Limonene\nLinalol"
+        },
+        {
+            "id": "mokosh-5902729030267",
+            "product": "Masło do ciała\nŻurawina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-butter"],
+            "volume": "120ml",
+            "price": "55,00zł",
+            "quantity": "0",
+            "description": "Bogate\nw składniki aktywne masło do ciała o słodkim zapachu żurawiny odżywia\nskórę i poprawia jej barierę hydrolipidową Kompozycja naturalnego masła shea\noleju arganowego oleju jojoba oleju z kiełków pszenicy i oleju ze słodkich\nmigdałów długotrwale nawilża, uelastycznia i regeneruje skórę Obecny\nw składzie olej żurawinowy ma działanie przeciwrodnikowe regenerujące\ni wygładzające Witamina E uważana za witaminę młodości działa\nantyoksydacyjnie zapobiegając procesom starzenia się skóry\nSkładniki\naktywne\nMasło\nshea olej z pestek żurawiny, olej ze słodkich migdałów, olej arganowy\nolej jojoba olej z kiełków pszenicy, witamina E",
+            "ingredients": "Butyrospermum Parkii Shea Butter Prunus Amygdalus\nDulcis Sweet Almond Oil Argania Spinosa Kernel Oil Vaccinium Macrocarpon\nCranberry Seed Oil Tritium Vulgare Wheat Germ Oil Jojoba Esters\nSimmondsia Chinensis Jojoba Seed Oil Parfum Limonene Tocopherol\nHelianthus Annuus Sunflower Seed Oil"
+        },
+        {
+            "id": "mokosh-5902729030243",
+            "product": "Balsam do ciała\nŻurawina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-butter"],
+            "volume": "180ml",
+            "price": "59,00zł",
+            "quantity": "0",
+            "description": "Odżywczo\nujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\nroślinnych o słodkim aromacie żurawiny Zawiera olej arganowy znany ze swoich\nwłaściwości opóźniających oznaki starzenia skóry, olej jojoba który odbudowuje\npłaszcz hydrolipidowy oraz olej żurawinowy, który ma działanie\nprzeciwrodnikowe regenerujące i wygładzające Balsam został wzbogacony\nekstraktem z wąkrotki azjatyckiej, wykazującej działanie ujędrniające\ni nawilżające oraz ksylitolem który utrzymuje odpowiednie stężenie kwasu\nhialuronowego w skórze\nSkładniki\naktywne\nEkstrakt\nz wąkrotki azjatyckiej, witamina E, nawilżający kompleks na bazie\nksylitolu AQUAXYL™, olej z pestek żurawiny, olej arganowy olej jojoba olej ze\nsłodkich migdałów, olej macadamia",
+            "ingredients": "Aqua Coco Caprylate Caprate Macadamia Ternifolia\nSeed Oil Glyceryl Stearate Simmondsia Chinensis Jojoba Seed Oil Prunus\nAmygdalus Dulcis Sweet Almond Oil Isostearyl Iso stearate Cetearyl\nAlcohol Glyceryl Stearate Citrate Glycerin Argania Spinosa Kernel\nOil Vaccinium Macrocarpon Cranberry Seed Oil Xylitylglucoside Xanthan\nGum Anhydroxylitol Xylitol Benzyl Alcohol Centella Asiatica\nExtract Tocopherol Tetrasodium Glutamate Diacetate Dehydroacetic\nAcid Helianthus Annuus Sunflower Seed Oil Parfum Limonene"
+        },
+        {
+            "id": "mokosh-5902729030175",
+            "product": "Odżywczy eliksir do ciała\nŻurawina",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-elixir"],
+            "volume": "100ml",
+            "price": "69,00zł",
+            "quantity": "0",
+            "description": "Odżywczy\ni nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\nzostał stworzony z naturalnych olei z żurawiny, z marchewki, z kiełków pszenicy\noraz arganowego Jego słodki, owocowy zapach długo utrzymuje się na skórze\nUnikalny olej z pestek żurawiny działa przeciwrodnikowo i przeciwzapalnie,\na także regeneruje i wygładza skórę Olej z marchewki bogaty w witaminę A\ni karoteny długotrwale nawilża, uelastycznia i odżywia skórę Oleje arganowy\noraz z kiełków pszenicy spowalniają efekty starzenia, zaś witamina E jest\njednym z najskuteczniejszych antyoksydantów przyspiesza regenerację skóry\ni wzmacnia jej naturalną barierę ochronną\nSkładniki\naktywne\nOlej\nz kiełków pszenicy, olej z pestek żurawiny, olej arganowy olej z marchewki,\nwitamina E",
+            "ingredients": "Triticum Vulgare Wheat Germ Oil Vaccinium\nMacrocarpan Cranberry Seed Oil Daucus Carota Sativa Carrot Tissue Oil\nArgania Spinosa Kernel Oil Parfum Tocopherol Helianthus Annuus\nSunflower Seed Oil Limonene"
+        },
+        {
+            "id": "mokosh-5902729030250",
+            "product": "Masło do ciałaMelon z ogórkiem",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-butter"],
+            "volume": "120ml",
+            "price": "55,00zł",
+            "quantity": "0",
+            "description": "Bogate\nw składniki aktywne masło do ciała o orzeźwiającym zapachu odżywia\nskórę i poprawia jej barierę hydrolipidową Witamina E działa antyoksydacyjnie\nchroniąc skórę przed szkodliwym działaniem wolnych rodników i zapobiegając\nprocesom starzenia się Masło shea olej arganowy olej jojoba olej z kiełków\npszenicy i olej ze słodkich migdałów długotrwale nawilżają, uelastyczniają\ni regenerują skórę Unikalny olej z ogórka ma działanie regenerujące,\nprzeciwzapalne i wygładzające\nSkładniki\naktywne\nMasło\nshea olej z pestek ogórka, olej ze słodkich migdałów, olej arganowy olej\njojoba olej z kiełków pszenicy, witamina E",
+            "ingredients": "Butyrospermum Parkii Shea Butter Prunus Amygdalus\nDulcis Sweet Almond Oil Argania Spinosa Kernel Oil Cucumis Sativus\nCucumber Seed Oil Tritium Vulgare Wheat Germ Oil Jojoba Esters\nSimmondsia Chinensis Jojoba Seed Oil Tocopherol Helianthus Annuus\nSunflower Seed Oil Parfum"
+        },
+        {
+            "id": "mokosh-5902729030236",
+            "product": "Balsam do ciała\nMelon z ogórkiem",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-balm"],
+            "volume": "180ml",
+            "price": "59,00zł",
+            "quantity": "0",
+            "description": "Odżywczo\nujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\nroślinnych o orzeźwiającym aromacie melona i ogórka Zawiera olej arganowy\nznany ze swoich właściwości opóźniających oznaki starzenia skóry, olej jojoba\nktóry odbudowuje płaszcz hydrolipidowy oraz unikalny olej z ogórka, który\ndziała regenerująco, przeciwzapalne i wygładzające Balsam został wzbogacony\nekstraktem z wąkrotki azjatyckiej, wykazującej działanie ujędrniające\ni nawilżające oraz ksylitolem który utrzymuje odpowiednie stężenie kwasu\nhialuronowego w skórze\nSkładniki\naktywne\nEkstrakt\nz wąkrotki azjatyckiej, witamina E, nawilżający kompleks na bazie\nksylitolu AQUAXYL™, olej z pestek ogórka, olej arganowy olej jojoba olej ze\nsłodkich migdałów, olej macadamia",
+            "ingredients": "Aqua Coco Caprylate Caprate Macadamia Ternifolia\nSeed Oil Glyceryl Stearate Simmondsia Chinensis Jojoba Seed Oil Prunus\nAmygdalus Dulcis Sweet Almond Oil Isostearyl Iso stearate Cetearyl\nAlcohol Glyceryl Stearate Citrate Glycerin Argania Spinosa Kernel\nOil Cucumis Sativus Cucumber Seed Oil Xylitylglucoside Xanthan Gum\nAnhydroxylitol Xylitol Benzyl Alcohol Centella Asiatica Extract\nTocopherol Tetrasodium Glutamate Diacetate Dehydroacetic Acid\nHelianthus Annuus Sunflower Seed Oil Parfum"
+        },
+        {
+            "id": "mokosh-5902729030199",
+            "product": "Odżywczy eliksir do ciałaMelon z ogórkiem",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-elixir"],
+            "volume": "100ml",
+            "price": "69,00zł",
+            "quantity": "0",
+            "description": "Odżywczy\ni nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\nzostał stworzony z naturalnych olei z ogórka, z marchewki, z kiełków pszenicy\noraz arganowego Jego orzeźwiający zapach długo utrzymuje się na skórze\nUnikalny olej z ogórka ma działanie regenerujące, przeciwzapalne\ni wygładzające, olej z marchewki bogaty w witaminę A i karoteny długotrwale\nnawilża, uelastycznia i odżywia skórę Oleje arganowy oraz z kiełków pszenicy\nspowalniają efekty starzenia, zaś witamina E jest jednym z najskuteczniejszych\nantyoksydantów przyspiesza regenerację skóry i wzmacnia jej naturalną barierę\nochronną\nSkładniki\naktywne\nOlej\nz kiełków pszenicy, olej z pestek ogórka, olej arganowy olej z marchewki,\nwitamina E",
+            "ingredients": "Triticum Vulgare Wheat Germ Oil Argania Spinosa Kernel\nOil Cucumis Sativus Cucumber Seed Oil Daucus Carota Sativa Carrot Tissue\nOil Tocopherol Helianthus Annuus Sunflower Seed Oil Parfum"
+        },
+        {
+            "id": "mokosh-5902729030649",
+            "product": "Masło do ciała\nPomarańcza z cynamonem",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-butter"],
+            "volume": "120ml",
+            "price": "55,00zł",
+            "quantity": "0",
+            "description": "Bogate\nw składniki aktywne masło do ciała o orientalnym zapachu pomarańczy\nz cynamonem odżywia skórę i poprawia jej barierę hydrolipidową Witamina E\ndziała antyoksydacyjnie, zaś macerat z kwiatów gorzkiej pomarańczy regeneruje\ni wygładza skórę oraz łagodzi podrażnienia Masło shea olej arganowy olej\njojoba olej z kiełków pszenicy, olej ze słodkich migdałów, a także bogaty\nw witaminę A i karoteny olej z marchewki długotrwale nawilżają, uelastyczniają\ni odżywiają skórę\nSkładniki\naktywne\nMasło\nshea olej z marchewki, olej wiesiołka, olej arganowy olej jojoba olej ze\nsłodkich migdałów, macerat z kwiatów pomarańczy, witamina E",
+            "ingredients": "Butyrospermum Parkii Shea Butter Prunus Amygdalus\nDulcis Sweet Almond Oil Argania Spinosa Kernel Oil Triticum vulgare\nWheat Germ Oil Jojoba Esters Simmondsia Chinensis Jojoba Seed Oil\nDaucus Carota Sativa Carrot Tissue Oil Caprylic Capric Triglyceride Citrus\nAurantium Amara Bitter Orange) Flower Extract Helianthus Annuus\nSunflower Seed Oil Tocopherol Parfum Limonene Cinnamal Linalool\nBenzyl Alcohol Eugenol Citral Geraniol Citronellol"
+        },
+        {
+            "id": "mokosh-5902729030977",
+            "product": "Rozświetlający eliksir do ciała\nPomarańcza\nz cynamone m",
+            "brand": "Mokosh Cosmetics",
+            "categories": ["skin-care", "body-elixir"],
+            "volume": "100ml",
+            "price": "79,00zł",
+            "quantity": "0",
+            "description": "Rozświetlający\ni głęboko nawilżający eliksir z witaminą E podkreśli kolor Twojej\nskóry i nada jej zdrowego blasku Eliksir został stworzony z naturalnych,\nzimnotłoczonych olei z dodatkiem mineralnej miki o perłowo złotym kolorze\nOleje pielęgnują skórę, a korzenny zapach pomarańczy z cynamonem zmysłowo\nją otula Macerat z kwiatów pomarańczy neroli wspomaga usuwanie toksyn\ni działa ściągająco, przez co skóra staje się jędrniejsza Olej z wiesiołka oraz\nskwalan z oliwy z oliwek wygładza skórę, zmiękczają, odżywiają i głęboko ją\nnawilżają Olej z marchewki zapobiega starzeniu się skóry i nadaje jej pięknego\nzłocistego koloru",
+            "ingredients": "Prunus Amygdalus Dulcis Sweet Almond Oil Daucus\nCarota Sativa Carrot Tissue Oil Squalane Rubus Idaeus Raspberry Seed\nOil Oenothera Biennis Evening Primrose Seed Oil Simmondsia Chinensis\nJojoba Seed Oil Mica Titanium Dioxide Tin Dioxide\nTocopherol Helianthus Annuus Sunflower Seed Oil Parfum Limonene\nCinnamal Linalool Benzyl Alcohol Eugenol Citral Geraniol\nCitronellol"
         }
     ]
 }
