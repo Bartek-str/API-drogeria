@@ -4,6 +4,15 @@ export default {
             id: 1
         }
     ],
+    skinCare: [
+
+    ],
+    forMan: [
+
+    ],
+    makeUp: [
+
+    ],
     brands: [
 
     ]

@@ -1,58 +1,152 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import data from "../../data/data";
+import mokosh1 from "./../../assets/mokosh-5902729030175.jpg"
 
 const Shop = () => {
     const [category, setCategory] = useState('');
     const [subcategory, setSubcategory] = useState('');
+    // const [products, setProducts] = useState([]);
 
     return (
         <div className='Shop'>
             <div className='Categories'>
-                <div onClick={() => {setCategory('skin-care'); setSubcategory('')}}>Pielęgnacja</div>
-                <div onClick={() => {setCategory('man-care'); setSubcategory('')}}>Dla mężczyzn</div>
-                <div onClick={() => {setCategory('makeup'); setSubcategory('')}}>Makijaż</div>
-                <div onClick={() => {setCategory('brands'); setSubcategory('')}}>Marki</div>
+                <div onClick={() => {setCategory('pielegnacja'); setSubcategory('')}}>Pielęgnacja</div>
+                <div onClick={() => {setCategory('dla-mezczyzn'); setSubcategory('')}}>Dla mężczyzn</div>
+                {/*<div onClick={() => {setCategory('makijaz'); setSubcategory('')}}>Makijaż</div>*/}
+                <div onClick={() => {setCategory('marki'); setSubcategory('')}}>Marki</div>
             </div>
             <div className='MainPhoto'>
                 {category === '' || subcategory === '' ?
                     <>
-                        {category === 'skin-care' ?
+                        {category === 'pielegnacja' ?
                             <>
                                 <div className='subcategories'>
-                                    <div onClick={() => setSubcategory('face')}>Twarz</div>
-                                    <div onClick={() => setSubcategory('body')}>Ciało</div>
-                                    <div onClick={() => setSubcategory('hands&feet')}>Dłonie i stopy</div>
-                                    <div onClick={() => setSubcategory('hair')}>Włosy</div>
-                                    <div onClick={() => setSubcategory('sun-care')}>Ochrona przeciwsłoneczna</div>
+                                    <Link to='/sklep/pielegnacja/twarz' onClick={() => setSubcategory('pielegnacja/twarz')}>Twarz</Link>
+                                    <Link to='/sklep/pielegnacja/cialo' onClick={() => setSubcategory('pielegnacja/cialo')}>Ciało</Link>
+                                    <Link to='/sklep/pielegnacja/dlonie&stopy' onClick={() => setSubcategory('pielegnacja/dlonie&stopy')}>Dłonie i stopy</Link>
+                                    <Link to='/sklep/pielegnacja/wlosy' onClick={() => setSubcategory('pielegnacja/wlosy')}>Włosy</Link>
+                                    <Link to='/sklep/pielegnacja/ochrona-przeciwloneczna' onClick={() => setSubcategory('pielegnacja/ochrona-przeciwsloneczna')}>Ochrona przeciwsłoneczna</Link>
                                 </div>
                             </> : ''}
-                        {category === 'man-care' ?
+                        {category === 'dla-mezczyzn' ?
                             <>
                                 <div className='subcategories'>
-                                    <div onClick={() => setSubcategory('face')}>Twarz</div>
-                                    <div onClick={() => setSubcategory('body')}>Ciało</div>
-                                    <div onClick={() => setSubcategory('hair')}>Włosy</div>
+                                    <Link to='/sklep/dla-mezczyzny/twarz' onClick={() => setSubcategory('dla-mezczyzny/twarz')}>Twarz</Link>
+                                    <Link to='/sklep/dla-mezczyzny/cialo' onClick={() => setSubcategory('dla-mezczyzny/cialo')}>Ciało</Link>
+                                    <Link to='/sklep/dla-mezczyzny/wlosy' onClick={() => setSubcategory('dla-mezczyzny/wlosy')}>Włosy</Link>
                                 </div>
                             </> : ''}
-                        {category === 'makeup' ?
+                        {/*{category === 'makijaz' ?*/}
+                        {/*    <>*/}
+                        {/*        <div className='subcategories'>*/}
+                        {/*            <Link to='/sklep/makijaz/twarz' onClick={() => setSubcategory('twarz')}>Twarz</Link>*/}
+                        {/*            <Link to='/sklep/makijaz/oczy' onClick={() => setSubcategory('oczy')}>Oczy</Link>*/}
+                        {/*            <Link to='/sklep/makijaz/usta' onClick={() => setSubcategory('usta')}>Usta</Link>*/}
+                        {/*        </div>*/}
+                        {/*    </> : ''}*/}
+                        {category === 'marki' ?
                             <>
                                 <div className='subcategories'>
-                                    <div onClick={() => setSubcategory('face')}>Twarz</div>
-                                    <div onClick={() => setSubcategory('eyes')}>Oczy</div>
-                                    <div onClick={() => setSubcategory('lips')}>Usta</div>
-                                </div>
-                            </> : ''}
-                        {category === 'brands' ?
-                            <>
-                                <div className='subcategories'>
-                                    <div onClick={() => setSubcategory('mokosh-cosmetics')}>Mokosh Cosmetics</div>
-                                    <div onClick={() => setSubcategory('krayna')}>Krayna</div>
-                                    <div onClick={() => setSubcategory('holika-holika')}>Holika Holika</div>
+                                    <Link to='/sklep/marki/holika-holika' onClick={() => setSubcategory('marki/holika-holika')}>Holika Holika</Link>
+                                    <Link to='/sklep/marki/krayna' onClick={() => setSubcategory('marki/krayna')}>Krayna</Link>
+                                    <Link to='/sklep/marki/mokosh-cosmetics' onClick={() => setSubcategory('marki/mokosh-cosmetics')}>Mokosh Cosmetics</Link>
                                 </div>
                             </> : ''}
                         <div className='empty' onClick={() => setCategory('')} />
                     </> : ''}
-                {console.log(category, subcategory)}
+                {category === 'pielegnacja' ?
+                    <>
+                        {subcategory === 'pielegnacja/twarz' ?
+                            <div className='one'>
+                                <h1>Pielęgnacja</h1>
+                                <h3>Twarz</h3>
+                            </div> : ''}
+                        {subcategory === 'pielegnacja/cialo' ?
+                            <div className='one'>
+                                <h1>Pielęgnacja</h1>
+                                <h3>Ciało</h3>
+                            </div> : ''}
+                        {subcategory === 'pielegnacja/dlonie&stopy' ?
+                            <div className='one'>
+                                <h1>Pielęgnacja</h1>
+                                <h3>Dłonie i stopy</h3>
+                            </div> : ''}
+                        {subcategory === 'pielegnacja/wlosy' ?
+                            <div className='one'>
+                                <h1>Pielęgnacja</h1>
+                                <h3>Włosy</h3>
+                            </div> : ''}
+                        {subcategory === 'pielegnacja/ochrona-przeciwsloneczna' ?
+                            <div className='one'>
+                                <h1>Pielęgnacja</h1>
+                                <h3>Ochrona przeciwsłoneczna</h3>
+                            </div> : ''}
+                    </> : ''}
+                {category === 'dla-mezczyzn' ?
+                    <>
+                        {subcategory === 'dla-mezczyzn/twarz' ?
+                            <div className='one'>
+                                <h1>Dla mężczyzn</h1>
+                                <h3>Twarz</h3>
+                            </div> : ''}
+                        {subcategory === 'dla-mezczyzn/cialo' ?
+                            <div className='one'>
+                                <h1>Dla mężczyzn</h1>
+                                <h3>Ciało</h3>
+                            </div> : ''}
+                        {subcategory === 'dla-mezczyzn/wlosy' ?
+                            <div className='one'>
+                                <h1>Dla mężczyzn</h1>
+                                <h3>Włosy</h3>
+                            </div> : ''}
+                    </> : ''}
+                {/*{category === 'makijaz' ?*/}
+                {/*    <>*/}
+                {/*        {subcategory === 'twarz' ?*/}
+                {/*            <div>*/}
+                {/*                <h1>Makijaż</h1>*/}
+                {/*                <h3>Twarz</h3>*/}
+                {/*            </div> : ''}*/}
+                {/*        {subcategory === 'oczy' ?*/}
+                {/*            <div>*/}
+                {/*                <h1>Makijaż</h1>*/}
+                {/*                <h3>Oczy</h3>*/}
+                {/*            </div> : ''}*/}
+                {/*        {subcategory === 'usta' ?*/}
+                {/*            <div>*/}
+                {/*                <h1>Makijaż</h1>*/}
+                {/*                <h3>Usta</h3>*/}
+                {/*            </div> : ''}*/}
+                {/*    </> : ''}*/}
+                {category === 'marki' ?
+                    <>
+                        {subcategory === 'marki/holika-holika' ?
+                            <div className='one'>
+                                <h1>Holika Holika</h1>
+                            </div> : ''}
+                        {subcategory === 'marki/krayna' ?
+                            <div className='one'>
+                                <h1>Krayna</h1>
+                            </div> : ''}
+                        {subcategory === 'marki/mokosh-cosmetics' ?
+                            <div className='one'>
+                                <h1>Mokosh Cosmetics</h1>
+                            </div> : ''}
+                    </> : ''}
             </div>
+            {subcategory === 'pielegnacja/twarz' ?
+                <div className='products-container'>
+                    <div className='products'>
+                        <div className='product'>
+                            <img src={mokosh1} />
+                            <h2>Nazwa</h2>
+                            <h3>Marka</h3>
+                            <h1>Cena</h1>
+                            <button>Dodaj</button>
+                        </div>
+                    </div>
+                </div> : ''}
         </div>
     );
 };
