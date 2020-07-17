@@ -20,7 +20,7 @@ const Main = () => (
         <div className='fourth'>
             <div className='container container1'>
                 <div className='headerOpinions'>Opinie</div>
-                <div className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat.</div>
+                <div className='text'>Tutaj w przyszłości będą wasze opinie na nasz temat. Jednak narazie sama strona jest dalej w budowie i jeszcze trochę nam zajmie zanim osiągniemy taki efekt jaki planujemy. Prosimy w takim razie o cierpliwość i wyrozumiałość. Dziękujemy za wasze wsparcie.</div>
             </div>
         </div>
         <div className='fifth' />

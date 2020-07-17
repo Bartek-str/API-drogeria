@@ -1,19 +1,15 @@
 export default {
     products: [
         {
-            id: 1
+            id: 0,
+            ean: '',
+            image: '',
+            brand: '',
+            name: '',
+            description: '',
+            price: '',
+            ingredients: '',
+            volume: ''
         }
-    ],
-    skinCare: [
-
-    ],
-    forMan: [
-
-    ],
-    makeUp: [
-
-    ],
-    brands: [
-
     ]
 }

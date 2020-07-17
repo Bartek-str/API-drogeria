@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "./../../assets/lisc_kolor.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faShoppingBag, faUserCircle } from "@fortawesome/free-solid-svg-icons";
-import { Link as ReactLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [active, setActive] = useState(false);
@@ -11,20 +11,20 @@ const Header = () => {
         <div className='Header'>
             {active ? <div className='shadow' onClick={() => setActive(false)} /> : ''}
             <div className={active ? 'nav-links x' : 'nav-links'}>
-                <div><ReactLink to='/sklep'>Sklep</ReactLink></div>
-                <div><ReactLink to='/o-nas'>O nas</ReactLink></div>
-                <div><ReactLink to='/kontakt'>Kontakt</ReactLink></div>
+                <div><Link to='/sklep'>Sklep</Link></div>
+                <div><Link to='/o-nas'>O nas</Link></div>
+                <div><Link to='/kontakt'>Kontakt</Link></div>
             </div>
-            <ReactLink to='/' className='logo'>
+            <Link to='/' className='logo'>
                 <div className='api'>API</div>
                 <div className='container'>
                     <img src={Logo} alt='lisc'/>
                     <div className='drogeria'>drogeria</div>
                 </div>
-            </ReactLink>
+            </Link>
             <div className={active ? 'nav-shop x' : 'nav-shop'}>
                 <FontAwesomeIcon icon={faSearch} className='icon' />
-                <FontAwesomeIcon icon={faUserCircle} className='icon'/>
+                <Link to='/konto'><FontAwesomeIcon icon={faUserCircle} className='icon'/></Link>
                 <FontAwesomeIcon icon={faShoppingBag} className='icon' />
             </div>
             <div className={active ? 'burger x' : 'burger'} onClick={() => setActive(!active)}>

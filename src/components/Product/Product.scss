@@ -1,0 +1,49 @@
+.productDet {
+    display: flex;
+
+    img {
+        height: 100vh;
+    }
+
+    .details {
+        max-width: 50vw;
+        padding-top: 9vh;
+        height: 100vh;
+        margin-right: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .brand {
+            font-size: 35px;
+            color: #707070;
+        }
+
+        .name {
+            padding-top: 10px;
+            font-size: 40px;
+            text-align: center;
+            color: #202020;
+        }
+
+        .description {
+            padding-top: 10px;
+            font-size: 15px;
+            color: #707070;
+            line-height: 1.2;
+        }
+
+        .price {
+            padding-top: 20px;
+            font-size: 25px;
+            font-weight: 500;
+            color: #202020;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+    }
+}

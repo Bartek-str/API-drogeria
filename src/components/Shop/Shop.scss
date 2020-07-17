@@ -1,79 +1,29 @@
 .Shop {
     width: 100vw;
 
-    .Categories {
-        width: 100vw;
-        height: 16vh;
-        background-color: #F6F4F3;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-end;
-
-        div {
-            font-size: 20px;
-            height: 7vh;
-            display: flex;
-            align-items: center;
-            padding: 0 50px;
-            color: #707070;
-
-            &:hover {
-                color: #C786AD;
-            }
-        }
-    }
-
     .MainPhoto {
-        position: relative;
         width: 100vw;
-        height: 84vh;
+        height: 100vh;
         background-image: url("./../../assets/flowering-crabapple-3321956_1920.jpg");
         background-size: cover;
         display: flex;
 
-        .subcategories {
-            width: 50%;
-            height: 100%;
-            background-color: #F6F4F3;
-
-            a {
-                display: block;
-                padding-left: 150px;
-                font-size: 16px;
-                padding-top: 50px;
-
-                &:first-child {
-                    padding-top: 10px;
-                }
-
-                &:hover {
-                    color: #C786AD;
-                }
-            }
-        }
-
-        .empty {
-            width: 50%;
-            height: 100%;
-        }
-
-        .one {
-            margin-left: 150px;
+        .main-container {
+            width: 100%;
+            margin: 0 150px;
             display: flex;
             flex-direction: column;
+            justify-content: center;
 
-            h1 {
-                margin-top: 30vh;
-                font-size: 50px;
-                color: #C786AD;
+            div {
+                color: #202020;
+                font-size: 44px;
+                padding-top: 20px;
                 font-weight: 500;
             }
 
-            h3 {
-                margin-top: 50px;
+            .text {
                 font-size: 30px;
-                color: #C786AD;
                 font-weight: 400;
             }
         }
@@ -81,29 +31,60 @@
 
     .products-container {
         width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding: 0 150px;
 
         .products {
             width: 100%;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
 
             .product {
-                width: 30%;
+                margin-bottom: 50px;
+                width: 250px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
 
+                .brand {
+                    width: 100%;
+                    color: #202020;
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .name {
+                    padding-top: 5px;
+                    width: 100%;
+                    color: #202020;
+                    font-weight: 500;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .price {
+                    padding: 10px 0;
+                    width: 100%;
+                    color: #202020;
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
                 img {
                     width: 100%;
                 }
 
-                h1,h2,h3 {
-                    color: black;
+                button {
+                    width: 40%;
+                    text-align: center;
+                    font-size: 15px;
+                    color: #202020;
+                    background-color: #F6F4F3;
+                    border: 1px solid #C786AD;
+                    border-radius: 5px;
                 }
             }
         }

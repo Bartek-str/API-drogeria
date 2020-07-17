@@ -1,0 +1,17 @@
+.building {
+    background-image: url("./../../assets/shallow-focus-photography-of-purple-flowers-792727.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    div {
+        padding-left: 150px;
+        font-size: 50px;
+        font-weight: 500;
+        color: #FDFDFD;
+    }
+}
