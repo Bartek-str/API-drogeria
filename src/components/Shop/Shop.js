@@ -146,7 +146,7 @@ const Shop = () => {
                             <Link to={`/sklep/${product.ean}`} props={product.ean}>
                                 <img src={product.image} alt='product' />
                                 <div className='brand'>{product.brand}</div>
-                                <div className='name'>{product.name}</div>
+                                <div className='name'>{product.name} {product.volume}</div>
                             </Link>
                             <div className='price'>{product.price}zł</div>
                             <button>Dodaj</button>

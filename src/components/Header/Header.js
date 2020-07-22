@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     const [active, setActive] = useState(false);
+    const [search, setSearch] = useState(false);
 
     return (
         <div className='Header'>
@@ -22,8 +23,9 @@ const Header = () => {
                     <div className='drogeria'>drogeria</div>
                 </div>
             </Link>
+            {search ? <input className='search' placeholder='wyszukaj' /> : ''}
             <div className={active ? 'nav-shop x' : 'nav-shop'}>
-                <FontAwesomeIcon icon={faSearch} className='icon' />
+                <Link to='/sklep'><FontAwesomeIcon icon={faSearch} className='icon' onClick={() => setSearch(!search)} /></Link>
                 <Link to='/konto'><FontAwesomeIcon icon={faUserCircle} className='icon'/></Link>
                 <FontAwesomeIcon icon={faShoppingBag} className='icon' />
             </div>
