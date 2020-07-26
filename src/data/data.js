@@ -67,7 +67,6 @@ import mokosh5902729031783 from '../assets/mokosh-5902729031783.jpg';
 import mokosh5902729031806 from '../assets/mokosh-5902729031806.jpg';
 import mokosh5902729031882 from '../assets/mokosh-5902729031882.jpg';
 
-
 export default {
     products: [
         {
@@ -75,8 +74,7 @@ export default {
             ean: '5902729031325',
             image: mokosh5902729031325,
             brand: 'Mokosh Cosmetics',
-            name: 'Regenerujący krem do twarzy anti-pollution\n' +
-                'Malina',
+            name: 'Regenerujący krem do twarzy anti-pollution Malina',
             description: 'Krem powstał by chronić skórę przed szkodliwym działaniem czynników\n' +
                 'zewnętrznych, zapewniając jednocześnie kompleksową pielęgnację skóry twarzy.\n' +
                 'Zawarte w kremie oleje roślinne są bogactwem nienasyconych kwasów\n' +
@@ -94,17 +92,17 @@ export default {
                 'i ujędrniająco stanowiąc przy tym barierę dla niepożądanych czynników\n' +
                 'środowiskowych.',
             price: '149,00',
-            ingredients: 'Aqua, Coco-Caprylate/Caprate•, Glyceryl stearate•,\n' +
-                'Argania Spinosa Kernel Oil, Cetearyl alcohol•, Glyceryl Stearate Citrate•,\n' +
-                'Cetearyl Olivate•, Rubus Idaeus (Raspberry) Seed Oil, Oenothera Biennis\n' +
-                '(Evening Primrose) Oil, Sorbitan Olivate•, Propanediol•, Sodium Hyaluronate,\n' +
+            ingredients: 'Aqua, Coco-Caprylate/Caprate, Glyceryl stearate,\n' +
+                'Argania Spinosa Kernel Oil, Cetearyl alcohol, Glyceryl Stearate Citrate,\n' +
+                'Cetearyl Olivate, Rubus Idaeus (Raspberry) Seed Oil, Oenothera Biennis\n' +
+                '(Evening Primrose) Oil, Sorbitan Olivate, Propanediol, Sodium Hyaluronate,\n' +
                 'Pyrus Malus (Apple) Juice, Prunus Persica (Peach) Juice, Triticum Vulgare\n' +
                 '(Wheat) Seed Extract, Hordeum Vulgare Seed Extract, Panax Ginseng Root\n' +
-                'Extract, Daucus Carota Sativa Root Oil, Squalane•, Prunus Amygdalus Dulcis\n' +
-                '(Sweet Almond) Oil, Glucosyl Ceramide, Glycerin•, Tocopherol, Helianthus\n' +
-                'Annuus (Sunflower) Seed Oil, Cellulose, Glyceryl Caprylate•, Glyceryl\n' +
-                'Undecylenate•, Parfum, Dehydroacetic Acid••, Pentylene Glycol••, Benzyl\n' +
-                'Alcohol••',
+                'Extract, Daucus Carota Sativa Root Oil, Squalane, Prunus Amygdalus Dulcis\n' +
+                '(Sweet Almond) Oil, Glucosyl Ceramide, Glycerin, Tocopherol, Helianthus\n' +
+                'Annuus (Sunflower) Seed Oil, Cellulose, Glyceryl Caprylate, Glyceryl\n' +
+                'Undecylenate, Parfum, Dehydroacetic Acid, Pentylene Glycol, Benzyl\n' +
+                'Alcohol',
             volume: '60ml'
         },
         {
@@ -112,8 +110,7 @@ export default {
             ean: '5902729030281',
             image: mokosh5902729030281,
             brand: 'Mokosh Cosmetics',
-            name: 'Wygładzający krem do twarzy\n' +
-                'Figa',
+            name: 'Wygładzający krem do twarzy Figa',
             description: 'Innowacyjny, a zarazem naturalny krem o apetycznym zapachu figi\n' +
                 'do regularnej pielęgnacji każdego typu skóry. Stworzony na bazie naturalnych\n' +
                 'olei i ekstraktów wykazuje silne właściwości nawilżające, regenerujące\n' +
@@ -125,16 +122,16 @@ export default {
                 'z naturalnym ksylitolem nawilżają, rozświetlają, odżywiają skórę oraz chronią\n' +
                 'przed szkodliwym działaniem czynników zewnętrznych i wolnych rodników.',
             price: '139,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Macadamia Ternifolia\n' +
-                'Seed Oil, Polyglyceryl-3 Dicitrate/Stearate••, Simmondsia Chinensis (Jojoba)\n' +
-                'Seed Oil, Isostearyl Isostearate••, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
-                'Glycerin••, Glyceryl Stearate••, Argania Spinosa Kernel Oil, Adansonia Digitata\n' +
-                'Seed Oil, Stearyl Alcohol, Cellulose, Xylitylglucoside••, Xanthan Gum••,\n' +
-                'Anhydroxylitol••, Xylitol••, Ficus Carica (Fig) Fruit Extract, Gossypium\n' +
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Macadamia Ternifolia\n' +
+                'Seed Oil, Polyglyceryl-3 Dicitrate/Stearate, Simmondsia Chinensis (Jojoba)\n' +
+                'Seed Oil, Isostearyl Isostearate, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
+                'Glycerin, Glyceryl Stearate, Argania Spinosa Kernel Oil, Adansonia Digitata\n' +
+                'Seed Oil, Stearyl Alcohol, Cellulose, Xylitylglucoside, Xanthan Gum,\n' +
+                'Anhydroxylitol, Xylitol, Ficus Carica (Fig) Fruit Extract, Gossypium\n' +
                 'Herbaceum (Cotton) Seed Extract, Linum Usitatissimum (Linsed) Seed Extract,\n' +
-                'Benzyl Alcohol•••, Dehydroacetic Acid•••, Tocopherol, Benzoic Acid•••,\n' +
-                'Tetrasodium Glutamate Diacetate••, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Parfum, Coumarin•, Linalool•',
+                'Benzyl Alcohol, Dehydroacetic Acid, Tocopherol, Benzoic Acid,\n' +
+                'Tetrasodium Glutamate Diacetate, Helianthus Annuus (Sunflower) Seed Oil,\n' +
+                'Parfum, Coumarin, Linalool',
             volume: '60ml'
         },
         {
@@ -142,8 +139,7 @@ export default {
             ean: '5902729032193',
             image: mokosh5902729032193,
             brand: 'Mokosh Cosmetics',
-            name: 'Ujędrniający krem do twarzy anti-aging\n' +
-                'Róża z jagodą',
+            name: 'Ujędrniający krem do twarzy anti-aging Róża z jagodą',
             description: 'Krem jest połączeniem drogocennych ekstraktów i olei z wyjątkowymi\n' +
                 'składnikami aktywnymi, które dogłębnie nawilżają, ujędrniają, chronią\n' +
                 'i wygładzają delikatną skórę twarzy. Ekstrakt z róży damasceńskiej, owoców\n' +
@@ -161,10 +157,10 @@ export default {
                 'odpowiadają za redukcję zmarszczek i chronią przed fotostarzeniem skóry,\n' +
                 'poprawiając jej ogólną kondycję.',
             price: '155,00',
-            ingredients: 'Aqua, Rosa Moschata Seed Oil, Coco-Caprylate/Caprate•,\n' +
-                'Triethyl Citrate•, Ascorbyl Tetraisopalmitate, Glycerin, Glyceryl Stearate\n' +
-                'Citrate•, Cetearyl Alcohol•, Cellulose•, Glyceryl Stearate•, Caprylic/Capric\n' +
-                'Triglyceride•, Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed Oil,\n' +
+            ingredients: 'Aqua, Rosa Moschata Seed Oil, Coco-Caprylate/Caprate,\n' +
+                'Triethyl Citrate, Ascorbyl Tetraisopalmitate, Glycerin, Glyceryl Stearate\n' +
+                'Citrate, Cetearyl Alcohol, Cellulose, Glyceryl Stearate, Caprylic/Capric\n' +
+                'Triglyceride, Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed Oil,\n' +
                 'Simmondsia Chinensis (Jojoba) Seed Oil, Vaccinium Vitis-Idaea Fruit Extract,\n' +
                 'Rosa Damascena Extract, Passiflora Incarnata Fruit Extract, Vanilla Planifolia\n' +
                 'Fruit Extract, Rubus Idaeus (Raspberry) Fruit Extract, Vaccinium\n' +
@@ -174,8 +170,8 @@ export default {
                 'Arabica (Coffee) Leaf/Seed Extract, Citrus Aurantium Dulcis (Orange) Fruit\n' +
                 'Extract, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Sesamum\n' +
                 'Indicum Seed Extract, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Xanthan Gum, Dimethyl Isosorbide, Tetrasodium Glutamate Diacetate••,\n' +
-                'Benzyl Alcohol••, Dehydroacetic Acid••, Limonene•••',
+                'Xanthan Gum, Dimethyl Isosorbide, Tetrasodium Glutamate Diacetate,\n' +
+                'Benzyl Alcohol, Dehydroacetic Acid, Limonene',
             volume: '60ml'
         },
         {
@@ -183,8 +179,7 @@ export default {
             ean: '5902729030298',
             image: mokosh5902729030298,
             brand: 'Mokosh Cosmetics',
-            name: 'Korygujący krem pod oczy\n' +
-                'Zielona herbata',
+            name: 'Korygujący krem pod oczy Zielona herbata',
             description: 'Krem zawiera aktywny wyciąg z alg morskich , które zapobiegają rozszerzaniu\n' +
                 'się naczyń krwionośnych zlokalizowanych w okolicy oczu oraz kofeinę\n' +
                 'stymulującą mikrokrążenie w skórze. Dzięki temu, stosowany systematycznie,\n' +
@@ -196,16 +191,16 @@ export default {
                 'nadając jej rozświetlony wygląd. Lekka i przyjemna konsystencja, ułatwia\n' +
                 'rozsmarowywanie i wchłanianie kremu.',
             price: '119,00',
-            ingredients: 'Aqua, Decyl Cocoate••, Argania Spinosa Kernel Oil,\n' +
-                'Sesamum Indicum (Sesame) Seed Oil, Glycerin••, Glyceryl Stearate Citrate••,\n' +
-                'Cetearyl Alcohol••, Betaine••, Isostearyl Isostearate••, Camellia Sinensis\n' +
+            ingredients: 'Aqua, Decyl Cocoate, Argania Spinosa Kernel Oil,\n' +
+                'Sesamum Indicum (Sesame) Seed Oil, Glycerin, Glyceryl Stearate Citrate,\n' +
+                'Cetearyl Alcohol, Betaine, Isostearyl Isostearate, Camellia Sinensis\n' +
                 '(Green Tea) Leaf Extract, Cocos Nucifera (Coconut) Oil, Cetyl Ricinoleate, C10-\n' +
-                '18 Triglycerides••, Ascophyllum Nodosum (Brown Algae) Extract, Asparagopsis\n' +
-                'Armata (Red Algae) Extract, Caffeine••, Glyceryl Caprylate••, Xanthan\n' +
-                'Gum••, Sodium Hyaluronate, Benzyl Alcohol•••, Tocopherol, Helianthus\n' +
-                'Annuus (Sunflower) Seed Oil, Hyaluronic Acid, Dehydroacetic Acid•••,\n' +
-                'Tetrasodium Glutamate Diacetate••, Parfum, Mica••••, Titanium\n' +
-                'Dioxide••••, Tin Dioxide••••',
+                '18 Triglycerides, Ascophyllum Nodosum (Brown Algae) Extract, Asparagopsis\n' +
+                'Armata (Red Algae) Extract, Caffeine, Glyceryl Caprylate, Xanthan\n' +
+                'Gum, Sodium Hyaluronate, Benzyl Alcohol, Tocopherol, Helianthus\n' +
+                'Annuus (Sunflower) Seed Oil, Hyaluronic Acid, Dehydroacetic Acid,\n' +
+                'Tetrasodium Glutamate Diacetate, Parfum, Mica, Titanium\n' +
+                'Dioxide, Tin Dioxide',
             volume: '30ml'
         },
         {
@@ -213,8 +208,7 @@ export default {
             ean: '5902729030618',
             image: mokosh5902729030618,
             brand: 'Mokosh Cosmetics',
-            name: 'Ujędrniające serum do twarzy\n' +
-                'Pomarańcza',
+            name: 'Ujędrniające serum do twarzy Pomarańcza',
             description: 'Serum z maceratów z kwiatów pomarańczy i opuncji figowej oraz z naturalnych\n' +
                 'olejków eterycznych skutecznie wspomaga proces walki z brakiem jędrności\n' +
                 'skóry i upływającym czasem. Maceraty z kwiatów pomarańczy i opuncji figowej\n' +
@@ -236,7 +230,7 @@ export default {
                 '(Sweet Almond) Oil, Oeonthera Biennis (Evening Primrose) Seed Oil, Citrus\n' +
                 'Aurantium Dulcis Peel Oil Expressed, Caprylic/Capric Triglyceride, Citrus\n' +
                 'Aurantium Amara (Bitter Orange) Flower Extract, Opuntia Ficus-Indica Fruit\n' +
-                'Extract, Melaleuca Alternifolia Leaf Oil, Limonene•, Linalool•, Citral•',
+                'Extract, Melaleuca Alternifolia Leaf Oil, Limonene, Linalool, Citral',
             volume: '12ml'
         },
         {
@@ -244,8 +238,7 @@ export default {
             ean: '5902729030953',
             image: mokosh5902729030953,
             brand: 'Mokosh Cosmetics',
-            name: 'Wygładzające serum do twarzy\n' +
-                'Figa',
+            name: 'Wygładzające serum do twarzy Figa',
             description: 'Wygładzające serum olejowe do twarzy stworzone z drogocennych,\n' +
                 'zimnotłoczonych olei roślinnych i ekstraktów botanicznych. Serum zawiera\n' +
                 'silnie nawilżające i regenerujące oleje, takie jak arganowy, macadamia oraz\n' +
@@ -262,14 +255,14 @@ export default {
             price: '79,00',
             ingredients: 'Argania Spinosa Kernel Oil, Macadamia Ternifolia Seed\n' +
                 'Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Helianthus Annuus Seed Oil, Ficus\n' +
-                'Carica Fruit Extract, Caprylic/Capric Triglyceride••, Opuntia Ficus-Indica\n' +
+                'Carica Fruit Extract, Caprylic/Capric Triglyceride, Opuntia Ficus-Indica\n' +
                 'Fruit Extract, Citrus Aurantium Bergamia (Bergamot) Fruit Extract,\n' +
                 'Cinnamomum Zeylanicum (Cinnamon) Bark Extract, Eugenia Caryophyllus\n' +
                 '(Clove) Flower Extract, Citrus Aurantifolia (Lime) Peel Extract, Jasminum\n' +
                 'Officinale (Jasmine) Flower/Leaf Extract, Dipteryx Odorata (Cumaru) Seed\n' +
                 'Extract, Rosa Damascena Flower Extract, Vanilla Planifolia Fruit Extract,\n' +
                 'Thymus Vulgaris (Thyme) Flower/Leaf Extract, Tocopherol, Parfum,\n' +
-                'Cinnamal•, Coumarin•, Eugenol•, Linalool•, Limonene•',
+                'Cinnamal, Coumarin, Eugenol, Linalool, Limonene',
             volume: '12ml'
         },
         {
@@ -277,8 +270,7 @@ export default {
             ean: '5902729031301',
             image: mokosh5902729031301,
             brand: 'Mokosh Cosmetics',
-            name: 'Liposomowe serum pod oczy\n' +
-                'Ogórek',
+            name: 'Liposomowe serum pod oczy Ogórek',
             description: 'Serum stworzone z niskocząsteczkowego kwasu hialuronowego, ceramidów\n' +
                 'i skwalanu zamkniętych w strukturach liposomów podobnych do budowy\n' +
                 'membran komórkowych umożliwia skuteczną penetrację delikatnej skóry wokół\n' +
@@ -292,11 +284,11 @@ export default {
                 'charakteryzuje się świeżym zapachem ogórka.',
             price: '129,00',
             ingredients: 'Argania Spinosa Kernel Oil, Cucumis Sativus (Cucumber)\n' +
-                'Seed Oil, Squalane•, Caprylic/Capric Trigliceride, Glycerin•, Sodium\n' +
+                'Seed Oil, Squalane, Caprylic/Capric Trigliceride, Glycerin, Sodium\n' +
                 'Hyaluronate, Glucosyl Ceramide, Opuntia Ficus-Indica Fruit Extract,\n' +
                 'Tocopherol, Simmondsia Chinensis (Jojoba) Seed Oil, Carthamus Tinctorius\n' +
                 '(Safflower) Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Pentylene\n' +
-                'Glycol••, Parfum',
+                'Glycol, Parfum',
             volume: '12ml'
         },
         {
@@ -304,8 +296,7 @@ export default {
             ean: '5902729032032',
             image: mokosh5902729032032,
             brand: 'Mokosh Cosmetics',
-            name: 'Odżywczo-nawilżający żel do mycia twarzy\n' +
-                'Figa',
+            name: 'Odżywczo-nawilżający żel do mycia twarzy Figa',
             description: 'Odżywczy i nawilżający żel do mycia twarzy o apetycznym zapachu figi łagodnie\n' +
                 'usuwa zanieczyszczenia z powierzchni skóry dzięki zastosowaniu naturalnych\n' +
                 '(otrzymywanych z oleju kokosowego) substancji myjących. Żel zawiera kompleks\n' +
@@ -319,14 +310,14 @@ export default {
                 'nawilża i odżywia skórę oraz chroni przed szkodliwym działaniem wolnych\n' +
                 'rodników.',
             price: '69,00',
-            ingredients: 'Aqua, Coco Glucoside••, Cocamidopropyl Betaine••,\n' +
-                'Glycerin, Disodium Lauryl Sulfosuccinate•••, Polyglyceryl-4 Caprate••, Citric\n' +
-                'Acid••, Saccharomyces Zinc Ferment, Saccharomyces Copper Ferment,\n' +
+            ingredients: 'Aqua, Coco Glucoside, Cocamidopropyl Betaine,\n' +
+                'Glycerin, Disodium Lauryl Sulfosuccinate, Polyglyceryl-4 Caprate, Citric\n' +
+                'Acid, Saccharomyces Zinc Ferment, Saccharomyces Copper Ferment,\n' +
                 'Saccharomyces Magnesium Ferment, Saccharomyces Iron Ferment,\n' +
                 'Saccharomyces Silicon Ferment, Ficus Carica (Fig) Fruit Extract, Gossypium\n' +
                 'Herbaceum (Cotton) Seed Extract, Linum Usitatissimum (Linseed) Seed\n' +
-                'Extract, Opuntia Ficus-Indica Stem Extract, Glyceryl Oleate••, Tetrasodium\n' +
-                'Glutamate Diacetate•••, Sodium Benzoate•••, Potassium Sorbate•••,\n' +
+                'Extract, Opuntia Ficus-Indica Stem Extract, Glyceryl Oleate, Tetrasodium\n' +
+                'Glutamate Diacetate, Sodium Benzoate, Potassium Sorbate,\n' +
                 'Parfum',
             volume: '200ml'
         },
@@ -335,8 +326,7 @@ export default {
             ean: '5902729031004',
             image: mokosh5902729031004,
             brand: 'Mokosh Cosmetics',
-            name: 'Balsam do ust\n' +
-                'Malina',
+            name: 'Balsam do ust Malina',
             description: 'Balsam do ust o apetycznym i słodkim zapachu maliny stworzony na bazie\n' +
                 'naturalnej, hipoalergicznej lanoliny, oleju z pestek malin, masła shea i oleju\n' +
                 'jojoba nawilża, regeneruje i nabłyszcza usta. Zawarta w balsamie witamina E to\n' +
@@ -347,10 +337,10 @@ export default {
                 'nabłyszcza usta i delikatnie podkreśla ich naturalny kolor; zabezpiecza przed\n' +
                 'działaniem czynników zewnętrznych; działa antyoksydacyjnie.',
             price: '45,00',
-            ingredients: 'Lanolin•, Squalane••, Rubus Idaeus (Raspberry) Seed Oil,\n' +
+            ingredients: 'Lanolin, Squalane, Rubus Idaeus (Raspberry) Seed Oil,\n' +
                 'Simmondsia Chinensis (Jojoba) Seed Oil, Butyrospermum Parkii (Shea) Butter,\n' +
-                'Cera Alba, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica ••••,\n' +
-                'Titanium Dioxide ••••, Tin Dioxide ••••, Parfum',
+                'Cera Alba, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica,\n' +
+                'Titanium Dioxide, Tin Dioxide, Parfum',
             volume: '15ml'
         },
         {
@@ -358,8 +348,7 @@ export default {
             ean: '5902729031332',
             image: mokosh5902729031332,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling do ust\n' +
-                'Malina',
+            name: 'Peeling do ust Malina',
             description: 'Peeling do ust Malina został stworzony, aby w naturalny sposób pielęgnować\n' +
                 'delikatną skórę warg. Drobiny ksylitolu, czyli cukru brzozowego, skutecznie\n' +
                 'złuszczają i wygładzają usta, a także działają antybakteryjnie. Hipoalergiczna\n' +
@@ -369,11 +358,11 @@ export default {
                 'zapobiegają wysuszeniu. Zawarta w peelingu witamina E to skuteczny\n' +
                 'przeciwutleniacz, który neutralizuje działanie wolnych rodników.',
             price: '32,00',
-            ingredients: 'Xylitol, Lanolin•, Argania Spinosa Kernel Oil, Prunus\n' +
+            ingredients: 'Xylitol, Lanolin, Argania Spinosa Kernel Oil, Prunus\n' +
                 'Amygdalus Dulcis (Sweet Almond) Oil, Butyrospermum Parkii (Shea) Butter,\n' +
-                'Rubus Idaeus (Raspberry) Seed Oil, Jojoba Esters, Squalane••, Cera Alba,\n' +
-                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica••••, Titanium\n' +
-                'Dioxide••••, Tin Dioxide••••, Parfum',
+                'Rubus Idaeus (Raspberry) Seed Oil, Jojoba Esters, Squalane, Cera Alba,\n' +
+                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Mica, Titanium\n' +
+                'Dioxide, Tin Dioxide, Parfum',
             volume: '15ml'
         },
         {
@@ -381,8 +370,7 @@ export default {
             ean: '5902729031905',
             image: mokosh5902729031905,
             brand: 'Mokosh Cosmetics',
-            name: 'Aktywny peeling do twarzy\n' +
-                'Róża z jagodą',
+            name: 'Aktywny peeling do twarzy Róża z jagodą',
             description: 'Aktywny peeling do twarzy Róża z jagodą dzięki połączeniu mineralnego\n' +
                 'korundu i enzymów dokładnie złuszcza, rozjaśnia i wygładza naskórek. Olej\n' +
                 'z nasion dzikiej róży dzięki unikalnej zawartości wielonienasyconych kwasów\n' +
@@ -395,18 +383,18 @@ export default {
                 'dzięki zdolności do rozkładania białek usuwają martwe komórki naskórka,\n' +
                 'a także regulują wydzielanie sebum.',
             price: '89,00',
-            ingredients: 'Alumina••••, Aqua, Rosa Moschata Seed Oil, Triethyl\n' +
-                'Citrate••, Glyceryl Stearate Citrate••, Glycerin••, Cetearyl Olivate••,\n' +
-                'Sorbitan Olivate••, Rosa Damascena Extract, Passiflora Incarnata Fruit\n' +
+            ingredients: 'Alumina, Aqua, Rosa Moschata Seed Oil, Triethyl\n' +
+                'Citrate, Glyceryl Stearate Citrate, Glycerin, Cetearyl Olivate,\n' +
+                'Sorbitan Olivate, Rosa Damascena Extract, Passiflora Incarnata Fruit\n' +
                 'Extract, Vanilla Planifolia Fruit Extract, Rubus Idaeus (Raspberry) Fruit\n' +
                 'Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera\n' +
                 '(Grape) Fruit Extract, Gardenia Florida Flower Extract, Lavandula Angustifolia\n' +
                 '(Lavender) Flower/Leaf/Stem Extract, Prunus Armeniaca (Apricot) Fruit\n' +
                 'Extract, Coffea Arabica (Coffee) Leaf/Seed Extract, Citrus Aurantium Dulcis\n' +
                 '(Orange) Fruit Extract, Jasminum Officinale (Jasmine) Flower/Leaf Extract,\n' +
-                'Papain••, Bromelain••, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Caprylic/Capric Triglyceride••, Glucose••, XanthanGum••, Benzyl\n' +
-                'Alcohol•••, Dehydroacetic Acid•••, Limonene•',
+                'Papain, Bromelain, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
+                'Caprylic/Capric Triglyceride, Glucose, XanthanGum, Benzyl\n' +
+                'Alcohol, Dehydroacetic Acid, Limonene•',
             volume: '60ml'
         },
         {
@@ -414,8 +402,7 @@ export default {
             ean: '5902729030434',
             image: mokosh5902729030434,
             brand: 'Mokosh Cosmetics',
-            name: 'Błoto z Morza Martwego\n' +
-                'Maska na twarz i ciało',
+            name: 'Błoto z Morza Martwego Maska na twarz i ciało',
             description: 'Błoto z Morza Martwego stosuje się powszechnie w zabiegach wyszczuplających\n' +
                 'i antycellulitowych, ponieważ przyspiesza metabolizm komórkowy i działa\n' +
                 'detoksykująco. Unikalny skład błota sprawia, że skóra jest dobrze nawilżona,\n' +
@@ -433,8 +420,7 @@ export default {
             ean: '5902729030625',
             image: mokosh5902729030625,
             brand: 'Mokosh Cosmetics',
-            name: 'Brązujący balsam do ciała i twarzy\n' +
-                'Pomarańcza z cynamonem',
+            name: 'Brązujący balsam do ciała i twarzy Pomarańcza z cynamonem',
             description: 'Odżywczy i nawilżający balsam o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem, w naturalny sposób nadający skórze piękny odcień opalenizny.\n' +
                 'Bogactwo naturalnych olei: z baobabu, słonecznikowego, z marchewki zapobiega\n' +
@@ -447,16 +433,16 @@ export default {
                 'ciemniejsza w taki sam sposób, jak podczas zażywania kąpieli słonecznej, jednak\n' +
                 'bez konieczności narażania jej na promieniowanie UV.',
             price: '79,00',
-            ingredients: 'Aqua, Caprylic/Capric Triglyceride, Decyl Cocoate••, Aloe\n' +
-                'Barbadensis Leaf Juice, Cetearyl Alcohol••, Dihydroxyacetone, Sorbitol,\n' +
-                'Glycerin••, Glyceryl Stearate SE••, Rhus Verniciflua Peel Cera, Trehalose••,\n' +
+            ingredients: 'Aqua, Caprylic/Capric Triglyceride, Decyl Cocoate, Aloe\n' +
+                'Barbadensis Leaf Juice, Cetearyl Alcohol, Dihydroxyacetone, Sorbitol,\n' +
+                'Glycerin, Glyceryl Stearate SE, Rhus Verniciflua Peel Cera, Trehalose,\n' +
                 'Helianthus Annuus (Sunflower) Seed Oil, Adansonia Digitata (Baobab) Seed Oil,\n' +
-                'Cetearyl Glucoside••, Benzyl Alcohol•••, Vitex Agnus Castus (Chasteberry)\n' +
-                'Extract, Acetyl Tyrosine, Stearic Acid••, Daucus Carota Sativa (Carrot Tissue)\n' +
-                'Oil, Citrus Aurantium Amara (Bitter Orange) Flower Extract, Xanthan Gum••,\n' +
-                'Parfum, Tocopherol, Tetrasodium Glutamate Diacetate•••, Dehydroacetic\n' +
-                'Acid•••, Cinnamal•, Citral•, Citronellol•, Eugenol•, Geraniol•, Limonene•,\n' +
-                'Linalol•',
+                'Cetearyl Glucoside, Benzyl Alcohol, Vitex Agnus Castus (Chasteberry)\n' +
+                'Extract, Acetyl Tyrosine, Stearic Acid, Daucus Carota Sativa (Carrot Tissue)\n' +
+                'Oil, Citrus Aurantium Amara (Bitter Orange) Flower Extract, Xanthan Gum,\n' +
+                'Parfum, Tocopherol, Tetrasodium Glutamate Diacetate, Dehydroacetic\n' +
+                'Acid, Cinnamal, Citral, Citronellol, Eugenol, Geraniol, Limonene,\n' +
+                'Linalol',
             volume: '180ml'
         },
         {
@@ -464,8 +450,7 @@ export default {
             ean: '5902729032537',
             image: mokosh5902729032537,
             brand: 'Mokosh Cosmetics',
-            name: 'Nawilżający balsam do twarzy i ciała\n' +
-                'Zielona kawa z tabaką',
+            name: 'Nawilżający balsam do twarzy i ciała Zielona kawa z tabaką',
             description: 'Ten wyjątkowy w naszej ofercie balsam został stworzony, aby pielęgnować,\n' +
                 'nawilżać i odżywiać skórę ciała i twarzy. To pierwszy nawilżający balsam MOKOSH\n' +
                 'o tak uniwersalnym działaniu. Stworzyliśmy go z myślą o wygodzie, podróżach\n' +
@@ -483,15 +468,15 @@ export default {
                 'Paczuli nadaje mu perfumeryjnego charakteru. To zapach, który pokochają pewne\n' +
                 'siebie kobiety oraz ceniący wyjątkowość mężczyźni.',
             price: '79,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Isoamyl Laurate••,\n' +
-                'Coffea Arabica (Green Coffee) Seed Oil, Glyceryl Stearate Citrate••,\n' +
-                'Glycerin••, Glyceryl Stearate••, Cannabis Sativa Seed Oil, Adonsonia Digitata\n' +
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Isoamyl Laurate,\n' +
+                'Coffea Arabica (Green Coffee) Seed Oil, Glyceryl Stearate Citrate,\n' +
+                'Glycerin, Glyceryl Stearate, Cannabis Sativa Seed Oil, Adonsonia Digitata\n' +
                 '(Baobab) Seed Oil, Nigella Sativa Seed Oil, Argania Spinosa Kernel Oil,\n' +
-                'Cetearyl Alcohol••, Simmondsia Chinensis (Jojoba) Seed Oil, Trigonella\n' +
+                'Cetearyl Alcohol, Simmondsia Chinensis (Jojoba) Seed Oil, Trigonella\n' +
                 'Foenum-Graceum Seed Oil, Parfum, Pogostemon Cablin Leaf Oil, Nicotiana\n' +
                 'Tabacum Leaf Extract, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Xanthan Gum••, Benzyl Alcohol•••, Dehydroacetic Acid•••, Cinnamal•,\n' +
-                'Coumarin•, Eugenol•, Limonene•, Linalool•',
+                'Xanthan Gum, Benzyl Alcohol, Dehydroacetic Acid, Cinnamal,\n' +
+                'Coumarin, Eugenol, Limonene, Linalool',
             volume: '180ml'
         },
         {
@@ -499,8 +484,7 @@ export default {
             ean: '5902729030267',
             image: mokosh5902729030267,
             brand: 'Mokosh Cosmetics',
-            name: 'Masło do ciała\n' +
-                'Żurawina',
+            name: 'Masło do ciała Żurawina',
             description: 'Bogate w składniki aktywne masło do ciała o słodkim zapachu żurawiny odżywia\n' +
                 'skórę i poprawia jej barierę hydrolipidową. Kompozycja naturalnego masła shea,\n' +
                 'oleju arganowego, oleju jojoba, oleju z kiełków pszenicy i oleju ze słodkich\n' +
@@ -521,8 +505,7 @@ export default {
             ean: '5902729030243',
             image: mokosh5902729030243,
             brand: 'Mokosh Cosmetics',
-            name: 'Balsam do ciała\n' +
-                'Żurawina',
+            name: 'Balsam do ciała Żurawina',
             description: 'Odżywczo-ujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\n' +
                 'roślinnych o słodkim aromacie żurawiny. Zawiera olej arganowy znany ze swoich\n' +
                 'właściwości opóźniających oznaki starzenia skóry, olej jojoba, który odbudowuje\n' +
@@ -532,14 +515,14 @@ export default {
                 'i nawilżające oraz ksylitolem, który utrzymuje odpowiednie stężenie kwasu\n' +
                 'hialuronowego w skórze.',
             price: '59,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Macadamia Ternifolia\n' +
-                'Seed Oil, Glyceryl Stearate••, Simmondsia Chinensis (Jojoba) Seed Oil, Prunus\n' +
-                'Amygdalus Dulcis (Sweet Almond) Oil, Isostearyl Iso-stearate••, Cetearyl\n' +
-                'Alcohol••, Glyceryl Stearate Citrate••, Glycerin••, Argania Spinosa Kernel\n' +
-                'Oil, Vaccinium Macrocarpon (Cranberry) Seed Oil, Xylitylglucoside••, Xanthan\n' +
-                'Gum••, Anhydroxylitol••, Xylitol••, Benzyl Alcohol•••, Centella Asiatica\n' +
-                'Extract••, Tocopherol, Tetrasodium Glutamate Diacetate•••, Dehydroacetic\n' +
-                'Acid•••, Helianthus Annuus (Sunflower) Seed Oil, Parfum, Limonene•',
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Macadamia Ternifolia\n' +
+                'Seed Oil, Glyceryl Stearate, Simmondsia Chinensis (Jojoba) Seed Oil, Prunus\n' +
+                'Amygdalus Dulcis (Sweet Almond) Oil, Isostearyl Iso-stearate, Cetearyl\n' +
+                'Alcohol, Glyceryl Stearate Citrate, Glycerin, Argania Spinosa Kernel\n' +
+                'Oil, Vaccinium Macrocarpon (Cranberry) Seed Oil, Xylitylglucoside, Xanthan\n' +
+                'Gum, Anhydroxylitol, Xylitol, Benzyl Alcohol, Centella Asiatica\n' +
+                'Extract, Tocopherol, Tetrasodium Glutamate Diacetate, Dehydroacetic\n' +
+                'Acid, Helianthus Annuus (Sunflower) Seed Oil, Parfum, Limonene',
             volume: '180ml'
         },
         {
@@ -547,8 +530,7 @@ export default {
             ean: '5902729030175',
             image: mokosh5902729030175,
             brand: 'Mokosh Cosmetics',
-            name: 'Odżywczy eliksir do ciała\n' +
-                'Żurawina',
+            name: 'Odżywczy eliksir do ciała Żurawina',
             description: 'Odżywczy i nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\n' +
                 'został stworzony z naturalnych olei: z żurawiny, z marchewki, z kiełków pszenicy\n' +
                 'oraz arganowego. Jego słodki, owocowy zapach długo utrzymuje się na skórze.\n' +
@@ -562,7 +544,7 @@ export default {
             ingredients: 'Triticum Vulgare (Wheat) Germ Oil, Vaccinium\n' +
                 'Macrocarpan (Cranberry) Seed Oil, Daucus Carota Sativa (Carrot Tissue) Oil,\n' +
                 'Argania Spinosa Kernel Oil, Parfum, Tocopherol, Helianthus Annuus\n' +
-                '(Sunflower) Seed Oil, Limonene•',
+                '(Sunflower) Seed Oil, Limonene',
             volume: '100ml'
         },
         {
@@ -570,8 +552,7 @@ export default {
             ean: '5902729030250',
             image: mokosh5902729030250,
             brand: 'Mokosh Cosmetics',
-            name: 'Masło do ciała\n' +
-                'Melon z ogórkiem',
+            name: 'Masło do ciała Melon z ogórkiem',
             description: 'Bogate w składniki aktywne masło do ciała o orzeźwiającym zapachu odżywia\n' +
                 'skórę i poprawia jej barierę hydrolipidową. Witamina E działa antyoksydacyjnie\n' +
                 'chroniąc skórę przed szkodliwym działaniem wolnych rodników i zapobiegając\n' +
@@ -592,8 +573,7 @@ export default {
             ean: '5902729030236',
             image: mokosh5902729030236,
             brand: 'Mokosh Cosmetics',
-            name: 'Balsam do ciała\n' +
-                'Melon z ogórkiem',
+            name: 'Balsam do ciała Melon z ogórkiem',
             description: 'Odżywczo-ujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\n' +
                 'roślinnych o orzeźwiającym aromacie melona i ogórka. Zawiera olej arganowy\n' +
                 'znany ze swoich właściwości opóźniających oznaki starzenia skóry, olej jojoba,\n' +
@@ -603,13 +583,13 @@ export default {
                 'i nawilżające oraz ksylitolem, który utrzymuje odpowiednie stężenie kwasu\n' +
                 'hialuronowego w skórze.',
             price: '59,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Macadamia Ternifolia\n' +
-                'Seed Oil, Glyceryl Stearate••, Simmondsia Chinensis (Jojoba) Seed Oil, Prunus\n' +
-                'Amygdalus Dulcis (Sweet Almond) Oil, Isostearyl Iso-stearate••, Cetearyl\n' +
-                'Alcohol••, Glyceryl Stearate Citrate••, Glycerin••, Argania Spinosa Kernel\n' +
-                'Oil, Cucumis Sativus (Cucumber) Seed Oil, Xylitylglucoside••, Xanthan Gum••,\n' +
-                'Anhydroxylitol••, Xylitol••, Benzyl Alcohol•••, Centella Asiatica Extract,\n' +
-                'Tocopherol, Tetrasodium Glutamate Diacetate••, Dehydroacetic Acid•••,\n' +
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Macadamia Ternifolia\n' +
+                'Seed Oil, Glyceryl Stearate, Simmondsia Chinensis (Jojoba) Seed Oil, Prunus\n' +
+                'Amygdalus Dulcis (Sweet Almond) Oil, Isostearyl Iso-stearate, Cetearyl\n' +
+                'Alcohol, Glyceryl Stearate Citrate, Glycerin, Argania Spinosa Kernel\n' +
+                'Oil, Cucumis Sativus (Cucumber) Seed Oil, Xylitylglucoside, Xanthan Gum,\n' +
+                'Anhydroxylitol, Xylitol, Benzyl Alcohol, Centella Asiatica Extract,\n' +
+                'Tocopherol, Tetrasodium Glutamate Diacetate, Dehydroacetic Acid,\n' +
                 'Helianthus Annuus (Sunflower) Seed Oil, Parfum',
             volume: '180ml'
         },
@@ -618,8 +598,7 @@ export default {
             ean: '5902729030199',
             image: mokosh5902729030199,
             brand: 'Mokosh Cosmetics',
-            name: 'Odżywczy eliksir do ciała\n' +
-                'Melon z ogórkiem',
+            name: 'Odżywczy eliksir do ciała Melon z ogórkiem',
             description: 'Odżywczy i nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\n' +
                 'został stworzony z naturalnych olei: z ogórka, z marchewki, z kiełków pszenicy\n' +
                 'oraz arganowego. Jego orzeźwiający zapach długo utrzymuje się na skórze.\n' +
@@ -640,8 +619,7 @@ export default {
             ean: '5902729030649',
             image: mokosh5902729030649,
             brand: 'Mokosh Cosmetics',
-            name: 'Masło do ciała\n' +
-                'Pomarańcza z cynamonem',
+            name: 'Masło do ciała Pomarańcza z cynamonem',
             description: 'Bogate w składniki aktywne masło do ciała o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem odżywia skórę i poprawia jej barierę hydrolipidową. Witamina E\n' +
                 'działa antyoksydacyjnie, zaś macerat z kwiatów gorzkiej pomarańczy regeneruje\n' +
@@ -653,10 +631,10 @@ export default {
             ingredients: 'Butyrospermum Parkii (Shea) Butter, Prunus Amygdalus\n' +
                 'Dulcis (Sweet Almond) Oil, Argania Spinosa Kernel Oil, Triticum vulgare\n' +
                 '(Wheat) Germ Oil, Jojoba Esters, Simmondsia Chinensis (Jojoba) Seed Oil,\n' +
-                'Daucus Carota Sativa (Carrot Tissue) Oil, Caprylic/Capric Triglyceride••, Citrus\n' +
+                'Daucus Carota Sativa (Carrot Tissue) Oil, Caprylic/Capric Triglyceride, Citrus\n' +
                 'Aurantium Amara (Bitter Orange) Flower Extract, Helianthus Annuus\n' +
-                '(Sunflower) Seed Oil, Tocopherol, Parfum, Limonene•, Cinnamal•, Linalool•,\n' +
-                'Benzyl Alcohol•, Eugenol•, Citral•, Geraniol•, Citronellol•',
+                '(Sunflower) Seed Oil, Tocopherol, Parfum, Limonene, Cinnamal, Linalool,\n' +
+                'Benzyl Alcohol, Eugenol, Citral, Geraniol, Citronellol',
             volume: '120ml'
         },
         {
@@ -664,8 +642,7 @@ export default {
             ean: '5902729030977',
             image: mokosh5902729030977,
             brand: 'Mokosh Cosmetics',
-            name: 'Rozświetlający eliksir do ciała\n' +
-                'Pomarańcza z cynamonem',
+            name: 'Rozświetlający eliksir do ciała Pomarańcza z cynamonem',
             description: 'Rozświetlający i głęboko nawilżający eliksir z witaminą E podkreśli kolor Twojej\n' +
                 'skóry i nada jej zdrowego blasku. Eliksir został stworzony z naturalnych,\n' +
                 'zimnotłoczonych olei z dodatkiem mineralnej miki o perłowo-złotym kolorze.\n' +
@@ -677,12 +654,12 @@ export default {
                 'złocistego koloru.',
             price: '79,00',
             ingredients: 'Prunus Amygdalus Dulcis (Sweet Almond) Oil, Daucus\n' +
-                'Carota Sativa (Carrot Tissue) Oil, Squalane••, Rubus Idaeus (Raspberry) Seed\n' +
+                'Carota Sativa (Carrot Tissue) Oil, Squalane, Rubus Idaeus (Raspberry) Seed\n' +
                 'Oil, Oenothera Biennis (Evening Primrose) Seed Oil, Simmondsia Chinensis\n' +
-                '(Jojoba) Seed Oil, Mica••••, Titanium Dioxide••••, Tin Dioxide••••,\n' +
-                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Parfum, Limonene•,\n' +
-                'Cinnamal•, Linalool•, Benzyl Alcohol•, Eugenol•, Citral•, Geraniol•,\n' +
-                'Citronellol•',
+                '(Jojoba) Seed Oil, Mica, Titanium Dioxide, Tin Dioxide,\n' +
+                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Parfum, Limonene,\n' +
+                'Cinnamal, Linalool, Benzyl Alcohol, Eugenol, Citral, Geraniol,\n' +
+                'Citronellol',
             volume: '100ml'
         },
         {
@@ -690,8 +667,7 @@ export default {
             ean: '5902729030168',
             image: mokosh5902729030168,
             brand: 'Mokosh Cosmetics',
-            name: 'Ujędrniający eliksir do ciała\n' +
-                'Pomarańcza',
+            name: 'Ujędrniający eliksir do ciała Pomarańcza',
             description: 'Luksusowy eliksir do ciała idealny do codziennej pielęgnacji skóry wymagającej\n' +
                 'ujędrnienia i odżywienia. Został stworzony z drogocennego oleju arganowego,\n' +
                 '100% olejku eterycznego z pomarańczy oraz oleju macadamia. Eliksir dzięki\n' +
@@ -701,7 +677,7 @@ export default {
                 'w stan błogiego relaksu.',
             price: '69,00',
             ingredients: 'Macadamia Ternifolia Seed Oil, Argania Spinosa Kernel Oil,\n' +
-                'Citrus Aurantium Dulcis Oil, Limonene•, Linalool•, Citral•',
+                'Citrus Aurantium Dulcis Oil, Limonene, Linalool, Citral',
             volume: '100ml'
         },
         {
@@ -709,8 +685,7 @@ export default {
             ean: '5902729032391',
             image: mokosh5902729032391,
             brand: 'Mokosh Cosmetics',
-            name: 'Nawilżający lotion do dłoni\n' +
-                'Marakuja',
+            name: 'Nawilżający lotion do dłoni Marakuja',
             description: 'Bogaty w kompleks składników aktywnych lotion do dłoni o egzotycznym\n' +
                 'zapachu marakui skutecznie regeneruje skórę dłoni oraz chroni ją przed\n' +
                 'wysuszeniem. Lekka formuła sprawia, że krem szybko się wchłania i nie\n' +
@@ -722,16 +697,16 @@ export default {
                 'antyoksydacyjnie. Sorbitol i kompleks AQUAXYL® skutecznie wiążą wodę\n' +
                 'w naskórku, a dzięki temu działają nawilżająco i wygładzająco.',
             price: '39,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Glycerin••, Aloe\n' +
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Glycerin, Aloe\n' +
                 'Barbadensis Leaf Juice, Passiflora Edulis (Passionfruit) Seed Oil, Glyceryl\n' +
-                'Stearate Citarate••, Rhus Verniciflua Peel Cera, Adansonia Digitata (Baobab)\n' +
-                'Seed Oil, Sorbitol, Caprylic/Capric Triglyceride••, Xylitylglucoside, Simmondsia\n' +
+                'Stearate Citarate, Rhus Verniciflua Peel Cera, Adansonia Digitata (Baobab)\n' +
+                'Seed Oil, Sorbitol, Caprylic/Capric Triglyceride, Xylitylglucoside, Simmondsia\n' +
                 'Chinensis (Jojoba) Seed Oil, Opuntia Ficus-Indica Fruit Extract, Cetearyl\n' +
-                'Olivate, Sorbitan Olivate, Anhydroxylitol, Xylitol, Glucose, Xanthan Gum••,\n' +
-                'Benzyl Alcohol•••, Dehydroacetic Acid•••, Parfum, Benzyl salicylate•,\n' +
-                'Citronellol•, Hexyl cinnamal•, Hydroxycitronellal•, Butylphenyl\n' +
-                'methylpropional•, Limonene•, Linalool•, Hydroxyisohexyl-3-cyclohexene\n' +
-                'carboxaldehyde•',
+                'Olivate, Sorbitan Olivate, Anhydroxylitol, Xylitol, Glucose, Xanthan Gum,\n' +
+                'Benzyl Alcohol, Dehydroacetic Acid, Parfum, Benzyl salicylate,\n' +
+                'Citronellol, Hexyl cinnamal, Hydroxycitronellal, Butylphenyl\n' +
+                'methylpropional, Limonene, Linalool, Hydroxyisohexyl-3-cyclohexene\n' +
+                'carboxaldehyde',
             volume: '100ml'
         },
         {
@@ -739,8 +714,7 @@ export default {
             ean: '5902729032407',
             image: mokosh5902729032407,
             brand: 'Mokosh Cosmetics',
-            name: 'Nawilżający lotion do dłoni\n' +
-                'Melon z ogórkiem',
+            name: 'Nawilżający lotion do dłoni Melon z ogórkiem',
             description: 'Bogaty w kompleks składników aktywnych lotion do dłoni o orzeźwiającym\n' +
                 'zapachu melona z ogórkiem skutecznie odżywia skórę dłoni oraz chroni ją przed\n' +
                 'wysuszeniem. Lekka formuła sprawia, że krem szybko się wchłania i nie\n' +
@@ -752,12 +726,12 @@ export default {
                 'i kompleks AQUAXYL® skutecznie wiążą wodę w naskórku, a dzięki temu\n' +
                 'działają nawilżająco i wygładzająco.',
             price: '39,00',
-            ingredients: 'Aqua, Coco-Caprylate Caprate••, Glycerin••, Aloe\n' +
+            ingredients: 'Aqua, Coco-Caprylate Caprate, Glycerin, Aloe\n' +
                 'Barbadensis Leaf Juice, Cucumis Sativus (Cucumber) Seed Oil, Glyceryl\n' +
-                'Stearate Citarate••, Rhus Verniciflua Peel Cera, Macadamia Ternifolia Seed\n' +
+                'Stearate Citarate, Rhus Verniciflua Peel Cera, Macadamia Ternifolia Seed\n' +
                 'Oil, Sorbitol, Xylitylglucoside, Simmondsia Chinensis (Jojoba) Seed Oil, Cetearyl\n' +
-                'Olivate, Sorbitan Olivate, Anhydroxylitol, Xylitol, Glucose, Xanthan Gum••,\n' +
-                'Benzyl Alcohol•••, Dehydroacetic Acid•••, Parfum',
+                'Olivate, Sorbitan Olivate, Anhydroxylitol, Xylitol, Glucose, Xanthan Gum,\n' +
+                'Benzyl Alcohol, Dehydroacetic Acid, Parfum',
             volume: '100ml'
         },
         {
@@ -765,8 +739,7 @@ export default {
             ean: '5902729030182',
             image: mokosh5902729030182,
             brand: 'Mokosh Cosmetics',
-            name: 'Odżywczy eliksir do paznokci\n' +
-                'Żurawina',
+            name: 'Odżywczy eliksir do paznokci Żurawina',
             description: 'Odżywczy i nawilżający eliksir w wersji do pielęgnacji paznokci z dodatkiem\n' +
                 'witaminy E został stworzony z naturalnych olei: z żurawiny, z marchewki,\n' +
                 'z kiełków pszenicy oraz arganowego. Unikalny olej z pestek żurawiny ze\n' +
@@ -780,7 +753,7 @@ export default {
             ingredients: 'Triticum Vulgare (Wheat) Germ Oil, Vaccinium\n' +
                 'Macrocarpan (Cranberry) Seed Oil, Daucus Carota Sativa (Carrot Tissue) Oil,\n' +
                 'Argania Spinosa Kernel Oil, Parfum, Tocopherol, Helianthus Annuus\n' +
-                '(Sunflower) Seed Oil, Limonene•',
+                '(Sunflower) Seed Oil, Limonene',
             volume: '10ml'
         },
         {
@@ -788,8 +761,7 @@ export default {
             ean: '5902729030021',
             image: mokosh5902729030021,
             brand: 'Mokosh Cosmetics',
-            name: 'Olej arganowy\n' +
-                'do paznokci',
+            name: 'Olej arganowy do paznokci',
             description: '100 % Olej arganowy uzyskiwany jest ze świeżych nasion arganii. Olej ten,\n' +
                 'nazywany „płynnym złotem”, składa się z nienasyconych kwasów tłuszczowych,\n' +
                 'głównie z kwasu oleinowego i linolowego. Posiada niespotykanie wysoką liczbę\n' +
@@ -798,7 +770,7 @@ export default {
                 'oraz promieniochronnym. Z powodzeniem jest stosowany przy łamliwości\n' +
                 'paznokci i suchości skórek.',
             price: '18,90',
-            ingredients: 'Argania Spinosa Kernel Oil•',
+            ingredients: 'Argania Spinosa Kernel Oil',
             volume: '12ml'
         },
         {
@@ -806,8 +778,7 @@ export default {
             ean: '5902729032377',
             image: mokosh5902729032377,
             brand: 'Mokosh Cosmetics',
-            name: 'Płyn antybakteryjny\n' +
-                'Drzewo herbaciane z lawendą',
+            name: 'Płyn antybakteryjny Drzewo herbaciane z lawendą',
             description: 'Płyn antybakteryjny MOKOSH to środek biobójczy do dezynfekcji\n' +
                 'o potwierdzonym działaniu decyzją Urzędu Rejestracji Produktów Leczniczych,\n' +
                 'Wyrobów Medycznych i Produktów Biobójczych.\n' +
@@ -829,8 +800,7 @@ export default {
             ean: '5902729030205',
             image: mokosh5902729030205,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała\n' +
-                'Żurawina',
+            name: 'Peeling solny do ciała Żurawina',
             description: 'Peeling z soli z Morza Martwego z liofilizowanymi pestkami żurawiny i bogatym\n' +
                 'w antyoksydanty olejem żurawinowym oczyszcza, wygładza i odżywia skórę.\n' +
                 'Naturalne masło shea oraz cenne oleje roślinne: arganowy, jojoba, z wiesiołka\n' +
@@ -842,8 +812,8 @@ export default {
             ingredients: 'Maris Sal, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
                 'Butyrospermum Parkii (Shea) Butter, Vaccinium Macrocarpan (Cranberry)\n' +
                 'Seed Oil, Argania Spinosa Kernel Oil, Jojoba Esters, Vaccinium Macrocarpon\n' +
-                '(Cranberry) Seed, Simmondsia Chinensis (Jojoba) Seed Oil, Glycerin••,\n' +
-                'Oenothera Biennis (Evening Primrose) Seed Oil, Parfum, Limonene•,\n' +
+                '(Cranberry) Seed, Simmondsia Chinensis (Jojoba) Seed Oil, Glycerin,\n' +
+                'Oenothera Biennis (Evening Primrose) Seed Oil, Parfum, Limonene,\n' +
                 'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil',
             volume: '300g'
         },
@@ -852,8 +822,7 @@ export default {
             ean: '5902729030212',
             image: mokosh5902729030212,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała\n' +
-                'Melon z ogórkiem',
+            name: 'Peeling solny do ciała Melon z ogórkiem',
             description: 'Peeling z soli z Morza Martwego o orzeźwiającym zapachu. Zawiera unikalny\n' +
                 'olej z ogórka, który ma działanie regenerujące, przeciwzapalne i wygładzające.\n' +
                 'Masło shea oraz kompozycja cennych olei roślinnych: arganowego, jojoba,\n' +
@@ -866,7 +835,7 @@ export default {
             ingredients: 'Maris Sal, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
                 'Butyrospermum Parkii (Shea) Butter, Argania Spinosa Kernel Oil, Jojoba\n' +
                 'Esters, Cucumis Sativus (Cucumber) Seed Oil, Simmondsia Chinensis (Jojoba)\n' +
-                'Seed Oil, Glycerin••, Oenothera Biennis (Evening Primrose) Seed Oil,\n' +
+                'Seed Oil, Glycerin, Oenothera Biennis (Evening Primrose) Seed Oil,\n' +
                 'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Parfum',
             volume: '300g'
         },
@@ -875,8 +844,7 @@ export default {
             ean: '5902729030663',
             image: mokosh5902729030663,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała\n' +
-                'Pomarańcza z cynamonem',
+            name: 'Peeling solny do ciała Pomarańcza z cynamonem',
             description: 'Peeling z soli z Morza Martwego o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem zawiera masło shea oraz kompozycję cennych olei roślinnych:\n' +
                 'arganowego, jojoba, z wiesiołka, z marchewki i ze słodkich migdałów, które\n' +
@@ -889,10 +857,10 @@ export default {
             ingredients: 'Maris Sal, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
                 'Butyrospermum Parkii (Shea) Butter, Argania Spinosa Kernel Oil, Daucus\n' +
                 'Carota Sativa Root Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Jojoba Esters,\n' +
-                'Caprylic/Capric Triglyceride, Glycerin••, Oenothera Biennis (Evening Primrose)\n' +
+                'Caprylic/Capric Triglyceride, Glycerin, Oenothera Biennis (Evening Primrose)\n' +
                 'Seed Oil, Citrus Aurantium Amara (Bitter Orange) Flower Extract, Helianthus\n' +
-                'Annuus (Sunflower) Seed Oil, Tocopherol, Parfum, Limonene •, Cinnamal •,\n' +
-                'Linalool •, Benzyl Alcohol •, Eugenol •, Citral •, Geraniol •, Citronellol •',
+                'Annuus (Sunflower) Seed Oil, Tocopherol, Parfum, Limonene, Cinnamal,\n' +
+                'Linalool, Benzyl Alcohol, Eugenol, Citral, Geraniol, Citronellol',
             volume: '300g'
         },
         {
@@ -900,8 +868,7 @@ export default {
             ean: '5902729030229',
             image: mokosh5902729030229,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała\n' +
-                'Kawa z pomarańczą',
+            name: 'Peeling solny do ciała Kawa z pomarańczą',
             description: 'Intensywny peeling z soli z Morza Martwego połączony z mieloną kawą oraz\n' +
                 'pomarańczowym olejkiem eterycznym jest sprzymierzeńcem w walce z cellulitem\n' +
                 'i brakiem jędrności skóry. Peeling złuszcza martwe komórki naskórka, pobudza\n' +
@@ -913,9 +880,9 @@ export default {
             ingredients: 'Maris Sal, Prunus Amygdalus Dulcis (Sweet Almond) Oil,\n' +
                 'Butyrospermum Parkii (Shea) Butter, Argania Spinosa Kernel Oil, Coffea\n' +
                 'Arabica (Coffee) Seed Powder, Coffea Arabica (Green Coffee) Seed Oil, Jojoba\n' +
-                'Esters, Glycerin••, Simmondsia Chinensis (Jojoba) Seed Oil, Citrus Aurantium\n' +
+                'Esters, Glycerin, Simmondsia Chinensis (Jojoba) Seed Oil, Citrus Aurantium\n' +
                 'Dulcis Peel Oil Expressed, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Limonene •, Linalool •, Citral•',
+                'Limonene, Linalool, Citral',
             volume: '300g'
         },
         {
@@ -923,8 +890,7 @@ export default {
             ean: '5902729032414',
             image: mokosh5902729032414,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała\n' +
-                'Zielona kawa z tabaką',
+            name: 'Peeling solny do ciała Zielona kawa z tabaką',
             description: 'Peeling solny do ciała Zielona kawa z tabaką o głębokim, ziołowo-balsamicznym\n' +
                 'aromacie został stworzony aby wygładzać, ujędrniać i pielęgnować skórę ciała.\n' +
                 'Peeling złuszcza martwe komórki naskórka, a masaż podczas aplikacji produktu\n' +
@@ -940,11 +906,11 @@ export default {
             price: '65,00',
             ingredients: 'Maris Sal, Butyrospermum Parkii (Shea) Butter, Adonsonia\n' +
                 'Digitata (Baobab) Seed Oil, Coffea Arabica (Green Coffee) Seed Oil, Nigella\n' +
-                'Sativa Seed Oil, Argania Spinosa Kernel Oil, Jojoba Esters, Glycerin••,\n' +
+                'Sativa Seed Oil, Argania Spinosa Kernel Oil, Jojoba Esters, Glycerin,\n' +
                 'Cannabis Sativa Seed Oil, Parfum, Trigonella Foenum-Graceum Seed Oil,\n' +
                 'Simmondsia Chinensis (Jojoba) Seed Oil, Pogostemon Cablin Leaf Oil, Nicotiana\n' +
                 'Tabacum Leaf Extract, Tocopherol, Helianthus Annuus (Sunflower) Seed Oil,\n' +
-                'Cinnamal•, Coumarin•, Eugenol•, Limonene•, Linalool•',
+                'Cinnamal, Coumarin, Eugenol, Limonene, Linalool',
             volume: '300g'
         },
         {
@@ -952,8 +918,7 @@ export default {
             ean: '5902729030007',
             image: mokosh5902729030007,
             brand: 'Mokosh Cosmetics',
-            name: 'Olej arganowy\n' +
-                'kosmetyczny',
+            name: 'Olej arganowy kosmetyczny',
             description: 'Olej arganowy składa się z nienasyconych kwasów tłuszczowych, głównie\n' +
                 'oleinowego i linolowego. Zawiera niezwykle dużą liczbę naturalnych\n' +
                 'przeciwutleniaczy, chroniących organizm przed wolnymi rodnikami, a także\n' +
@@ -961,7 +926,7 @@ export default {
                 'i promieniochronnym, między innymi karotenoidy, polifenole, fitosterole oraz\n' +
                 'witaminę E.',
             price: '65,00',
-            ingredients: 'Argania Spinosa Kernel Oil•',
+            ingredients: 'Argania Spinosa Kernel Oil',
             volume: '100ml'
         },
         {
@@ -969,8 +934,7 @@ export default {
             ean: '5902729030052',
             image: mokosh5902729030052,
             brand: 'Mokosh Cosmetics',
-            name: 'Olej jojoba\n' +
-                'kosmetyczny',
+            name: 'Olej jojoba kosmetyczny',
             description: 'Olej jojoba należy do grupy płynnych wosków. Zawiera fitosterole, dużo witaminy\n' +
                 'A (wspomaga naturalne funkcjonowanie skóry), witaminę E (przyspiesza\n' +
                 'regenerację skóry i spowalnia jej starzenie się), witaminę F (działa\n' +
@@ -980,7 +944,7 @@ export default {
                 'wysuszeniu skóry. Stosowany jest do wszystkich typów skóry – nawet\n' +
                 'trądzikowych.',
             price: '65,00',
-            ingredients: 'Simmondsia Chinensis (Jojoba) Seed Oil•',
+            ingredients: 'Simmondsia Chinensis (Jojoba) Seed Oil',
             volume: '100ml'
         },
         {
@@ -988,8 +952,7 @@ export default {
             ean: '5902729030137',
             image: mokosh5902729030137,
             brand: 'Mokosh Cosmetics',
-            name: 'Olej z pestek malin\n' +
-                'kosmetyczny',
+            name: 'Olej z pestek malin kosmetyczny',
             description: 'Olej z pestek malin Mokosh jest tłoczony metoda „na zimno”. Zawiera wysoką\n' +
                 'ilość niezbędnych Nienasyconych Kwasów Tłuszczowych (NNKT) takich jak:\n' +
                 'kwas linolowy (Omega-6) i alfa-linolenowy (Omega-3). Olej ten w połączeniu\n' +
@@ -999,7 +962,7 @@ export default {
                 'jak karotenoidy oraz flawonoidy. Wykazuje silne działanie antyoksydacyjne.\n' +
                 'Łagodzi suchość skóry i poprawia jej elastyczność.',
             price: '69,00',
-            ingredients: 'Rubus Idaeus (Raspberry) Seed Oil•',
+            ingredients: 'Rubus Idaeus (Raspberry) Seed Oil',
             volume: '100ml'
         },
         {
@@ -1016,7 +979,7 @@ export default {
                 'fitosterole, witaminę E. Z sukcesem korzystać z wpływu kosmetyku może\n' +
                 'dziecko i mama.',
             price: '67,00',
-            ingredients: 'Argania Spinosa Kernel Oil•',
+            ingredients: 'Argania Spinosa Kernel Oil',
             volume: '100ml'
         },
         {
@@ -1032,7 +995,7 @@ export default {
                 'przeciwzapalnie i przeciwrodnikowo. Olej jojoba jest niezastąpiony w prewencji\n' +
                 'rozstępów w okresie ciąży oraz w pielęgnacji delikatnej skóry dziecka.',
             price: '67,00',
-            ingredients: 'Simmondsia Chinensis (Jojoba) Seed Oil•',
+            ingredients: 'Simmondsia Chinensis (Jojoba) Seed Oil',
             volume: '100ml'
         },
         {
@@ -1105,8 +1068,7 @@ export default {
             ean: '5902729030397',
             image: mokosh5902729030397,
             brand: 'Mokosh Cosmetics',
-            name: 'Sól karnalitowa\n' +
-                'z Morza Martwego',
+            name: 'Sól karnalitowa z Morza Martwego',
             description: 'Sól karnalitowa z Morza Martwego to najbardziej pożądana z soli\n' +
                 'występujących w tym akwenie. Jest w 100% naturalna, wysoko\n' +
                 'zmineralizowana, ma charakter terapeutyczny. Jest bogata przede wszystkim\n' +
@@ -1124,8 +1086,7 @@ export default {
             ean: '5902729030380',
             image: mokosh5902729030380,
             brand: 'Mokosh Cosmetics',
-            name: 'Sól\n' +
-                'algi morskie',
+            name: 'Sól algi morskie',
             description: 'Wysoko zmineralizowana sól algowa przeznaczona do kąpieli i peelingów\n' +
                 'zawiera oprócz bogatej w jod i brom soli naturalnej ekstrakt z algi Laminaria\n' +
                 'Digitata. Forma ekstraktu z algi zapewnia przyjemny zapach podczas kąpieli,\n' +
@@ -1142,15 +1103,14 @@ export default {
             ean: '5902729030427',
             image: mokosh5902729030427,
             brand: 'Mokosh Cosmetics',
-            name: 'Sól\n' +
-                'Żurawina',
+            name: 'Sól Żurawina',
             description: 'Regenerująca sól jodowo-bromowa do kąpieli i peelingu o aromacie żurawiny\n' +
                 'pobudza zmysły, odpręża i relaksuje. Zawiera kompleks biopierwiastków, który\n' +
                 'odżywia skórę, opóźnia procesy starzenia i działa detoksykująco. Apetyczny\n' +
                 'owocowy, mocno żurawinowy zapach soli zamieni każdą kąpiel w magiczny\n' +
                 'domowy rytuał.',
             price: '35,00',
-            ingredients: 'Sodium Chloride, Parfum, Limonene•',
+            ingredients: 'Sodium Chloride, Parfum, Limonene',
             volume: '600g'
         },
         {
@@ -1158,16 +1118,15 @@ export default {
             ean: '5902729030410',
             image: mokosh5902729030410,
             brand: 'Mokosh Cosmetics',
-            name: 'Sól\n' +
-                'Pomarańcza z cynamonem',
+            name: 'Sól Pomarańcza z cynamonem',
             description: 'Regenerująca sól jodowo-bromowa o aromacie pomarańczy z cynamonem\n' +
                 'pobudza zmysły, odpręża i relaksuje. Zawiera kompleks biopierwiastków, który\n' +
                 'odżywia skórę, opóźnia procesy starzenia i działa detoksykująco. Apetycznie\n' +
                 'i słodko pachnąca sól zamieni zwykłą kąpiel w niezwykły domowy rytuał\n' +
                 'oraz wyjątkowy relaks w zaciszu łazienki.',
             price: '35,00',
-            ingredients: 'Sodium Chloride, Parfum, Limonene•, Cinnamal•,\n' +
-                'Linalool•, Benzyl Alcohol•, Eugenol•, Citral•, Geraniol•, Citronellol•',
+            ingredients: 'Sodium Chloride, Parfum, Limonene, Cinnamal,\n' +
+                'Linalool, Benzyl Alcohol, Eugenol, Citral, Geraniol, Citronellol',
             volume: '600g'
         },
         {
@@ -1175,16 +1134,15 @@ export default {
             ean: '5902729030335',
             image: mokosh5902729030335,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Pomarańczowy',
+            name: '100% olejek eteryczny Pomarańczowy',
             description: 'Gorąca kąpiel z silnym aromatem olejku pomarańczowego uspokoi, zrelaksuje\n' +
                 'i złagodzi napięcie nerwowe. Świeży, cytrusowy aromat olejku może być\n' +
                 'uzupełnieniem do prania, dyfuzora, sauny lub odkurzacza. Olejek pomarańczowy\n' +
                 'wykorzystaj też w połączeniu z olejem bazowym MOKOSH do relaksacyjnego\n' +
                 'masażu, dzięki czemu odżywisz i ujędrnisz skórę.',
             price: '39,90',
-            ingredients: 'Citrus Aurantium Dulcis Peel Oil Expressed, Limonene•,\n' +
-                'Linalool•, Citral •',
+            ingredients: 'Citrus Aurantium Dulcis Peel Oil Expressed, Limonene,\n' +
+                'Linalool, Citral',
             volume: '10ml'
         },
         {
@@ -1192,8 +1150,7 @@ export default {
             ean: '5902729030311',
             image: mokosh5902729030311,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Drzewo herbaciane',
+            name: '100% olejek eteryczny Drzewo herbaciane',
             description: 'Wesprzyj swoją walkę z trądzikiem, łupieżem, a nawet schorzeniami\n' +
                 'bakteryjnymi zanurzając się w ciepłej kąpieli z dodatkiem aktywnego olejku\n' +
                 'z drzewa herbacianego. Jego intensywnie ziołowy aromat może być\n' +
@@ -1201,7 +1158,7 @@ export default {
                 'Olejek z drzewa wykorzystaj też w połączeniu z olejem bazowym MOKOSH do\n' +
                 'relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Melaleuca Alternifolia Leaf Oil, Limonene•',
+            ingredients: 'Melaleuca Alternifolia Leaf Oil, Limonene',
             volume: '10ml'
         },
         {
@@ -1209,15 +1166,14 @@ export default {
             ean: '5902729030328',
             image: mokosh5902729030328,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Eukaliptusowy',
+            name: '100% olejek eteryczny Eukaliptusowy',
             description: 'Odetchnij głęboko wonią eukaliptusa. Zanurz się w gorącej kąpieli z olejkiem,\n' +
                 'aby rozluźnić swoje mięśnie i zlikwidować napięcie. Jego świeży aromat może\n' +
                 'być uzupełnieniem do prania, dyfuzora, sauny lub odkurzacza. Olejek\n' +
                 'eukaliptusowy wykorzystaj też w połączeniu z olejem bazowym MOKOSH do\n' +
                 'relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Eucalyptus Globulus Oil, Limonene•',
+            ingredients: 'Eucalyptus Globulus Oil, Limonene',
             volume: '10ml'
         },
         {
@@ -1225,8 +1181,7 @@ export default {
             ean: '5902729030359',
             image: mokosh5902729030359,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Lawendowy',
+            name: '100% olejek eteryczny Lawendowy',
             description: 'Zapach lawendy pomaga wyciszyć umysł, sprzyja relaksacji i przywodzi na myśl\n' +
                 'zalane słońcem prowansalskie łąki. Lawenda to olejek stosowany\n' +
                 'w perfumiarstwie. Jego intensywny aromat może być uzupełnieniem do kąpieli,\n' +
@@ -1234,7 +1189,7 @@ export default {
                 'MOKOSH tworzy prawdziwy eliksir piękna, który możesz wykorzystać do\n' +
                 'relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Lavandula Angustifolia Oil, Linalool•, Limonene•',
+            ingredients: 'Lavandula Angustifolia Oil, Linalool, Limonene',
             volume: '10ml'
         },
         {
@@ -1242,8 +1197,7 @@ export default {
             ean: '5902729030342',
             image: mokosh5902729030342,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Rozmarynowy',
+            name: '100% olejek eteryczny Rozmarynowy',
             description: 'Oczyść swoją skórę i odetchnij z ulgą podczas kąpieli parowej z dodatkiem olejku\n' +
                 'rozmarynowego i wspomóż pielęgnację cery trądzikowej. Wykonaj kąpiel\n' +
                 'z domieszką olejku i dodaj sobie energii. Jego ziołowy aromat może być\n' +
@@ -1251,7 +1205,7 @@ export default {
                 'wykorzystaj też w połączeniu z olejem bazowym MOKOSH do relaksacyjnego\n' +
                 'masażu.',
             price: '39,90',
-            ingredients: 'Rosmarinus Officinalis Leaf Oil, Limonene•, Linalool•',
+            ingredients: 'Rosmarinus Officinalis Leaf Oil, Limonene, Linalool',
             volume: '10ml'
         },
         {
@@ -1259,17 +1213,16 @@ export default {
             ean: '5902729030304',
             image: mokosh5902729030304,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Ylang-Ylang',
+            name: '100% olejek eteryczny Ylang-Ylang',
             description: 'W medycynie tradycyjnej olejek ilangowy od lat stosowany był jako afrodyzjak.\n' +
                 'Odpręż się i pobudź swoje zmysły wypełniając swoje nozdrza aromatem Ylang\n' +
                 'Ylang. Jego zmysłowy aromat może być uzupełnieniem do kąpieli, prania,\n' +
                 'dyfuzora, sauny lub odkurzacza. Olejek ilangowy wykorzystaj też w połączeniu\n' +
                 'z olejem bazowym MOKOSH do relaksacyjnego masażu.',
             price: '59,90',
-            ingredients: 'Cananga Odorata Flower Oil, Benzyl Benzoate•, Benzyl\n' +
-                'Salicylate•, Farnesol•, Geraniol•, Linalool•, Eugenol•, Isoeugenol•, Benzyl\n' +
-                'Alcohol•, Cinnamyl Alcohol•, Citral•, Coumarin•, Vitronellol•, Limonene•',
+            ingredients: 'Cananga Odorata Flower Oil, Benzyl Benzoate, Benzyl\n' +
+                'Salicylate, Farnesol, Geraniol, Linalool, Eugenol, Isoeugenol, Benzyl\n' +
+                'Alcohol, Cinnamyl Alcohol, Citral, Coumarin, Vitronellol, Limonene',
             volume: '10ml'
         },
         {
@@ -1277,8 +1230,7 @@ export default {
             ean: '5902729031868',
             image: mokosh5902729031868,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Bergamotowy',
+            name: '100% olejek eteryczny Bergamotowy',
             description: 'Olejek stosowany jest w przemyśle perfumeryjnym. Głęboka cytrusowa nuta\n' +
                 'przypomina zapachem herbatę Earl Grey. Świetnie sprawdzi się w pielęgnacji\n' +
                 'skóry dotkniętej problemem trądziku i przebarwień. Jego cytrusowy aromat\n' +
@@ -1286,7 +1238,7 @@ export default {
                 'odkurzacza. Olejek bergamotowy wykorzystaj też w połączeniu z olejem\n' +
                 'bazowym MOKOSH do relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Citrus Aurantium Bergamia Fruit Oil, Limonene•, Linalool•',
+            ingredients: 'Citrus Aurantium Bergamia Fruit Oil, Limonene, Linalool',
             volume: '10ml'
         },
         {
@@ -1294,8 +1246,7 @@ export default {
             ean: '5902729031820',
             image: mokosh5902729031820,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Paczuli',
+            name: '100% olejek eteryczny Paczuli',
             description: 'Korzenno-balsamiczny aromat olejku Paczuli od stuleci stosowany jest\n' +
                 'w przemyśle perfumeryjnym. Zanurz się w gorącej kąpieli z olejkiem, która\n' +
                 'złagodzi oraz ukoi suchą i podrażnioną skórę. Jego intensywny aromat może być\n' +
@@ -1303,8 +1254,8 @@ export default {
                 'wykorzystaj też w połączeniu z olejem bazowym MOKOSH do relaksacyjnego\n' +
                 'masażu.',
             price: '49,90',
-            ingredients: 'Pogostemon Cablin Leaf Oil, Cinnamal•, Citral•,\n' +
-                'Coumarin•, Eugenol•, Limonene•, Linalool•',
+            ingredients: 'Pogostemon Cablin Leaf Oil, Cinnamal, Citral,\n' +
+                'Coumarin, Eugenol, Limonene, Linalool',
             volume: '10ml'
         },
         {
@@ -1312,8 +1263,7 @@ export default {
             ean: '5902729031851',
             image: mokosh5902729031851,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Cedrowy',
+            name: '100% olejek eteryczny Cedrowy',
             description: 'Aromatyzacja powietrza olejkiem cedrowym odświeża i oczyszcza wnętrze.\n' +
                 'Kąpiel z jego dodatkiem relaksuje ciało, łagodzi napięcie i korzystnie wpływa na\n' +
                 'sen. Jego świeży, leśny aromat może być uzupełnieniem do prania, dyfuzora,\n' +
@@ -1328,16 +1278,15 @@ export default {
             ean: '5902729031844',
             image: mokosh5902729031844,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Jodłowy',
+            name: '100% olejek eteryczny Jodłowy',
             description: 'Wypełnij wnętrze głębokim, leśnym aromatem olejku jodłowego i odetchnij\n' +
                 'z ulgą. Dodatek do kąpieli olejku pomoże zrelaksować się i wypielęgnować skórę.\n' +
                 'Jego intensywny aromat może być uzupełnieniem do prania, dyfuzora, sauny lub\n' +
                 'odkurzacza. Olejek jodłowy wykorzystaj też w połączeniu z olejem bazowym\n' +
                 'MOKOSH do relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Abies Sibirica Needle Oil, Citral•, Geraniol•, Limonene•,\n' +
-                'Linalool•',
+            ingredients: 'Abies Sibirica Needle Oil, Citral, Geraniol, Limonene,\n' +
+                'Linalool',
             volume: '10ml'
         },
         {
@@ -1345,16 +1294,15 @@ export default {
             ean: '5902729031875',
             image: mokosh5902729031875,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Trawa cytrynowa',
+            name: '100% olejek eteryczny Trawa cytrynowa',
             description: 'Wesprzyj pielęgnację problematycznej skóry twarzy z olejkiem z trawy\n' +
                 'cytrynowej. Dodatek do kąpieli olejku wspomoże rozluźnieniu mięśni i relaksacji.\n' +
                 'Jego orzeźwiający, cytrusowy aromat może być uzupełnieniem do prania,\n' +
                 'dyfuzora, sauny lub odkurzacza. Olejek z trawy cytrynowej wykorzystaj też\n' +
                 'w połączeniu z olejem bazowym MOKOSH do relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Cymbopogon Citratus Leaf Oil, Citral•, Citronellol•,\n' +
-                'Eugenol•, Geraniol•, Limonene•, Linalool•',
+            ingredients: 'Cymbopogon Citratus Leaf Oil, Citral, Citronellol,\n' +
+                'Eugenol, Geraniol, Limonene, Linalool',
             volume: '10ml'
         },
         {
@@ -1362,16 +1310,15 @@ export default {
             ean: '5902729031837',
             image: mokosh5902729031837,
             brand: 'Mokosh Cosmetics',
-            name: '100% olejek eteryczny\n' +
-                'Szałwiowy',
+            name: '100% olejek eteryczny Szałwiowy',
             description: 'Wesprzyj pielęgnację trądzikowej i nadmiernie potliwej skóry z olejkiem\n' +
                 'szałwiowym. Dodatek olejku do kąpieli pomoże zrelaksować się, a kąpiel parowa\n' +
                 'pomoże oczyścić skórę. Jego intensywny aromat może być uzupełnieniem do\n' +
                 'prania, dyfuzora, sauny lub odkurzacza. Olejek szałwiowy wykorzystaj też\n' +
                 'w połączeniu z olejem bazowym MOKOSH do relaksacyjnego masażu.',
             price: '39,90',
-            ingredients: 'Salvia Officinalis Leaves Oil, Geraniol•, Limonene•,\n' +
-                'Linalool•',
+            ingredients: 'Salvia Officinalis Leaves Oil, Geraniol, Limonene,\n' +
+                'Linalool',
             volume: '10ml'
         },
         {
@@ -1379,8 +1326,7 @@ export default {
             ean: '5902729030984',
             image: mokosh5902729030984,
             brand: 'Mokosh Cosmetics',
-            name: 'Peeling solny do ciała MOKOSH icon\n' +
-                'Wanilia z tymiankiem',
+            name: 'Peeling solny do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Wygładzający, oczyszczający i napinający peeling zaprojektowano, aby zapewnić\n' +
                 'skórze wielowymiarową pielęgnację. Sól z Morza Martwego masuje ciało,\n' +
                 'poprawia krążenie i usuwa martwe komórki naskórka. Naturalne, zimnotłoczone\n' +
@@ -1395,13 +1341,13 @@ export default {
                 'Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Argania\n' +
                 'Spinosa Kernel Oil, Coffea Arabica (Green Coffee) Seed Oil, Macadamia\n' +
                 'Ternifolia Seed Oil, Jojoba Esters, Simmondsia Chinensis (Jojoba) Seed Oil,\n' +
-                'Glycerin••, Citrus Auranitum Bergamia (Bergamot) Fruit Extract,\n' +
+                'Glycerin, Citrus Auranitum Bergamia (Bergamot) Fruit Extract,\n' +
                 'Cinnamomum Zeylanicum (Cinnamon) Bark Extract, Eugenia Caryophyllus\n' +
                 '(Clove) Flower Extract, Citrus Aurantiifolia (Lime) Peel Extract, Jasminum\n' +
                 'Officinale (Jasmine) Flower/Leaf Extract, Dipteryx Odorata (Cumaru) Seed\n' +
                 'Extract, Rosa Damascena Flower Extract, Vanilla Planifolia Fruit Extract,\n' +
                 'Thymus Vulgaris (Thyme) Flower/Leaf Extract, Tocopherol, Helianthus Annuus\n' +
-                '(Sunflower) Seed Oil, Limonene •, Eugenol•, Cinnamal•, Coumarin•, Citral•',
+                '(Sunflower) Seed Oil, Limonene, Eugenol, Cinnamal, Coumarin, Citral',
             volume: '300g'
         },
         {
@@ -1409,8 +1355,7 @@ export default {
             ean: '5902729030991',
             image: mokosh5902729030991,
             brand: 'Mokosh Cosmetics',
-            name: 'Masło do ciała MOKOSH icon\n' +
-                'Wanilia z tymiankiem',
+            name: 'Masło do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Odżywcze, regenerujące i antyoksydacyjne masło do ciała zaprojektowano, aby\n' +
                 'dostarczyć skórze maksimum nawilżenia, odnowy i ujędrnienia. Masło zawiera\n' +
                 'niespotykanie dużą liczbę ekstraktów, które odżywiają skórę, pobudzają procesy\n' +
@@ -1430,8 +1375,8 @@ export default {
                 '(Lime) Peel Extract, Jasminum Officinale (Jasmine) Flower/Leaf Extract,\n' +
                 'Dipteryx Odorata (Cumaru) Seed Extract, Rosa Damascena Flower Extract,\n' +
                 'Vanilla Planifolia Fruit Extract, Thymus Vulgaris (Thyme) Flower/Leaf Extract,\n' +
-                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Limonene•, Eugenol•,\n' +
-                'Cinnamal•, Coumarin•, Citral•',
+                'Tocopherol, Helianthus Annuus (Sunflower) Seed Oil, Limonene, Eugenol,\n' +
+                'Cinnamal, Coumarin, Citral',
             volume: '120ml'
         },
         {
@@ -1439,8 +1384,7 @@ export default {
             ean: '5902729030960',
             image: mokosh5902729030960,
             brand: 'Mokosh Cosmetics',
-            name: 'Rozświetlające serum do ciała MOKOSH icon\n' +
-                'Wanilia z tymiankiem',
+            name: 'Rozświetlające serum do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Rozświetlające serum nadaje skórze aksamitną gładkość, blask i maksymalną\n' +
                 'ochronę przed wolnymi rodnikami. Serum stworzone z organicznych olei,\n' +
                 'drogocennego skwalanu, ekstraktów roślinnych i naturalnej miki o perłowo-\n' +
@@ -1462,8 +1406,8 @@ export default {
                 'Officinale (Jasmine) Flower/Leaf Extract, Dipteryx Odorata (Cumaru) Seed\n' +
                 'Extract, Rosa Damascena Flower Extract, Vanilla Planifolia Fruit Extract,\n' +
                 'Thymus Vulgaris (Thyme) Flower/Leaf Extract, Tocopherol, Helianthus Annuus\n' +
-                '(Sunflower) Seed Oil, Mica••••, Titanium Dioxide••••, Tin Dioxide••••,\n' +
-                'Limonene•, Eugenol•, Cinnamal•, Coumarin•, Citral•',
+                '(Sunflower) Seed Oil, Mica, Titanium Dioxide, Tin Dioxide,\n' +
+                'Limonene, Eugenol, Cinnamal, Coumarin, Citral',
             volume: '100ml'
         },
         {
@@ -1471,8 +1415,7 @@ export default {
             ean: '5902729031813',
             image: mokosh5902729031813,
             brand: 'Mokosh Cosmetics',
-            name: 'Specjalistyczny balsam antycellulitowy\n' +
-                'Mokosh ICON Wanilia z tymiankiem',
+            name: 'Specjalistyczny balsam antycellulitowy Mokosh ICON Wanilia z tymiankiem',
             description: 'Zawiera wyciągi z traganka, ruszczyku, cytryny i nawłoci, które wykazują\n' +
                 'działanie antycellulitowe, ujędrniające i przeciwobrzękowe. Ekstrakt z korzenia\n' +
                 'traganka reguluje metabolizm tkanki tłuszczowej i hamuje aktywności enzymu\n' +
@@ -1486,11 +1429,11 @@ export default {
                 'i łagodzi podrażnienia. Oleje: arganowy, makadamia, z krokosza i jojoba\n' +
                 'wpływają na odżywienie, nawilżenie i regenerację skóry.',
             price: '149,00',
-            ingredients: 'Aqua, Coco-Caprylate/Caprate••, Caprylic/Capric\n' +
-                'Triglyceride••, Cetearyl alcohol••, Macadamia Ternifolia Seed Oil, Glyceryl\n' +
-                'Stearate••, Glyceryl Stearate Citrate••, Carthamus Tinctorius (Safflower)\n' +
-                'Seed Oil, Propanediol•••, Coffea Arabica (Green Coffee) Seed Oil, Argania\n' +
-                'Spinosa Kernel Oil, Glycerin••, Simmondsia Chinensis (Jojoba) Seed Oil,\n' +
+            ingredients: 'Aqua, Coco-Caprylate/Caprate, Caprylic/Capric\n' +
+                'Triglyceride, Cetearyl alcohol, Macadamia Ternifolia Seed Oil, Glyceryl\n' +
+                'Stearate, Glyceryl Stearate Citrate, Carthamus Tinctorius (Safflower)\n' +
+                'Seed Oil, Propanediol, Coffea Arabica (Green Coffee) Seed Oil, Argania\n' +
+                'Spinosa Kernel Oil, Glycerin, Simmondsia Chinensis (Jojoba) Seed Oil,\n' +
                 'Ruscus Aculeatus Root Extract, Citrus Limon (Lemon) Peel Extract, Solidago\n' +
                 'Virgaurea (Goldenrod) Extract, Astragalus Membranaceus Root Extract, Citrus\n' +
                 'Aurantium Bergamia (Bergamot) Fruit Extract, Cinnamomum Zeylanicum\n' +
@@ -1498,9 +1441,9 @@ export default {
                 'Aurantifolia (Lime) Peel Extract, Jasminum Officinale (Jasmine) Flower/Leaf\n' +
                 'Extract, Dipteryx Odorata (Cumaru) Seed Extract, Rosa Damascena Flower\n' +
                 'Extract, Vanilla Planifolia Fruit Extract, Thymus Vulgaris (Thyme) Flower/Leaf\n' +
-                'Extract, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol, Xanthan Gum••,\n' +
-                'Benzyl Alcohol•••, Dehydroacetic Acid•••, Sodium Benzoate•••, Potassium\n' +
-                'Sorbate•••, Limonene•, Eugenol•, Cinnamal•, Coumarin•, Citral•',
+                'Extract, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol, Xanthan Gum,\n' +
+                'Benzyl Alcohol, Dehydroacetic Acid, Sodium Benzoate, Potassium\n' +
+                'Sorbate, Limonene, Eugenol, Cinnamal, Coumarin, Citral',
             volume: '180ml'
         },
         {
@@ -1508,8 +1451,7 @@ export default {
             ean: '5902729031912',
             image: mokosh5902729031912,
             brand: 'Mokosh Cosmetics',
-            name: 'Wypełniający krem do biustu MOKOSH icon\n' +
-                'Wanilia z tymiankiem',
+            name: 'Wypełniający krem do biustu MOKOSH icon Wanilia z tymiankiem',
             description: 'Zawarty w kremie olej z czarnuszki stanowi bogactwo kwasów omega 3 i 6\n' +
                 'przez\n' +
                 'co błyskawicznie się wchłania nadając uczucie aksamitnej skóry. Olej\n' +
@@ -1527,7 +1469,7 @@ export default {
             ingredients: 'Aqua, Caprylic/Capric Triglyceride, Coco-Caprylate/Caprate,\n' +
                 'Nigella Sativa Seed Oil, Glycerin, Cetearyl Alcohol, Glyceryl Stearate Citrate,\n' +
                 'Glyceryl Stearate, Rhus Verniciflua Peel Cera, Simmondsia Chinensis (Jojoba)\n' +
-                'Seed Oil, Trigonella Foenum-Graecum Seed Oil , Cannabis Sativa (Hemp) Seed\n' +
+                'Seed Oil, Trigonella Foenum-Graecum Seed Oil, Cannabis Sativa (Hemp) Seed\n' +
                 'Oil, Macadamia Ternifolia Seed Oil, Cellulose, Glycyrrhiza Glabra Root Extract,\n' +
                 'Sesamum Indicum Seed Extract, Citrus Aurantium Bergamia (Bergamot) Fruit\n' +
                 'Extract, Cinnamomum Zeylanicum (Cinnamon) Bark Extract, Eugenia\n' +

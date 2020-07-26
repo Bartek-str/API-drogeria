@@ -1,11 +1,14 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import data from "../../data/data";
 
-const Shop = () => {
+const Shop = ({text}) => {
     // const [category, setCategory] = useState('');
     // const [subcategory, setSubcategory] = useState('');
-    // // const [products, setProducts] = useState([]);
+    // const [products, setProducts] = useState([]);
+    const value = data.products.map(product => product.name).filter(name => name.toUpperCase().includes(text.toUpperCase()));
+    const dispatch = useDispatch();
 
     return (
         <div className='Shop'>
@@ -149,9 +152,12 @@ const Shop = () => {
                                 <div className='name'>{product.name} {product.volume}</div>
                             </Link>
                             <div className='price'>{product.price}zł</div>
-                            <button>Dodaj</button>
+                            <button onClick={() => dispatch()}>Dodaj</button>
                         </div>
                     )})}
+                    {
+                        console.log(value)
+                    } {/*działająca wyszukiwarka*/}
                 </div>
             </div>
         </div>

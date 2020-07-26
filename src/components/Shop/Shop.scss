@@ -44,7 +44,7 @@
                 width: 250px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
 
                 .brand {
@@ -80,13 +80,22 @@
 
                 button {
                     width: 40%;
-                    text-align: center;
                     font-size: 15px;
                     color: #202020;
-                    background-color: #F6F4F3;
-                    border: 1px solid #C786AD;
-                    border-radius: 5px;
+                    border: 1px solid #505050;
+                    font-weight: 500;
+                    box-shadow: 5px 5px 5px 0 #505050;
+
+                    &:hover {
+                        background-color: #C786AD;
+                        color: white;
+                        border: 1px solid #C786AD;
+                    }
                 }
+            }
+
+            .hidden {
+                display: none;
             }
         }
     }

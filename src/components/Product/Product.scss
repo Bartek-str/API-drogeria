@@ -46,6 +46,7 @@
             padding-top: 10px;
             font-size: 15px;
             color: #707070;
+            line-height: 1.2;
         }
 
         .price {
@@ -56,8 +57,21 @@
         }
 
         button {
+            width: 250px;
+            height: 30px;
             margin-top: 20px;
             padding: 0 10px;
+            font-size: 18px;
+            color: #202020;
+            border: 1px solid #505050;
+            font-weight: 500;
+            box-shadow: 5px 5px 5px 0 #505050;
+
+            &:hover {
+                background-color: #C786AD;
+                color: white;
+                border: 1px solid #C786AD;
+            }
         }
     }
 }
