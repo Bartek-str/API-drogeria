@@ -1,6 +1,6 @@
 import { faMinus, faPlus, faSearch, faShoppingBag, faTrash, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, {useEffect, useState} from 'react';
+import React, { useState } from 'react';
 import Logo from "./assets/lisc_kolor.svg";
 import Building from "./components/Building";
 import Footer from "./components/Footer";
@@ -13,7 +13,7 @@ import {
 import Product from "./components/Product";
 import data from "./data/data";
 import discountCodes from "./data/discount";
-import Cookie from 'js-cookie';
+import CheckOut from "./components/CheckOut";
 
 function App() {
     const [active, setActive] = useState(false);
@@ -25,10 +25,6 @@ function App() {
     const [discount, setDiscount] = useState(false);
     const [discountActive, setDiscountActive] = useState();
 
-    useEffect(() => {
-        console.log(Cookie.getJSON()) //do ogarnięcia cookies
-    }, [])
-
     const checkDiscount = () => {
         if (discountCodes.hasOwnProperty(discount)) {
             setDiscountActive(discountCodes[discount])
@@ -36,7 +32,6 @@ function App() {
     }
 
     const check = (val) => {
-        console.log(Cookie.getJSON())
         if (val) {
             if (val.toString().indexOf('.') !== -1) {
                 return val.toFixed(2).toString().replace('.', ',')
@@ -170,7 +165,7 @@ function App() {
                                         <input placeholder='Kod Rabatowy' className='discountCode' onChange={(e) => setDiscount(e.target.value)} />
                                         <button type='submit' onClick={() => checkDiscount()}>Aktywuj</button>
                                     </div>
-                                    <div className='next'>Dalej</div>
+                                    <Link to='/zakupy'><div className='next' onClick={() => setOpenCart(false)}>Dalej</div></Link>
                                 </div>
                             </>
                         </div> : ''}
@@ -212,6 +207,9 @@ function App() {
                     <Route path="/o-nas" component={ Building } />
                     <Route path="/kontakt" component={ Building } />
                     <Route path="/konto" component={ Building } />
+                    <Route path="/zakupy" render={props => (
+                        <CheckOut {...props} value={ value } discountActive={ discountActive } />
+                    )} />
                 </Switch>
                 <Footer />
             </Router>
