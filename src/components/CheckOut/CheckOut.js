@@ -127,7 +127,7 @@ const CheckOut = (props) => {
                     </div>
                 </div>
                 <button type='submit'>
-                    <a href={`https://sklep.przelewy24.pl/zakup.php?z24_id_sprzedawcy=119361&z24_nazwa=ZAMOWIENIE${Math.floor(Math.random() * 999999999999) + 1}&z24_crc=b55cff127970927e&z24_return_url=https://www.apidrogerie.com&z24_kwota=${discountActive ? ((value - (value * discountActive)) + delivVal) * 100 : (value + delivVal) * 100}&z24_opis=${JSON.stringify(cart)}${check1}${inPostNum}${check2}&k24_nazwa=${name}&k24_email=${email}&k24_kraj=pl&k24_kod=${zipCode}&k24_miasto=${city}&k24_ulica=${address}`}>Zapłać</a>
+                    <a href={`https://sklep.przelewy24.pl/zakup.php?z24_id_sprzedawcy=119361&z24_nazwa=ZAMOWIENIE${Math.floor(Math.random() * 999999999999) + 1}&z24_crc=b55cff127970927e&z24_return_url=https://www.apidrogerie.com&z24_kwota=${discountActive ? ((value - (value * discountActive)) + delivVal) * 100 : (value + delivVal) * 100}&z24_opis=${cart.map(product => product.id + '-' + product.qty + '---')}INPOST${check1}---${inPostNum}---KURIER${check2}&k24_nazwa=${name}&k24_email=${email}&k24_kraj=pl&k24_kod=${zipCode}&k24_miasto=${city}&k24_ulica=${address}`}>Zapłać</a>
                 </button>
             </div>
         </div>

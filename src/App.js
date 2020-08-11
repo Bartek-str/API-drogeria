@@ -10,7 +10,9 @@ import {
     Switch,
     Route, Link
 } from "react-router-dom";
+import PrivatePolicy from "./components/PrivatePolicy";
 import Product from "./components/Product";
+import Regulations from "./components/Regulations";
 import data from "./data/data";
 import discountCodes from "./data/discount";
 import CheckOut from "./components/CheckOut";
@@ -202,13 +204,13 @@ function App() {
                     <Route path="/sklep/:id" render={props => (
                         <Product {...props} cart={cart} setCart={setCart} value={value} setValue={setValue} />
                     )} />
-                    <Route path="/regulamin" component={ Building } />
-                    <Route path="/polityka-prywatnosci" component={ Building } />
+                    <Route path="/regulamin" component={ Regulations } />
+                    <Route path="/polityka-prywatnosci" component={ PrivatePolicy } />
                     <Route path="/o-nas" component={ Building } />
                     <Route path="/kontakt" component={ Building } />
                     <Route path="/konto" component={ Building } />
                     <Route path="/zakupy" render={props => (
-                        <CheckOut {...props} value={ value } discountActive={ discountActive } />
+                        <CheckOut {...props} value={ value } discountActive={ discountActive } cart={ cart } />
                     )} />
                 </Switch>
                 <Footer />
