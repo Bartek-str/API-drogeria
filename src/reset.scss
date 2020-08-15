@@ -50,9 +50,3 @@ q:before, q:after {
 body {
     overflow-x: hidden;
 }
-
-@media (max-width: 1023px) {
-    #root {
-        display: none;
-    }
-}
