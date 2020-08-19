@@ -187,8 +187,100 @@
 
             &:hover {
                 background-color: #C786AD;
-                color: white;
                 border: none;
+
+                a {
+                    color: white;
+                }
+            }
+
+            a {
+                font-size: 20px;
+                font-weight: 500;
+                color: #202020;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .checkOut {
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+
+        .details {
+            margin: 13vh 0 0 0;
+            width: 90vw;
+            height: auto;
+
+            .first {
+                font-size: 25px;
+            }
+
+            input {
+                width: 90%;
+            }
+
+            .delivery {
+                width: 90%;
+
+                .miniContainer {
+                    width: 100%;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .detailsSide {
+            width: 100vw;
+            height: auto;
+            margin: 25px 0;
+
+            .order {
+                width: 80vw;
+                height: 60vw;
+
+                .header {
+                    width: 45vw;
+                    right: 15vw;
+                }
+
+                .price {
+                    margin-top: 25px;
+                    width: 60vw;
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+
+                .price.first {
+                    margin-top: 0;
+                }
+            }
+
+            button {
+                margin-top: 25px;
+                width: 50vw;
+                height: 50px;
+
+                &:hover {
+                    background-color: #C786AD;
+                    border: none;
+
+                    a {
+                        color: white;
+                    }
+                }
+
+                a {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #202020;
+                }
             }
         }
     }

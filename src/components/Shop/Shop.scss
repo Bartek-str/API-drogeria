@@ -100,3 +100,34 @@
         }
     }
 }
+
+@media screen and (max-width: 750px){
+    .Shop {
+        width: 100vw;
+
+        .MainPhoto {
+            background-position: 40% 0;
+
+            .main-container {
+                margin: 0;
+                align-items: center;
+
+                div {
+                    font-size: 35px;
+                }
+
+                .text {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .products-container {
+            padding: 0;
+
+            .products {
+                justify-content: center;
+            }
+        }
+    }
+}
