@@ -39,11 +39,11 @@ const Header = (props) => {
                     <div className='drogeria'>drogeria</div>
                 </div>
             </Link>
-            {search ? <input className='search' placeholder='wyszukaj' onChange={(e) => setText(e.target.value)}/> : ''}
+            {search ? <input className={active ? 'search x' : 'search'} placeholder='wyszukaj' onChange={(e) => setText(e.target.value)}/> : ''}
             <div className={active ? 'nav-shop x' : 'nav-shop'}>
                 <Link to='/sklep'><FontAwesomeIcon icon={ faSearch } className='icon' onClick={() => setSearch(!search)} /></Link>
                 <Link to='/konto'><FontAwesomeIcon icon={ faUserCircle } className='icon'/></Link>
-                <FontAwesomeIcon icon={ faShoppingBag } className='icon' onClick={() => {setOpenCart(!openCart); setActive(false)}} />{cart.length > 0 ? <p className='qty'>{cart.length}</p> : ''}
+                <FontAwesomeIcon icon={ faShoppingBag } className='icon shopping' onClick={() => {setOpenCart(!openCart); setActive(false)}} />{cart.length > 0 ? <p className='qty'>{cart.length}</p> : ''}
             </div>
             <div className={active ? 'burger x' : 'burger'} onClick={() => setActive(!active)}>
                 <div className='line1'/>
@@ -89,7 +89,7 @@ const Header = (props) => {
                                 <input placeholder='Kod Rabatowy' className='discountCode' onChange={(e) => setDiscount(e.target.value)} />
                                 <button type='submit' onClick={() => checkDiscount()}>Aktywuj</button>
                             </div>
-                            <Link to='/zakupy'><div className='next' onClick={() => setOpenCart(false)}>Dalej</div></Link>
+                            {cart.length === 0 ? '' : <Link to='/zakupy'><div className='next' onClick={() => setOpenCart(false)}>Dalej</div></Link>}
                         </div>
                     </>
                 </div> : ''}

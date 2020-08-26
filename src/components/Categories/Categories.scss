@@ -1,0 +1,39 @@
+.subcategories {
+    z-index: 1;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 40vw;
+    height: 85vh;
+    background-color: #FDFDFD;
+    overflow: scroll;
+
+    div {
+        margin-top: 15px;
+        margin-left: 150px;
+        color: #707070;
+        font-size: 20px;
+
+        &:first-child {
+            margin-top: 25px;
+        }
+
+        &:last-child {
+            margin-bottom: 25px;
+        }
+
+        &:hover {
+            color: #c786ad;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .subcategories {
+        width: 70vw;
+
+        div {
+            margin-left: 25px;
+        }
+    }
+}

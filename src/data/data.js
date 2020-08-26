@@ -264,6 +264,7 @@ export default {
             ean: '5902729031325',
             image: mokosh5902729031325,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Regenerujący krem do twarzy anti-pollution Malina',
             description: 'Krem powstał by chronić skórę przed szkodliwym działaniem czynników\n' +
                 'zewnętrznych, zapewniając jednocześnie kompleksową pielęgnację skóry twarzy.\n' +
@@ -300,6 +301,7 @@ export default {
             ean: '5902729030281',
             image: mokosh5902729030281,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Wygładzający krem do twarzy Figa',
             description: 'Innowacyjny, a zarazem naturalny krem o apetycznym zapachu figi\n' +
                 'do regularnej pielęgnacji każdego typu skóry. Stworzony na bazie naturalnych\n' +
@@ -329,6 +331,7 @@ export default {
             ean: '5902729032193',
             image: mokosh5902729032193,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Ujędrniający krem do twarzy anti-aging Róża z jagodą',
             description: 'Krem jest połączeniem drogocennych ekstraktów i olei z wyjątkowymi\n' +
                 'składnikami aktywnymi, które dogłębnie nawilżają, ujędrniają, chronią\n' +
@@ -369,6 +372,7 @@ export default {
             ean: '5902729030298',
             image: mokosh5902729030298,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Korygujący krem pod oczy Zielona herbata',
             description: 'Krem zawiera aktywny wyciąg z alg morskich , które zapobiegają rozszerzaniu\n' +
                 'się naczyń krwionośnych zlokalizowanych w okolicy oczu oraz kofeinę\n' +
@@ -398,6 +402,7 @@ export default {
             ean: '5902729030618',
             image: mokosh5902729030618,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Ujędrniające serum do twarzy Pomarańcza',
             description: 'Serum z maceratów z kwiatów pomarańczy i opuncji figowej oraz z naturalnych\n' +
                 'olejków eterycznych skutecznie wspomaga proces walki z brakiem jędrności\n' +
@@ -428,6 +433,7 @@ export default {
             ean: '5902729030953',
             image: mokosh5902729030953,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Wygładzające serum do twarzy Figa',
             description: 'Wygładzające serum olejowe do twarzy stworzone z drogocennych,\n' +
                 'zimnotłoczonych olei roślinnych i ekstraktów botanicznych. Serum zawiera\n' +
@@ -460,6 +466,7 @@ export default {
             ean: '5902729031301',
             image: mokosh5902729031301,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Liposomowe serum pod oczy Ogórek',
             description: 'Serum stworzone z niskocząsteczkowego kwasu hialuronowego, ceramidów\n' +
                 'i skwalanu zamkniętych w strukturach liposomów podobnych do budowy\n' +
@@ -486,6 +493,7 @@ export default {
             ean: '5902729032032',
             image: mokosh5902729032032,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Odżywczo-nawilżający żel do mycia twarzy Figa',
             description: 'Odżywczy i nawilżający żel do mycia twarzy o apetycznym zapachu figi łagodnie\n' +
                 'usuwa zanieczyszczenia z powierzchni skóry dzięki zastosowaniu naturalnych\n' +
@@ -516,6 +524,7 @@ export default {
             ean: '5902729031004',
             image: mokosh5902729031004,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Balsam do ust Malina',
             description: 'Balsam do ust o apetycznym i słodkim zapachu maliny stworzony na bazie\n' +
                 'naturalnej, hipoalergicznej lanoliny, oleju z pestek malin, masła shea i oleju\n' +
@@ -538,6 +547,7 @@ export default {
             ean: '5902729031332',
             image: mokosh5902729031332,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Peeling do ust Malina',
             description: 'Peeling do ust Malina został stworzony, aby w naturalny sposób pielęgnować\n' +
                 'delikatną skórę warg. Drobiny ksylitolu, czyli cukru brzozowego, skutecznie\n' +
@@ -560,6 +570,7 @@ export default {
             ean: '5902729031905',
             image: mokosh5902729031905,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Aktywny peeling do twarzy Róża z jagodą',
             description: 'Aktywny peeling do twarzy Róża z jagodą dzięki połączeniu mineralnego\n' +
                 'korundu i enzymów dokładnie złuszcza, rozjaśnia i wygładza naskórek. Olej\n' +
@@ -592,6 +603,7 @@ export default {
             ean: '5902729030434',
             image: mokosh5902729030434,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body',
             name: 'Błoto z Morza Martwego Maska na twarz i ciało',
             description: 'Błoto z Morza Martwego stosuje się powszechnie w zabiegach wyszczuplających\n' +
                 'i antycellulitowych, ponieważ przyspiesza metabolizm komórkowy i działa\n' +
@@ -610,6 +622,7 @@ export default {
             ean: '5902729030625',
             image: mokosh5902729030625,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body',
             name: 'Brązujący balsam do ciała i twarzy Pomarańcza z cynamonem',
             description: 'Odżywczy i nawilżający balsam o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem, w naturalny sposób nadający skórze piękny odcień opalenizny.\n' +
@@ -640,6 +653,7 @@ export default {
             ean: '5902729032537',
             image: mokosh5902729032537,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body',
             name: 'Nawilżający balsam do twarzy i ciała Zielona kawa z tabaką',
             description: 'Ten wyjątkowy w naszej ofercie balsam został stworzony, aby pielęgnować,\n' +
                 'nawilżać i odżywiać skórę ciała i twarzy. To pierwszy nawilżający balsam MOKOSH\n' +
@@ -674,6 +688,7 @@ export default {
             ean: '5902729030267',
             image: mokosh5902729030267,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Masło do ciała Żurawina',
             description: 'Bogate w składniki aktywne masło do ciała o słodkim zapachu żurawiny odżywia\n' +
                 'skórę i poprawia jej barierę hydrolipidową. Kompozycja naturalnego masła shea,\n' +
@@ -695,6 +710,7 @@ export default {
             ean: '5902729030243',
             image: mokosh5902729030243,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Balsam do ciała Żurawina',
             description: 'Odżywczo-ujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\n' +
                 'roślinnych o słodkim aromacie żurawiny. Zawiera olej arganowy znany ze swoich\n' +
@@ -720,6 +736,7 @@ export default {
             ean: '5902729030175',
             image: mokosh5902729030175,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Odżywczy eliksir do ciała Żurawina',
             description: 'Odżywczy i nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\n' +
                 'został stworzony z naturalnych olei: z żurawiny, z marchewki, z kiełków pszenicy\n' +
@@ -742,6 +759,7 @@ export default {
             ean: '5902729030250',
             image: mokosh5902729030250,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Masło do ciała Melon z ogórkiem',
             description: 'Bogate w składniki aktywne masło do ciała o orzeźwiającym zapachu odżywia\n' +
                 'skórę i poprawia jej barierę hydrolipidową. Witamina E działa antyoksydacyjnie\n' +
@@ -763,6 +781,7 @@ export default {
             ean: '5902729030236',
             image: mokosh5902729030236,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Balsam do ciała Melon z ogórkiem',
             description: 'Odżywczo-ujędrniający balsam stworzony na bazie naturalnych olei i ekstraktów\n' +
                 'roślinnych o orzeźwiającym aromacie melona i ogórka. Zawiera olej arganowy\n' +
@@ -788,6 +807,7 @@ export default {
             ean: '5902729030199',
             image: mokosh5902729030199,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Odżywczy eliksir do ciała Melon z ogórkiem',
             description: 'Odżywczy i nawilżający eliksir do pielęgnacji ciała z dodatkiem witaminy E\n' +
                 'został stworzony z naturalnych olei: z ogórka, z marchewki, z kiełków pszenicy\n' +
@@ -809,6 +829,7 @@ export default {
             ean: '5902729030649',
             image: mokosh5902729030649,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Masło do ciała Pomarańcza z cynamonem',
             description: 'Bogate w składniki aktywne masło do ciała o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem odżywia skórę i poprawia jej barierę hydrolipidową. Witamina E\n' +
@@ -832,6 +853,7 @@ export default {
             ean: '5902729030977',
             image: mokosh5902729030977,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Rozświetlający eliksir do ciała Pomarańcza z cynamonem',
             description: 'Rozświetlający i głęboko nawilżający eliksir z witaminą E podkreśli kolor Twojej\n' +
                 'skóry i nada jej zdrowego blasku. Eliksir został stworzony z naturalnych,\n' +
@@ -857,6 +879,7 @@ export default {
             ean: '5902729030168',
             image: mokosh5902729030168,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Ujędrniający eliksir do ciała Pomarańcza',
             description: 'Luksusowy eliksir do ciała idealny do codziennej pielęgnacji skóry wymagającej\n' +
                 'ujędrnienia i odżywienia. Został stworzony z drogocennego oleju arganowego,\n' +
@@ -875,6 +898,7 @@ export default {
             ean: '5902729032391',
             image: mokosh5902729032391,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/hands&feets',
             name: 'Nawilżający lotion do dłoni Marakuja',
             description: 'Bogaty w kompleks składników aktywnych lotion do dłoni o egzotycznym\n' +
                 'zapachu marakui skutecznie regeneruje skórę dłoni oraz chroni ją przed\n' +
@@ -904,6 +928,7 @@ export default {
             ean: '5902729032407',
             image: mokosh5902729032407,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/hands&feets',
             name: 'Nawilżający lotion do dłoni Melon z ogórkiem',
             description: 'Bogaty w kompleks składników aktywnych lotion do dłoni o orzeźwiającym\n' +
                 'zapachu melona z ogórkiem skutecznie odżywia skórę dłoni oraz chroni ją przed\n' +
@@ -929,6 +954,7 @@ export default {
             ean: '5902729030182',
             image: mokosh5902729030182,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/hands&feets',
             name: 'Odżywczy eliksir do paznokci Żurawina',
             description: 'Odżywczy i nawilżający eliksir w wersji do pielęgnacji paznokci z dodatkiem\n' +
                 'witaminy E został stworzony z naturalnych olei: z żurawiny, z marchewki,\n' +
@@ -951,6 +977,7 @@ export default {
             ean: '5902729030021',
             image: mokosh5902729030021,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/hands&feets',
             name: 'Olej arganowy do paznokci',
             description: '100 % Olej arganowy uzyskiwany jest ze świeżych nasion arganii. Olej ten,\n' +
                 'nazywany „płynnym złotem”, składa się z nienasyconych kwasów tłuszczowych,\n' +
@@ -968,6 +995,7 @@ export default {
             ean: '5902729032377',
             image: mokosh5902729032377,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/hands&feets',
             name: 'Płyn antybakteryjny Drzewo herbaciane z lawendą',
             description: 'Płyn antybakteryjny MOKOSH to środek biobójczy do dezynfekcji\n' +
                 'o potwierdzonym działaniu decyzją Urzędu Rejestracji Produktów Leczniczych,\n' +
@@ -990,6 +1018,7 @@ export default {
             ean: '5902729030205',
             image: mokosh5902729030205,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała Żurawina',
             description: 'Peeling z soli z Morza Martwego z liofilizowanymi pestkami żurawiny i bogatym\n' +
                 'w antyoksydanty olejem żurawinowym oczyszcza, wygładza i odżywia skórę.\n' +
@@ -1012,6 +1041,7 @@ export default {
             ean: '5902729030212',
             image: mokosh5902729030212,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała Melon z ogórkiem',
             description: 'Peeling z soli z Morza Martwego o orzeźwiającym zapachu. Zawiera unikalny\n' +
                 'olej z ogórka, który ma działanie regenerujące, przeciwzapalne i wygładzające.\n' +
@@ -1034,6 +1064,7 @@ export default {
             ean: '5902729030663',
             image: mokosh5902729030663,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała Pomarańcza z cynamonem',
             description: 'Peeling z soli z Morza Martwego o orientalnym zapachu pomarańczy\n' +
                 'z cynamonem zawiera masło shea oraz kompozycję cennych olei roślinnych:\n' +
@@ -1058,6 +1089,7 @@ export default {
             ean: '5902729030229',
             image: mokosh5902729030229,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała Kawa z pomarańczą',
             description: 'Intensywny peeling z soli z Morza Martwego połączony z mieloną kawą oraz\n' +
                 'pomarańczowym olejkiem eterycznym jest sprzymierzeńcem w walce z cellulitem\n' +
@@ -1080,6 +1112,7 @@ export default {
             ean: '5902729032414',
             image: mokosh5902729032414,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała Zielona kawa z tabaką',
             description: 'Peeling solny do ciała Zielona kawa z tabaką o głębokim, ziołowo-balsamicznym\n' +
                 'aromacie został stworzony aby wygładzać, ujędrniać i pielęgnować skórę ciała.\n' +
@@ -1108,6 +1141,7 @@ export default {
             ean: '5902729030007',
             image: mokosh5902729030007,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body, skincare/hands&feets, hair/care',
             name: 'Olej arganowy kosmetyczny',
             description: 'Olej arganowy składa się z nienasyconych kwasów tłuszczowych, głównie\n' +
                 'oleinowego i linolowego. Zawiera niezwykle dużą liczbę naturalnych\n' +
@@ -1124,6 +1158,7 @@ export default {
             ean: '5902729030052',
             image: mokosh5902729030052,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body, skincare/hands&feets, hair/care',
             name: 'Olej jojoba kosmetyczny',
             description: 'Olej jojoba należy do grupy płynnych wosków. Zawiera fitosterole, dużo witaminy\n' +
                 'A (wspomaga naturalne funkcjonowanie skóry), witaminę E (przyspiesza\n' +
@@ -1142,6 +1177,7 @@ export default {
             ean: '5902729030137',
             image: mokosh5902729030137,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body, skincare/hands&feets, hair/care',
             name: 'Olej z pestek malin kosmetyczny',
             description: 'Olej z pestek malin Mokosh jest tłoczony metoda „na zimno”. Zawiera wysoką\n' +
                 'ilość niezbędnych Nienasyconych Kwasów Tłuszczowych (NNKT) takich jak:\n' +
@@ -1160,6 +1196,7 @@ export default {
             ean: '5902729030038',
             image: mokosh5902729030038,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body, skincare/hands&feets, hair/care',
             name: 'Olej arganowy dla dzieci i niemowląt',
             description: 'Olej arganowy dla dzieci i niemowląt to kosmetyk 100% naturalny. Przebadany\n' +
                 'dermatologicznie, mikrobiologicznie oraz hipoalergicznie. Zawiera niezwykle\n' +
@@ -1177,6 +1214,7 @@ export default {
             ean: '5902729030076',
             image: mokosh5902729030076,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face, skincare/body, skincare/hands&feets, hair/care',
             name: 'Olej jojoba dla dzieci i niemowląt',
             description: 'Olej jojoba dla dzieci i niemowląt tłoczony metodą na "zimno" to kosmetyk\n' +
                 'hipoalergiczny. Nasz 100% olej jojoba został przebadany dermatologicznie,\n' +
@@ -1193,6 +1231,7 @@ export default {
             ean: '5902729030519',
             image: mokosh5902729030519,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/face',
             name: 'Lanolina hipoalergiczna',
             description: '100% Lanolina dla dzieci, niemowląt i matek karmiących to\n' +
                 'w pełni naturalny produkt otrzymywany podczas czyszczenia wełny owiec\n' +
@@ -1211,6 +1250,7 @@ export default {
             ean: '5902729030366',
             image: mokosh5902729030366,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól jodowo - bromowa',
             description: 'Wysoko zmineralizowana sól jodowo-bromowa to produkt w 100% naturalny,\n' +
                 'zawiera barwników, środków zapachowych, konserwantów i emulgatorów. Ma\n' +
@@ -1225,6 +1265,7 @@ export default {
             ean: '5902729030373',
             image: mokosh5902729030373,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól kolagenowa',
             description: 'Sól jodowo-bromowa z koncentratem kolagenu działa regenerująco\n' +
                 'i wygładzająco na skórę. Poprawia jej nawilżenie i elastyczność. Kolagen\n' +
@@ -1240,6 +1281,7 @@ export default {
             ean: '5902729030403',
             image: mokosh5902729030403,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól naturalna z Morza Martwego',
             description: 'Sól naturalna z Morza Martwego jest produktem w 100% naturalnym, bogatym\n' +
                 'w mangan, żelazo, wapń, magnez i potas. Mangan jest naturalnym\n' +
@@ -1258,6 +1300,7 @@ export default {
             ean: '5902729030397',
             image: mokosh5902729030397,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól karnalitowa z Morza Martwego',
             description: 'Sól karnalitowa z Morza Martwego to najbardziej pożądana z soli\n' +
                 'występujących w tym akwenie. Jest w 100% naturalna, wysoko\n' +
@@ -1276,6 +1319,7 @@ export default {
             ean: '5902729030380',
             image: mokosh5902729030380,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól algi morskie',
             description: 'Wysoko zmineralizowana sól algowa przeznaczona do kąpieli i peelingów\n' +
                 'zawiera oprócz bogatej w jod i brom soli naturalnej ekstrakt z algi Laminaria\n' +
@@ -1293,6 +1337,7 @@ export default {
             ean: '5902729030427',
             image: mokosh5902729030427,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól Żurawina',
             description: 'Regenerująca sól jodowo-bromowa do kąpieli i peelingu o aromacie żurawiny\n' +
                 'pobudza zmysły, odpręża i relaksuje. Zawiera kompleks biopierwiastków, który\n' +
@@ -1308,6 +1353,7 @@ export default {
             ean: '5902729030410',
             image: mokosh5902729030410,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Sól Pomarańcza z cynamonem',
             description: 'Regenerująca sól jodowo-bromowa o aromacie pomarańczy z cynamonem\n' +
                 'pobudza zmysły, odpręża i relaksuje. Zawiera kompleks biopierwiastków, który\n' +
@@ -1324,6 +1370,8 @@ export default {
             ean: '5902729030335',
             image: mokosh5902729030335,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Pomarańczowy',
             description: 'Gorąca kąpiel z silnym aromatem olejku pomarańczowego uspokoi, zrelaksuje\n' +
                 'i złagodzi napięcie nerwowe. Świeży, cytrusowy aromat olejku może być\n' +
@@ -1340,6 +1388,8 @@ export default {
             ean: '5902729030311',
             image: mokosh5902729030311,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Drzewo herbaciane',
             description: 'Wesprzyj swoją walkę z trądzikiem, łupieżem, a nawet schorzeniami\n' +
                 'bakteryjnymi zanurzając się w ciepłej kąpieli z dodatkiem aktywnego olejku\n' +
@@ -1356,6 +1406,8 @@ export default {
             ean: '5902729030328',
             image: mokosh5902729030328,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Eukaliptusowy',
             description: 'Odetchnij głęboko wonią eukaliptusa. Zanurz się w gorącej kąpieli z olejkiem,\n' +
                 'aby rozluźnić swoje mięśnie i zlikwidować napięcie. Jego świeży aromat może\n' +
@@ -1371,6 +1423,8 @@ export default {
             ean: '5902729030359',
             image: mokosh5902729030359,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Lawendowy',
             description: 'Zapach lawendy pomaga wyciszyć umysł, sprzyja relaksacji i przywodzi na myśl\n' +
                 'zalane słońcem prowansalskie łąki. Lawenda to olejek stosowany\n' +
@@ -1387,6 +1441,8 @@ export default {
             ean: '5902729030342',
             image: mokosh5902729030342,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Rozmarynowy',
             description: 'Oczyść swoją skórę i odetchnij z ulgą podczas kąpieli parowej z dodatkiem olejku\n' +
                 'rozmarynowego i wspomóż pielęgnację cery trądzikowej. Wykonaj kąpiel\n' +
@@ -1403,6 +1459,8 @@ export default {
             ean: '5902729030304',
             image: mokosh5902729030304,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Ylang-Ylang',
             description: 'W medycynie tradycyjnej olejek ilangowy od lat stosowany był jako afrodyzjak.\n' +
                 'Odpręż się i pobudź swoje zmysły wypełniając swoje nozdrza aromatem Ylang\n' +
@@ -1420,6 +1478,8 @@ export default {
             ean: '5902729031868',
             image: mokosh5902729031868,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Bergamotowy',
             description: 'Olejek stosowany jest w przemyśle perfumeryjnym. Głęboka cytrusowa nuta\n' +
                 'przypomina zapachem herbatę Earl Grey. Świetnie sprawdzi się w pielęgnacji\n' +
@@ -1436,6 +1496,8 @@ export default {
             ean: '5902729031820',
             image: mokosh5902729031820,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Paczuli',
             description: 'Korzenno-balsamiczny aromat olejku Paczuli od stuleci stosowany jest\n' +
                 'w przemyśle perfumeryjnym. Zanurz się w gorącej kąpieli z olejkiem, która\n' +
@@ -1453,6 +1515,8 @@ export default {
             ean: '5902729031851',
             image: mokosh5902729031851,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Cedrowy',
             description: 'Aromatyzacja powietrza olejkiem cedrowym odświeża i oczyszcza wnętrze.\n' +
                 'Kąpiel z jego dodatkiem relaksuje ciało, łagodzi napięcie i korzystnie wpływa na\n' +
@@ -1468,6 +1532,8 @@ export default {
             ean: '5902729031844',
             image: mokosh5902729031844,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Jodłowy',
             description: 'Wypełnij wnętrze głębokim, leśnym aromatem olejku jodłowego i odetchnij\n' +
                 'z ulgą. Dodatek do kąpieli olejku pomoże zrelaksować się i wypielęgnować skórę.\n' +
@@ -1484,6 +1550,8 @@ export default {
             ean: '5902729031875',
             image: mokosh5902729031875,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Trawa cytrynowa',
             description: 'Wesprzyj pielęgnację problematycznej skóry twarzy z olejkiem z trawy\n' +
                 'cytrynowej. Dodatek do kąpieli olejku wspomoże rozluźnieniu mięśni i relaksacji.\n' +
@@ -1500,6 +1568,8 @@ export default {
             ean: '5902729031837',
             image: mokosh5902729031837,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: '100% olejek eteryczny Szałwiowy',
             description: 'Wesprzyj pielęgnację trądzikowej i nadmiernie potliwej skóry z olejkiem\n' +
                 'szałwiowym. Dodatek olejku do kąpieli pomoże zrelaksować się, a kąpiel parowa\n' +
@@ -1516,6 +1586,7 @@ export default {
             ean: '5902729030984',
             image: mokosh5902729030984,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Peeling solny do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Wygładzający, oczyszczający i napinający peeling zaprojektowano, aby zapewnić\n' +
                 'skórze wielowymiarową pielęgnację. Sól z Morza Martwego masuje ciało,\n' +
@@ -1545,6 +1616,7 @@ export default {
             ean: '5902729030991',
             image: mokosh5902729030991,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Masło do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Odżywcze, regenerujące i antyoksydacyjne masło do ciała zaprojektowano, aby\n' +
                 'dostarczyć skórze maksimum nawilżenia, odnowy i ujędrnienia. Masło zawiera\n' +
@@ -1574,6 +1646,7 @@ export default {
             ean: '5902729030960',
             image: mokosh5902729030960,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Rozświetlające serum do ciała MOKOSH icon Wanilia z tymiankiem',
             description: 'Rozświetlające serum nadaje skórze aksamitną gładkość, blask i maksymalną\n' +
                 'ochronę przed wolnymi rodnikami. Serum stworzone z organicznych olei,\n' +
@@ -1605,6 +1678,7 @@ export default {
             ean: '5902729031813',
             image: mokosh5902729031813,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Specjalistyczny balsam antycellulitowy Mokosh ICON Wanilia z tymiankiem',
             description: 'Zawiera wyciągi z traganka, ruszczyku, cytryny i nawłoci, które wykazują\n' +
                 'działanie antycellulitowe, ujędrniające i przeciwobrzękowe. Ekstrakt z korzenia\n' +
@@ -1641,6 +1715,7 @@ export default {
             ean: '5902729031912',
             image: mokosh5902729031912,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Wypełniający krem do biustu MOKOSH icon Wanilia z tymiankiem',
             description: 'Zawarty w kremie olej z czarnuszki stanowi bogactwo kwasów omega 3 i 6\n' +
                 'przez\n' +
@@ -1677,6 +1752,8 @@ export default {
             ean: '5902729031790',
             image: mokosh5902729031790,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: 'Roślinna świeca sojowa Jodłowy bór',
             description: 'Jodłowy bór przenosi w gęstwinę iglastego lasu. Aromat gór, dzikich zakątków\n' +
                 'lasu, strumieni, potoków i czystego powietrza, sprawia, że nabieramy fizycznej\n' +
@@ -1699,6 +1776,8 @@ export default {
             ean: '5902729031776',
             image: mokosh5902729031776,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: 'Roślinna świeca sojowa Orientalny ogród',
             description: 'Orientalny ogród to głęboki, żywiczny zapach paczuli połączony ze słodyczą\n' +
                 'ylang ylang i świeżością krzewów cytrusowych przenosi w egzotyczne miejsce,\n' +
@@ -1721,6 +1800,8 @@ export default {
             ean: '5902729031783',
             image: mokosh5902729031783,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: 'Roślinna świeca sojowa Sielska łąka',
             description: 'Zawarte w świecy ekstrakty z lawendy i bergamoty łagodzą napięcia i wyciszają\n' +
                 'gonitwę myśli. Zapach świecy Sielska łąka pomaga ochłonąć po ciężkim dniu w\n' +
@@ -1742,6 +1823,8 @@ export default {
             ean: '5902729031806',
             image: mokosh5902729031806,
             brand: 'Mokosh Cosmetics',
+            category: '',
+
             name: 'Roślinna świeca sojowa\n' +
                 'Śródziemnomorski gaj',
             description: 'Odświeżający, lekki zapach Śródziemnomorskiego gaju przywodzi na myśl\n' +
@@ -1766,6 +1849,7 @@ export default {
             ean: '5902729031882',
             image: mokosh5902729031882,
             brand: 'Mokosh Cosmetics',
+            category: 'skincare/body',
             name: 'Szczotka do masażu ciała\n' +
                 'na sucho i mokro Mokosh',
             description: 'Szczotka do masażu ciała wykonana z naturalnego włókna agawy i wysokiej\n' +
@@ -1787,6 +1871,7 @@ export default {
             ean: '8806334344184',
             image: holika8806334344184,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Baby Silky Foot Mask',
             description: 'Regenerująca maseczka do stóp w postaci bawełnianych skarpet\n' +
                 'Produkt zawiera składniki roślinne, które nawilżają, odżywiają i rewitalizują zmęczone stopy.',
@@ -1799,6 +1884,7 @@ export default {
             ean: '8806334335809',
             image: holika8806334335809,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Baby Silky Foot One Shot Peeling',
             description: 'Peeling do stóp w formie skarpet\n' +
                 'Produkt usuwa zrogowaciały naskórek, pozostawiając skórę stóp miękką i gładką. \n' +
@@ -1816,6 +1902,7 @@ export default {
             ean: '8806334344191',
             image: holika8806334344191,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Baby Silky Hand Mask',
             description: 'Nawilżająco-złuszczająca maseczka do rąk w postaci bawełnianych rękawiczek\n' +
                 'Produkt rozjaśnia, wygładza oraz zmiękcza suche, zniszczone dłonie. Bogata formuła maseczki \n' +
@@ -1829,6 +1916,7 @@ export default {
             ean: '8806334375850',
             image: holika8806334375850,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Cotton Bebe Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu bawełny',
             price: '34,99',
@@ -1840,6 +1928,7 @@ export default {
             ean: '8806334375874',
             image: holika8806334375874,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Freesia Blooming Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu słodkich kwiatów frezji',
             price: '34,99',
@@ -1851,6 +1940,7 @@ export default {
             ean: '8806334375829',
             image: holika8806334375829,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Jasmin Bouchet Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu jaśminowym.',
             price: '34,99',
@@ -1862,6 +1952,7 @@ export default {
             ean: '8806334375867',
             image: holika8806334375867,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Laundry Clean Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o odświeżającym zapachu porannego, czystego prania',
             price: '34,99',
@@ -1873,6 +1964,7 @@ export default {
             ean: '8806334375836',
             image: holika8806334375836,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Peach Date Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu brzoskwiniowym',
             price: '34,99',
@@ -1884,6 +1976,7 @@ export default {
             ean: '8806334375843',
             image: holika8806334375843,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Rainy Rose Tree Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu różanym',
             price: '34,99',
@@ -1895,6 +1988,7 @@ export default {
             ean: '8806334375881',
             image: holika8806334375881,
             brand: 'Holika Holika',
+            category: 'skincare/hands&feets',
             name: 'Holika Holika Violet Sparkling Perfumed Hand Cream',
             description: 'Bardzo dobrze nawilżający krem do rąk o zapachu cytrusowym.',
             price: '34,99',
@@ -1906,6 +2000,7 @@ export default {
             ean: '8806334376550',
             image: holika8806334376550,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika AC & MILD Soothing Emulsion',
             description: 'Nawilżająca emulsja przeznaczona do skóry tłustej, problematycznej i trądzikowej.\n' +
                 'Zwęża pory, reguluje pracę gruczołów łojowych, czyni skórę zdrowszą i zapobiega pojawieniu się \n' +
@@ -1923,6 +2018,7 @@ export default {
             ean: '8806334377328',
             image: holika8806334377328,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Soothing Essence 90% Emulsion AD',
             description: 'Nawilżająca emulsja z wysoką zawartością ekstraktu z aloesu. Produkt wygładza, odżywia i \n' +
                 'ujędrnia podrażnioną skórę. Posiada delikatną konsystencję, dzięki czemu szybko wchłania się w \n' +
@@ -1953,6 +2049,7 @@ export default {
             ean: '8806334337599',
             image: holika8806334337599,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Caviar Antiwrinkle Emulsion',
             description: 'Emulsja silnie liftingująca z ekstraktem z czarnego kawioru. Produkt przeznaczony jest do \n ' +
                 'skóry dojrzałej, która utraciła jędrność i sprężystość. Emulsja głęboko nawilża, wygładza i \n' +
@@ -1975,6 +2072,7 @@ export default {
             ean: '8806334384517',
             image: holika8806334384517,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Mechnikov’s probiotics formula balancing emulsion',
             description: 'Nawilżająca emulsja do twarzy, która odżywia skórę i przyśpiesza jej regeneracje.\n' +
                 'Dzięki obecności probiotyków tworzy ochronną barierę na skórze zabezpieczając ją przed złymi \n' +
@@ -1994,6 +2092,7 @@ export default {
             ean: '8806334383275',
             image: holika8806334383275,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth 24K Gold Repair Emulsion',
             description: 'Prime Youth 24K Gold Repair to seria luksusowych, profesjonalnych kosmetyków \n' +
                 'przeciwstarzeniowych do skóry dojrzałej i pozbawionej jędrności. Głównym składnikiem jest złoto, \n' +
@@ -2012,6 +2111,7 @@ export default {
             ean: '8806334358525',
             image: holika8806334358525,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Repair Emulsion',
             description: 'Lekka emulsja nawilżająca do twarzy. Produkt posiada składniki, które ogólnie \n' +
                 'przyśpieszają regenerację skóry, dzięki czemu niedoskonałości i zmarszczki z czasem mogą ulec \n' +
@@ -2036,6 +2136,7 @@ export default {
             ean: '8806334369460',
             image: holika8806334369460,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin and Good Cera Emulsion (Sensitive)',
             description: 'Lekka emulsja do codziennego nawilżania skóry. Produkt zapewnia skórze odpowiednie \n' +
                 'nawilżenie, tworząc barierę, która chroni przed niekorzystnymi czynnikami zewnętrznymi, \n' +
@@ -2053,6 +2154,7 @@ export default {
             ean: '8806334355302',
             image: holika8806334355302,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/body',
             name: 'Holika Holika Aloe 99% Soothing Gel',
             description: 'Wielofunkcyjny aloesowy żel zawierający 99% soku z liści z aloesu. Produkt nawilża skórę, \n' +
                 'działa kojąco, chłodząco i odświeżająco. Może być stosowany zarówno do skóry twarzy, jak i całego \n' +
@@ -2080,6 +2182,7 @@ export default {
             ean: '8806334383435',
             image: holika8806334383435,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/body',
             name: 'Holika Holika Water Melon 96% Soothing Gel',
             description: 'Nawilżający, lekki żel do ciała oraz twarzy z zawartością 96% ekstraktu z arbuza. Chłodzi, \n' +
                 'koi i pielęgnuje skórę. Dostracza cerze dużą ilość składników odżywczych, które sprawiają, że jest \n' +
@@ -2106,6 +2209,7 @@ export default {
             ean: '8806334379582',
             image: holika8806334379582,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/body',
             name: 'Holika Holika Aloe 97% Soothing Gel Lotion Intensive Moisturizing',
             description: 'Głęboko nawilżający balsam do twarzy i ciała z zawartością soku z aloesu oraz 21 \n' +
                 'organicznych ekstraktów roślinnych. Produkty koi, ujędrnia i wygładza skórę. Łagodzi podrażnienia \n' +
@@ -2125,6 +2229,7 @@ export default {
             ean: '8806334353988',
             image: holika8806334353988,
             brand: 'Holika Holika',
+            category: 'skincare/body',
             name: 'Holika Holika Aloe 92% Shower Gel',
             description: 'Delikatny żel pod prysznic z 92% zawartością soku z aloesu. Produkt dokładnie oczyszcza \n' +
                 'ciało. Przynosi efekt nawilżenia i odświeżenia dzięki wysokiej zawartości soku z aloesu. Dobrze \n' +
@@ -2143,6 +2248,7 @@ export default {
             ean: '8806334377373',
             image: holika8806334377373,
             brand: 'Holika Holika',
+            category: 'skincare/body',
             name: 'Holika Holika Aloe 92% Shower Gel AD',
             description: 'Delikatny żel pod prysznic z 92% zawartością soku z aloesu. Produkt dokładnie czyści skórę \n' +
                 'z wszelkich zabrudzeń. Działa nawilżająco. Ma delikatny, odświeżający zapach. Żel przeznaczony jest \n' +
@@ -2173,6 +2279,7 @@ export default {
             ean: '8806334360962',
             image: holika8806334360962,
             brand: 'Holika Holika',
+            category: 'skincare/body, skincare/face',
             name: 'Holika Holika Aloe 99% Soothing Gel',
             description: 'Wielofunkcyjny aloesowy żel zawierający 99% soku z liści z aloesu. Produkt nawilża skórę, \n' +
                 'działa kojąco, chłodząco i odświeżająco. Może być stosowany zarówno do skóry twarzy, jak i całego \n' +
@@ -2200,6 +2307,7 @@ export default {
             ean: '8806334377335',
             image: holika8806334377335,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Soothing Essence 80% Moisturizing Cream',
             description: 'Nawilżający krem do twarzy. Produkt posiada konsystencję typu "water drop" \n' +
                 '(emulsji żelowej), która szybko się wchłania w głąb skóry, dostarczając niezbędne składniki \n' +
@@ -2230,6 +2338,7 @@ export default {
             ean: '8806334337629',
             image: holika8806334337629,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Caviar Antiwrinkle Cream',
             description: 'Nawilżający krem przeciwzmarszczkowy z kawiorem. Produkt wykazuje działanie głęboko \n' +
                 'nawilżające oraz przeciwdziała parowaniu wody ze skóry, dzięki czemu staje się ona gładka, jędrna \n' +
@@ -2254,6 +2363,7 @@ export default {
             ean: '8806334337612',
             image: holika8806334337612,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Caviar Antiwrinkle Eye Cream',
             description: 'Przeciwzmarszczkowy krem pod oczy z czarnym kawiorem. Produkt ma za zadanie przeciwdziałać \n' +
                 'procesom starzenia się skóry, niwelować drobne zmarszczki i kurze łapki wokół oczu. Dogłębnie \n' +
@@ -2280,6 +2390,7 @@ export default {
             ean: '8806334384104',
             image: holika8806334384104,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Mechnikov’s probiotics formula radiance cream',
             description: 'Odmładzający krem z aktywnym tlenem i probiotykami. Może rewitalizować skórę, działając \n' +
                 'rozświetlająco poprawiając wygląd szarej, zmęczonej skóry. Probiotyki ogólnie wykazują działanie \n' +
@@ -2307,6 +2418,7 @@ export default {
             ean: '8806334383282',
             image: holika8806334383282,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth 24K Gold Repair Cream',
             description: 'Prime Youth 24K Gold Repair to seria luksusowych, profesjonalnych kosmetyków \n' +
                 'przeciwstarzeniowych do skóry dojrzałej i pozbawionej jędrności. Głównym składnikiem jest złoto, \n' +
@@ -2327,6 +2439,7 @@ export default {
             ean: '8806334358532',
             image: holika8806334358532,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Repair Cream',
             description: 'Nawilżający krem do twarzy z ekstraktem ze śluzu czarnego ślimaka. Krem z  zawartością \n' +
                 'ekstraktu z otuliny hibernacyjnej czarnego ślimaka afrykańskiego. Składniki zawarte wspomagają \n' +
@@ -2353,6 +2466,7 @@ export default {
             ean: '8806334365479',
             image: holika8806334365479,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Repair Eye Cream',
             description: 'Krem pod oczy z ekstraktem z czarnego ślimaka. Produkt zawiera ekstrakt ze śluzu ślimaka \n' +
                 'oraz z łożyska roślinnego. Składniki te posiadają właściwości o charakterze  przeciwzmarszczkowym \n' +
@@ -2368,6 +2482,7 @@ export default {
             ean: '8806334374969',
             image: holika8806334374969,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin and Good Cera Super Ceramaide Moisture Balm (Sensitive)',
             description: 'Wysoko skoncentrowany krem odżywczo-regenerujący. Produkt uzupełnia lipidy we wszystkich \n' +
                 'warstwach naskórka. Zwalcza uczucie szorstkości, ściągnięcia i podrażnienia. Nadaje skórze \n' +
@@ -2392,6 +2507,7 @@ export default {
             ean: '8806334369477',
             image: holika8806334369477,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin and Good Cera Super Cream (Sensitive)',
             description: 'Silnie nawilżający krem z ceramidami. Produkt ogranicza odparowywanie wody ze skóry, \n' +
                 'zwiększając jej hydratację, dzięki czemu przyśpiesza regenerację skóry. Nie zawiera talku i \n' +
@@ -2412,6 +2528,7 @@ export default {
             ean: '8806334333324',
             image: holika8806334333324,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Honey Sleeping Pack(Acerola)',
             description: 'Całonocna maseczka z zawartością miodu i aceroli. Produkt o konsystencji gęstego żelu \n' +
                 'dogłębnie nawilża skórę. Ujędrnia i rozjaśnia skórę. Przeciwdziała oznakom starzenia się skóry, \n' +
@@ -2431,6 +2548,7 @@ export default {
             ean: '8806334333317',
             image: holika8806334333317,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Honey Sleeping Pack(Blueberry)',
             description: 'Całonocna maseczka z zawartością miodu. Produkt o konsystencji gęstego żelu dogłębnie \n' +
                 'nawilża skórę. Reguluje wydzielanie sebum, zmniejszając widoczność porów. Zmiękcza i wygładza \n' +
@@ -2451,6 +2569,7 @@ export default {
             ean: '8806334333331',
             image: holika8806334333331,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Honey Sleeping Pack(Canola)',
             description: 'Całonocna maseczka z zawartością miodu. Produkt o konsystencji gęstego żelu wykazujący \n' +
                 'właściwości dogłębnie nawilżające. Odżywia zmęczoną, szarą skórę, która wystawiana jest na \n' +
@@ -2469,6 +2588,7 @@ export default {
             ean: '8806334353964',
             image: holika8806334353964,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Collagen Jelly Pack',
             description: 'Żelowa maseczka do twarzy. Produkt odżywia i głęboko nawilża skórę. Gęsta maseczka \n' +
                 'sprawia, że skóra uzyskuje odpowiednią jędrność i elastyczność. Wyraźnie odmładza i łagodzi \n' +
@@ -2488,6 +2608,7 @@ export default {
             ean: '8806334371081',
             image: holika8806334371081,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Superfood Capsule Pack Artichoke - antiwrinkle',
             description: 'Przeciwzmarszczkowa maseczka całonocna. Produkt zawiera ekstrakt wegański z warzyw i \n' +
                 'kiełków, który dostarcza skórze niezbędne związki odżywcze, witaminy, enzymy i aminokwasy. \n' +
@@ -2507,6 +2628,7 @@ export default {
             ean: '8806334371104',
             image: holika8806334371104,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Superfood Capsule Pack Blackberry - brightening',
             description: 'Rozjaśniająca maseczka całonocna. Produkt zawiera ekstrakt z czarnych jagód. Wykazuje \n' +
                 'działanie rozjaśniające, wyrównuje koloryt cery, zwalcza wolne rodniki. Posiada delikatną, \n' +
@@ -2525,6 +2647,7 @@ export default {
             ean: '8806334371098',
             image: holika8806334371098,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Superfood Capsule Pack Lentils - firming',
             description: 'Odżywcza maseczka całonocna. Produkt zawiera ekstrakt z soczewicy. Wykazuje silne \n' +
                 'działanie ujędrniające i wygładzające. Przeznaczony jest do skóry szarej, zmęczonej, wymagającej \n' +
@@ -2542,6 +2665,7 @@ export default {
             ean: '8806334371074',
             image: holika8806334371074,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Superfood Capsule Pack Peppermint - cleansing',
             description: 'Oczyszczająca maseczka. Produkt zawiera ekstrakt z ziół, który działa antybakteryjnie \n' +
                 'na tłustą, problematyczną cerę. Ekstrakt z mięty chłodzi i orzeźwia skórę. poprawiając jej wygląd \n' +
@@ -2561,6 +2685,7 @@ export default {
             ean: '8806334371067',
             image: holika8806334371067,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Superfood Capsule Pack Sea Grapes - moisture',
             description: 'Nawilżająca maseczka całonocna. Produkt zawiera ekstrakty z tzw. morskich winogron \n' +
                 'glonów, nazywanych również zielonym kawiorem. Glony te bogate są w minerały, witaminy, błonnik \n' +
@@ -2581,6 +2706,7 @@ export default {
             ean: '8806334338572',
             image: holika8806334338572,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Wine Therapy Sleeping Mask (Red Wine)',
             description: 'Całonocna maseczka z wyciągiem z czerwonego wina. Produkt wykazuje działanie \n' +
                 'przeciwzmarszczkowe. Skutecznie usuwa martwe komórki, sprawiając, że powierzchnia skóry jest \n' +
@@ -2600,6 +2726,7 @@ export default {
             ean: '8806334338558',
             image: holika8806334338558,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Wine Therapy Sleeping Mask (White Wine)',
             description: 'Całonocna maseczka z wyciągiem z białego wina. Produkt odżywia i rozjaśnia skórę, \n' +
                 'przywracając jej naturalny blask. Szybko się wchłania, nie pozostawiając lepkiej warstwy. Sprawia, \n' +
@@ -2618,6 +2745,7 @@ export default {
             ean: '8806334350437',
             image: holika8806334350437,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After Drinking',
             description: 'Odświeżająco-oczyszczająca maseczka na bawełnianej płachcie. Produkt przeznaczony do \n' +
                 'suchej i wrażliwej skóry. Maseczka ma właściwości detoksacyjne, dlatego polecana jest osobom, \n' +
@@ -2632,6 +2760,7 @@ export default {
             ean: '8806334350451',
             image: holika8806334350451,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After Hard Study',
             description: 'Oczyszczająca maseczka na bawełnianej płachcie. Produkt skutecznie oczyszcza i odświeża \n' +
                 'skórę, szczególnie po wysiłku umysłowym. Holika Holika After Mask Sheet. Seria maseczek na \n' +
@@ -2645,6 +2774,7 @@ export default {
             ean: '8806334350475',
             image: holika8806334350475,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After Sauna',
             description: 'Wygładzająca maseczka na bawełnianej płachcie. Produkt zwęża pory po wizycie w saunie, \n' +
                 'sprawiając, że cera wygląda atrakcyjnie. Główne składniki: Ekstrakt z mięty, kasztanów, ogórka \n' +
@@ -2658,6 +2788,7 @@ export default {
             ean: '8806334350444',
             image: holika8806334350444,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After Trip',
             description: 'Rozjaśniająca maseczka na bawełnianej płachcie. Produkt nawilża i rewitalizuje zmęczoną \n' +
                 'skórę po wycieczce. Główne składniki: Ekstrakt z pomidora, kiwi, pomarańczy i kokosu - rozjaśnia \n' +
@@ -2671,6 +2802,7 @@ export default {
             ean: '8806334350420',
             image: holika8806334350420,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After Working out',
             description: 'Odświeżająco-oczyszczająca maseczka na bawełnianej płachcie. Produkt rewitalizuje skórę \n' +
                 'po wysiłku fizycznym. Główne składniki: Ekstrakt z aloesu, miodu, ziemniaka i bambusa - łagodzi \n' +
@@ -2684,6 +2816,7 @@ export default {
             ean: '8806334350468',
             image: holika8806334350468,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika After Mask Sheet - After working overtime',
             description: 'Rewitalizująca maseczka na bawełnianej płachcie. Produkt przynosi ulgę zmęczonej \n' +
                 'skórze po całym dniu pracy. Główne składniki: Ekstrakt z mięty, rumianku, aceroli i czarnych \n' +
@@ -2697,6 +2830,7 @@ export default {
             ean: '8806334365561',
             image: holika8806334365561,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe 99% Soothing Gel Jelly Mask Sheet',
             description: 'Maseczka do twarzy na płachcie z wyciągiem z aloesu. Produkt zawiera 99% ekstraktu z \n' +
                 'aloesu pochodzącego z wyspy Jeju w Korei Południowej. Dogłębnie nawilża skórę twarzy, wspomaga \n' +
@@ -2712,6 +2846,7 @@ export default {
             ean: '8806334366698',
             image: holika8806334366698,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Slice Soothing Gel Multi Patch',
             description: 'Maseczka w formie plastrów nasączonych sokiem z aloesu. Produkt doskonale nawilża \n' +
                 'skórę dowolnej części ciała. Wykazuje działanie łagodzące oraz odprężające. Niweluje \n' +
@@ -2726,6 +2861,7 @@ export default {
             ean: '8806334382773',
             image: holika8806334382773,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Soothing Jelly Mask AD Fresh (2019)',
             description: 'Maseczka do twarzy na płachcie, zawiera 99% ekstraktu z aloesu z rejonu Jeju w Korei \n' +
                 'Południowej. Doskonale nawilża skórę, koi, uspokaja podrażnioną skórę. Rewelacyjna kuracja na \n' +
@@ -2748,6 +2884,7 @@ export default {
             ean: '8806334359935',
             image: holika8806334359935,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Baby Pet Magic Mask Sheet (Cat)',
             description: 'Odświeżająca maseczka do twarzy na bawełnianej płachcie. Produkt działa oczyszczająco, \n' +
                 'ściągająco i przeciwbakteryjnie. Przeciwdziała powstawaniu trądziku, łagodzi zaczerwienienia i \n' +
@@ -2762,6 +2899,7 @@ export default {
             ean: '8806334359928',
             image: holika8806334359928,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Baby Pet Magic Mask Sheet (Panda)',
             description: 'Witaminowa maseczka do twarzy na bawełnianej płachcie. Produkt nawilża szarą i zmęczoną \n' +
                 'cerę, dodając jej blasku. Niweluje cienie pod oczami i rozjaśnia skórę, sprawiając, że wygląda \n' +
@@ -2777,6 +2915,7 @@ export default {
             ean: '8806334359904',
             image: holika8806334359904,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Baby Pet Magic Mask Sheet (Pug)',
             description: 'Pielęgnacyjna maseczka do twarzy na bawełnianej płachcie. Produkt redukuje zmarszczki \n' +
                 'mimiczne oraz  zwiększa elastyczność i sprężystość skóry twarzy. Rozjaśnia skórę i sprawia, że \n' +
@@ -2791,6 +2930,7 @@ export default {
             ean: '8806334359911',
             image: holika8806334359911,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Baby Pet Magic Mask Sheet (Seal)',
             description: 'Rozjaśniająca maseczka do twarzy na bawełnianej płachcie. Produkt redukuje widoczność \n' +
                 'przebarwień, piegów i innych plam pigmentacyjnych na skórze. Wyrównuje powierzchnię skóry, \n' +
@@ -2805,6 +2945,7 @@ export default {
             ean: '8806334381714',
             image: holika8806334381714,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Less on Skin Redness Calming Cica Dressing Mask',
             description: 'Łagodząco-nawilżająca maseczka wykonana z gazy opatrunkowej do wrażliwej, podrażnionej, \n' +
                 'zaczerwienionej oraz suchej skóry. Szybko koi i regeneruje skórę. Zmniejsza podrażnienia oraz \n' +
@@ -2823,6 +2964,7 @@ export default {
             ean: '8806334343347',
             image: holika8806334343347,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Makgeolli Brightening Mask Sheet',
             description: 'Rozjaśniająca maseczka na bawełnianej płachcie. Produkt dostarcza skórze dostarcza \n' +
                 'wiele witamin oraz minerałów. Rozjaśnia różnego rodzaju przebarwienia, piegi oraz plamy \n' +
@@ -2845,6 +2987,7 @@ export default {
             ean: '8806334384739',
             image: holika8806334384739,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Mechnikov’s probiotics formula brightening mask',
             description: 'Nawilżająca maseczka na płachcie, która rozjaśnia i odżywia skórę. Może działać również \n' +
                 'liftingująco zmniejszając oznaki starzenia się. Zawiera sfermentowane probiotyki, które jako \n' +
@@ -2865,6 +3008,7 @@ export default {
             ean: '8806334354008',
             image: holika8806334354008,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Collagen Gel Mask',
             description: '2-częściowa maseczka hydrożelowa o działaniu przeciwzmarszczkowym i rozjaśniającym. \n' +
                 'Produkt nawilża, odżywia i wygładza skórę, rozjaśniając przebarwienia. Cera uzyskuje zdrowy, \n' +
@@ -2880,6 +3024,7 @@ export default {
             ean: '8806334358563',
             image: holika8806334358563,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Repair Hydro Gel Mask',
             description: 'Żelowa maseczka z wysoką zawartością ekstraktu z czarnego ślimaka. Produkt ma składniki \n' +
                 'o właściwościach wzmacniających i nawilżających skórę. Forma maseczki ułatwia wnikanie \n' +
@@ -2903,6 +3048,7 @@ export default {
             ean: '8806334365127',
             image: holika8806334365127,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Gold Caviar Gold Foil Mask',
             description: 'Maseczka do twarzy z cząsteczkami złota. Produkt wykazuje silne właściwości \n' +
                 'przeciwzmarszczkowe. Zwiększa gęstość, jędrność i elastyczność skóry. Główne składniki:\n' +
@@ -2919,6 +3065,7 @@ export default {
             ean: '8806334364410',
             image: holika8806334364410,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth White Snail Tone-up Mask Sheet',
             description: 'Rozjaśniająca maseczka na bawełnianej płachcie z ekstraktem ze śluzu ślimaka. Produkt \n' +
                 'silnie odżywia i nawilża skórę. Posiada działanie przeciwzmarszczkowe, spłyca istniejące \n' +
@@ -2938,6 +3085,7 @@ export default {
             ean: '8806334368142',
             image: holika8806334368142,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Acaiberry',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z jagód acai. Produkt nawadnia skórę i \n' +
                 'działa przeciwzmarszczkowo. Wykazuje działanie silnie liftingujące, spłyca zmarszczki, zwiększa \n' +
@@ -2958,6 +3106,7 @@ export default {
             ean: '8806334368128',
             image: holika8806334368128,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Avocado',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z awokado. Produkt nawilża skórę. Ma \n' +
                 'właściwości zmiękczające i wygładzające skórę twarzy. Odpowiedni do skóry suchej, uszkodzonej, \n' +
@@ -2972,6 +3121,7 @@ export default {
             ean: '8806334378752',
             image: holika8806334378752,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Charcoal',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z węgla. Produkt oczyszcza pory, a także \n' +
                 'reguluje wydzielanie łoju. Zmniejsza istniejące wypryski oraz spowalnia ich rozwój. Po aplikacji \n' +
@@ -2991,6 +3141,7 @@ export default {
             ean: '8806334368104',
             image: holika8806334368104,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Cucumber',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z ogórka. Maseczka na bawełnianej \n' +
                 'płachcie z ekstraktem z ogórka. Ma właściwości odświeżające oraz łagodzące skórę. Ponadto \n' +
@@ -3005,6 +3156,7 @@ export default {
             ean: '8806334368081',
             image: holika8806334368081,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Green Tea',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z zielonej herbaty. Produkt ma \n' +
                 'właściwości nawilżające i odświeżające skórę. Po aplikacji skóra jest gładka i jędrna, co \n' +
@@ -3021,6 +3173,7 @@ export default {
             ean: '8806334368111',
             image: holika8806334368111,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Lemon',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z cytryny. Maseczka na bawełnianej \n' +
                 'płachcie z ekstraktem z cytryny. Ma właściwości oczyszczające, odświeżające oraz dodaje blasku.\n' +
@@ -3034,6 +3187,7 @@ export default {
             ean: '8806334368159',
             image: holika8806334368159,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Pearl',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z pereł. Produkt regeneruje, nawilża i \n' +
                 'wzmacnia skórę. Działa przeciwzmarszczkowo, poprawia napięcie skóry i wygładza ją. Maseczka \n' +
@@ -3055,6 +3209,7 @@ export default {
             ean: '8806334368173',
             image: holika8806334368173,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Rice',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z ryżu. Produkt odżywia, nawilża i \n' +
                 'uelastycznia skórę. Holika Holika Pure Essence Mask Sheet to kolekcja 10 maseczek na \n' +
@@ -3073,6 +3228,7 @@ export default {
             ean: '8806334368098',
             image: holika8806334368098,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Rose',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z dzikiej róży. Maseczka na \n' +
                 'bawełnianiej płachcie z ekstraktem z dzikiej róży. Nawilża oraz nadaje gładkości skórze. \n' +
@@ -3087,6 +3243,7 @@ export default {
             ean: '8806334368135',
             image: holika8806334368135,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Shea Butter',
             description: 'Maseczka na bawełnianej płachcie z masłem shea. Produkt nawilża i regeneruje skórę. \n' +
                 'Wspomaga pielęgnację przeciwzmarszczkową. Maseczka wygładza i ujędrnia skórę. Holika Holika \n' +
@@ -3107,6 +3264,7 @@ export default {
             ean: '8806334368166',
             image: holika8806334368166,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet - Strawberry',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z truskawki. Produkt odżywia i \n' +
                 'pielęgnuje skórę. Przeznaczony jest do skóry zniszczonej, przesuszonej i łuszczącej się. \n' +
@@ -3129,6 +3287,7 @@ export default {
             ean: '8806334382827',
             image: holika8806334382827,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Mask Sheet (Mugwort)',
             description: 'Maseczka na bawełnianej płachcie z ekstraktem z bylicy pospolitej. Łagodzi \n' +
                 'podrażnienia, wspomaga proces regeneracji skóry. Maseczka przeznaczona do skóry wrażliwej i \n' +
@@ -3148,6 +3307,7 @@ export default {
             ean: '8806334378219',
             image: holika8806334378219,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pure Essence Morning Mask Green Tea',
             description: 'Zestaw porannych maseczek na bawełnianej płachcie zamkniętych w poręcznym opakowaniu, \n' +
                 '30 sztuk. Produkt ma właściwości nawilżające i odświeżające skórę. Po aplikacji skóra jest \n' +
@@ -3163,6 +3323,7 @@ export default {
             ean: '8806334367619',
             image: holika8806334367619,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin Rescue Mask Sheet - Collagen',
             description: 'Wygładzająca maseczka na bawełnianej płachcie z zawartością kolagenu. Produkt \n' +
                 'sprawia, że skóra po aplikacji staje się sprężysta i gładka. Głównie składniki: Kolagen - \n' +
@@ -3178,6 +3339,7 @@ export default {
             ean: '8806334367572',
             image: holika8806334367572,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin Rescue Mask Sheet - Hyaluronic Acid',
             description: 'Nawilżająca maseczka na bawełnianej płachcie z kwasem hialuronowym. Produkt \n' +
                 'poprawia ogólny wygląd skóry, rozświetla i relaksuje zmęczoną cerę. Główne składniki: Kwas \n' +
@@ -3194,6 +3356,7 @@ export default {
             ean: '8806334367596',
             image: holika8806334367596,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin Rescue Mask Sheet - Madecasocide',
             description: 'Regenerująca maseczka na bawełnianej płachcie z madekasozydem. Produkt przyśpiesza \n' +
                 'regeneracje skóry, działa ujędrniająco w szybki sposób, poprawiając wygląd skóry. Przeznaczony \n' +
@@ -3211,6 +3374,7 @@ export default {
             ean: '8806334367589',
             image: holika8806334367589,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin Rescue Mask Sheet - Peptide',
             description: 'Przeciwzmarszczkowa maseczka na bawełnianej płachcie, która ma właściwości nawilżające. \n' +
                 'Ponadto zwiększa elastyczność skóry, podczas użytkowania wyrównuje koloryt i ogólnie poprawia \n' +
@@ -3226,6 +3390,7 @@ export default {
             ean: '8806334367602',
             image: holika8806334367602,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin Rescue Mask Sheet - Vita C',
             description: 'Rozjaśniająca maseczka na bawełnianej płachcie z witaminą C. Produkt rewitalizuje \n' +
                 'skórę, sprawiając, że cera po aplikacji wygląda zdrowo i promieniście. Główne składniki:\n' +
@@ -3240,6 +3405,7 @@ export default {
             ean: '8806334383176',
             image: holika8806334383176,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Water Melon Mask Sheet',
             description: 'Odświeżająco-ujędrniająca maseczka na bawełnianej płachcie z ekstraktem z arbuza. \n' +
                 'Antyoksydanty, znajdujące się w produkcie, spowalniają procesy starzenia się skóry poprzez \n' +
@@ -3262,6 +3428,7 @@ export default {
             ean: '8806334383602',
             image: holika8806334383602,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Carbonic Acid Lemon Peeling Gel',
             description: 'Peeling złuszczający do każdego rodzaju skóry. Usuwa martwe komórki skóry, wygładza i \n' +
                 'ujędrnia cerę. Oczyszcza skórę z zanieczyszczeń, nadmiaru sebum, odblokowując pory i niwelując \n' +
@@ -3284,6 +3451,7 @@ export default {
             ean: '8806334341633',
             image: holika8806334341633,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pignose clear black head peeling massage gel',
             description: 'Peelingujący żel oczyszczający. Produkt wygładza skórę, usuwa zaskórniki, zwęża \n' +
                 'pory. Główne składniki: Ekstrakty z olejków naturalnych (macadamia, z awokado, z słodkich \n' +
@@ -3299,6 +3467,7 @@ export default {
             ean: '8806334359980',
             image: holika8806334359980,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Sleek Egg Skin Peeling Gel (White)',
             description: 'Enzymatyczny peeling do twarzy z ekstraktem z żółtka jajka. Produkt skutecznie usuwa \n' +
                 'martwe komórki skóry, absorbuje sebum ze skóry, oczyszcza pory, przeciwdziała powstawaniu \n' +
@@ -3316,6 +3485,7 @@ export default {
             ean: '8806334368531',
             image: holika8806334368531,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Soda Pore Tok Tok Deep Cleansing Foam',
             description: 'Pianka z delikatnym peelingiem służąca do mycia i oczyszczania twarzy. Produkt \n' +
                 'zawiera "proszek do pieczenia" tzw. baking soda, który dogłębnie oczyszcza skórę. Posiada \n' +
@@ -3330,6 +3500,7 @@ export default {
             ean: '8806334355975',
             image: holika8806334355975,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Facial Cleansing Foam',
             description: 'Delikatna pianka do oczyszczania skóry twarzy z zawartością soku z aloesu. Produkt \n' +
                 'przynosi efekt nawilżenia, chłodzenia i odświeżenia dzięki wysokiej zawartości soku z aloesu. \n' +
@@ -3348,6 +3519,7 @@ export default {
             ean: '8806334383619',
             image: holika8806334383619,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Carbonic Acid Lemon Foam Cleanser',
             description: 'Kremowy żel myjący do twarzy z witaminą C i wodą termalną. Dokładnie oczyszcza skórę, \n' +
                 'odblokowuje pory regulując wydzielanie sebum.  Rozjaśnia i nawilża cerę. Główne składniki: Ekstrakt \n' +
@@ -3367,6 +3539,7 @@ export default {
             ean: '8806334377038',
             image: holika8806334377038,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Smooth Egg Skin Egg Soap - Charcoal',
             description: 'Mydełko do twarzy z ekstraktem z węgla aktywnego. Produkt głęboko oczyszcza skórę \n' +
                 'twarzy, odblokowując pory. Dzięki długotrwałemu stosowaniu może delikatnie rozjaśnić skórę, \n' +
@@ -3400,6 +3573,7 @@ export default {
             ean: '8806334369750',
             image: holika8806334369750,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Daily Fresh Bamboo Cleansing Foam',
             description: 'Pianka do oczyszczania skóry z ekstraktem z soku liści bambusa. Produkt jest \n' +
                 'odpowiedni do skóry wrażliwej. Dogłębnie nawilża oraz pielęgnuje skórę twarzy, nawilża ją i \n' +
@@ -3414,6 +3588,7 @@ export default {
             ean: '8806334369767',
             image: holika8806334369767,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Daily Fresh Citron Cleansing Foam',
             description: 'Pianka oczyszczająca do skóry przetłuszczającej się i problematycznej. Zawiera \n' +
                 'ekstrakt z cytryny oraz dobroczynnych ziół. Pozytywnie wpływa na skórę, dogłębnie ją \n' +
@@ -3428,6 +3603,7 @@ export default {
             ean: '8806334369743',
             image: holika8806334369743,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Daily Fresh Green Tea Cleansing Foam',
             description: 'Oczyszczająca pianka do skóry tłustej, trądzikowej i mieszanej, o właściwościach \n' +
                 'antybakteryjnych i normalizujących wydzielanie gruczołów łojowych. Ponadto ma właściwości \n' +
@@ -3442,6 +3618,7 @@ export default {
             ean: '8806334369774',
             image: holika8806334369774,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Daily Fresh Rice Cleansing Foam',
             description: 'Pianka o właściwościach rozjaśniających  dla skóry twarzy szarej i zmęczonej. \n' +
                 'Wyrównuje koloryt skóry, dzięki czemu skóra twarzy jest promienna i rozświetlona. Główne \n' +
@@ -3455,6 +3632,7 @@ export default {
             ean: '8806334377021',
             image: holika8806334377021,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Green Tea Egg Soap',
             description: 'Mydełko do twarzy z ekstraktem z zielonej herbaty. Produkt skutecznie oczyszcza skórę \n' +
                 'twarzy, usuwając martwe komórki. Zapewnia odświeżenie i delikatne rozjaśnienie szarej skóry, \n' +
@@ -3473,6 +3651,7 @@ export default {
             ean: '8806334382810',
             image: holika8806334382810,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Less On Skin Redness Calming Cica Cleansing Foam',
             description: 'Delikatnie myjąca pianka do podrażnionej i zaczerwienionej skóry. Dokładnie oczyszcza \n' +
                 'skórę z wszelkich zanieczyszczeń oraz makijażu. Zawiera ekologiczne, naturalne  składniki, \n' +
@@ -3489,6 +3668,7 @@ export default {
             ean: '8806334353971',
             image: holika8806334353971,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Clear Dust Out Deep Cleansing Foam',
             description: 'Głęboko oczyszczająca pianka do mycia twarzy. Produkt zmywa wszelkie zanieczyszczenia \n' +
                 'ze skóry, odblokowuje pory i usuwa zaskórniki. Kremowa, gęsto pianka wygładza i nawilża skórę.',
@@ -3501,6 +3681,7 @@ export default {
             ean: '8806334358495',
             image: holika8806334358495,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Cleansing Foam',
             description: 'Delikatnie oczyszczająca pianka z ekstraktem ze śluzu ślimaka. Produkt usuwa wszelkie \n' +
                 'zanieczyszczenia, toksyny, kurz oraz pozostałości makijażu. Wykazuje działanie nawilżające, \n' +
@@ -3516,6 +3697,7 @@ export default {
             ean: '8806334377045',
             image: holika8806334377045,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Red Clay Egg Soap',
             description: 'Mydełko do twarzy z ekstraktem z żółtej glinki i protein. Produkt dogłębnie oczyszcza \n' +
                 'skórę, niweluje zaskórniki i zwęża pory. Działa zarówno jako mydło oczyszczające, jak i maseczka. \n' +
@@ -3535,6 +3717,7 @@ export default {
             ean: '8806334369514',
             image: holika8806334369514,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin and Good Cera Super Ceramide Foaming Wash',
             description: 'Oczyszczająca pianka z zawartością ceramidów do cery wrażliwej i suchej. Produkt \n' +
                 'regeneruje oraz odbudowuje naturalną barierę ochronną skóry. Zapewnia 72-godzinne nawilżenie \n' +
@@ -3560,6 +3743,7 @@ export default {
             ean: '8806334359997',
             image: holika8806334359997,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Sleek Egg Skin Cleansing Foam - Beige',
             description: 'Delikatna pianka myjąca z ekstraktem z żółtka jajka. Produkt myje i pielęgnuje skórę \n' +
                 'twarzy, pozostawiając ją czystą i gładką. Zawiera także wyciąg z hydrolizowanej skorupki jajka.',
@@ -3572,6 +3756,7 @@ export default {
             ean: '8806334368494',
             image: holika8806334368494,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Soda Pore Cleansing Bubble Foam',
             description: 'Odświeżająca pianka do oczyszczania twarzy z pęcherzykami tlenu. Produkt posiada \n' +
                 'silikonową szczoteczkę, która potęguje efekt pianki i zapewnia przyjemny masaż skóry twarzy. \n' +
@@ -3589,6 +3774,7 @@ export default {
             ean: '8806334368555',
             image: holika8806334368555,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Soda Tok Tok Clean Pore Deep Cleansing Oil',
             description: 'Oczyszczający olejek do twarzy. Produkt delikatnie myje i oczyszcza skórę z makijażu \n' +
                 'i wszelkich zanieczyszczeń. Dogłębnie nawilża i ożywia skórę, łagodzi stany zapalne oraz \n' +
@@ -3605,6 +3791,7 @@ export default {
             ean: '8806334368548',
             image: holika8806334368548,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Soda Pore Tok Tok O2 Bubble Mask',
             description: 'Oczyszczająca maseczka do twarzy z zawartością proszku do pieczenia oraz pęcherzykami \n' +
                 'tlenu. Produkt skutecznie oczyszcza skórę z zanieczyszczeń, odblokowuje pory, odświeża i wygładza \n' +
@@ -3621,6 +3808,7 @@ export default {
             ean: '8806334371807',
             image: holika8806334371807,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pignose clear black head 3step kit',
             description: 'Trójstopniowy zestaw plasterków do oczyszczania porów na nosie. Produkt skutecznie \n' +
                 'usuwa zaskórniki i ściąga skórę na nosie. Pory są oczyszczane z wszelkich zanieczyszczeń i \n' +
@@ -3634,6 +3822,7 @@ export default {
             ean: '8806334378509',
             image: holika8806334378509,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Clear Strong Black Head Spot Pore Strip',
             description: 'Zestaw 3 plasterków do usuwania zaskórników z ekstraktem z węgla aktywnego. Produkt \n' +
                 'skutecznie oczyszcza skórę twarzy, usuwając zaskórniki i absorbując nadmiar sebum z twarzy (nos, \n' +
@@ -3648,6 +3837,7 @@ export default {
             ean: '8806334383503',
             image: holika8806334383503,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Clear Black Head 3-step kit (Honey Gold)',
             description: 'Trójstopniowy zestaw plasterków z 24-karatowym złotem, intensywnie oczyszczający \n' +
                 'skórę nosa z zaskórników. Ekstrakt z miodu i propolisu ma działanie nawilżające, ujędrniające \n' +
@@ -3666,6 +3856,7 @@ export default {
             ean: '8806334372132',
             image: holika8806334372132,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Pig Nose Clear Blackhead 3-step Kit Strong',
             description: 'Trójstopniowy zestaw plasterków do oczyszczania porów na nosie. Produkt zwęża pory, \n' +
                 'zmniejsza ilość sebum oraz ściąga skórę na nosie. Zawiera ekstrakt z mięty oraz czarnego węgla, \n' +
@@ -3685,6 +3876,7 @@ export default {
             ean: '8806334337605',
             image: holika8806334337605,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Caviar Anti-Wrinkle Royal Essence',
             description: 'Silnie skoncentrowana esencja z 30% zawartością ekstraktu z czarnego kawioru. Produkt \n' +
                 'wykazuje działanie przeciwzmarszczkowe. Produkt ma za zadanie spłycić istniejące zmarszczki, \n' +
@@ -3703,6 +3895,7 @@ export default {
             ean: '8806334384920',
             image: holika8806334384920,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Good Cera Super Ceramide Cream In Serum',
             description: 'Zestaw kosmetyków z serii Good Cera z serum. Kultowy krem z serii Good Cera zamknięty \n' +
                 'w serum do skóry suchej, wrażliwej. Ta sama ilość ceramidów co w kremie pozwala utrzymać \n' +
@@ -3733,6 +3926,7 @@ export default {
             ean: '8806334384098',
             image: holika8806334384098,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Mechnikov’s Probiotics Formula Renewing Serum',
             description: 'Rozświetlające serum z probiotykami, które zwiększa jędrność i elastyczność \n' +
                 'skóry. Działa liftingująco poprawiając strukturę skory. Cera staje się gładka, gęsta i \n' +
@@ -3752,6 +3946,7 @@ export default {
             ean: '8806334364533',
             image: holika8806334364533,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika One Solution Super Energy Ampoule - Firming',
             description: 'Serum nadające skórze elastyczność i sprężystość. Produkt intensywnie odżywia i \n' +
                 'napina naskórek. Przeznaczony jest do pielęgnacji każdego typu cery wymagającej ujędrnienia. \n' +
@@ -3770,6 +3965,7 @@ export default {
             ean: '8806334364502',
             image: holika8806334364502,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika One Solution Super Energy Ampoule - Moisturizing',
             description: 'Serum głęboko nawilżające skórę. Produkt pomaga utrzymać odpowiedni poziom \n' +
                 'nawodnienia. Dogłębnie nawilża oraz zapewnia efekt chłodzenia. Holika Holika One Solution \n' +
@@ -3788,6 +3984,7 @@ export default {
             ean: '8806334364519',
             image: holika8806334364519,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika One Solution Super Energy Ampoule - Soothing',
             description: 'Serum wygładzające skórę. Produkt wyraźnie zmniejsza widoczność porów. Skutecznie \n' +
                 'koi oraz łagodzi wszelkie podrażnienia. Przeznaczony do skóry wrażliwej. Holika Holika One \n' +
@@ -3805,6 +4002,7 @@ export default {
             ean: '8806334364540',
             image: holika8806334364540,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika One Solution Super Energy Ampoule - Whitening',
             description: 'Serum rozjaśniające skórę twarzy. Produkt wyrównuje koloryt i przywraca blask \n' +
                 'skórze. Niweluje przebarwienia, piegi i zapobiega ich powstawaniu. Serum wyróżnia różowa, \n' +
@@ -3825,6 +4023,7 @@ export default {
             ean: '8806334364526',
             image: holika8806334364526,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika One Solution Super Energy Ampoule - Wrinkle Care',
             description: 'Serum o właściwościach przeciwzmarszczkowych. Produkt nawilża i pielęgnuje skórę \n' +
                 'twarzy. Przeznaczony jest do każdego typu cery z oznakami starzenia. Holika Holika One Solution \n' +
@@ -3843,6 +4042,7 @@ export default {
             ean: '8806334375997',
             image: holika8806334375997,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/suncare',
             name: 'Holika Holika Aloe Waterproof Sun Gel',
             description: 'Przeciwsłoneczny krem do twarzy i ciała z ekstraktem z aloesu. Produkt posiada \n' +
                 'wysoki, stabilny filtr przeciwsłoneczny SPF50PA++++, dzięki czemu chroni skórę przed promieniami \n' +
@@ -3860,6 +4060,7 @@ export default {
             ean: '8806334381295',
             image: holika8806334381295,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/suncare',
             name: 'Holika Holika Aloe Soothing Essence Ice Cooling Sun Spray',
             description: 'Nawilżający i chłodzący spray przeciwsłoneczny z ekstraktem z aloesu, zapewniający \n' +
                 'niezawodną ochronę skóry przed promieniami UV i UVB. Skutecznie blokuje promieniowanie, \n' +
@@ -3878,6 +4079,7 @@ export default {
             ean: '8806334382452',
             image: holika8806334382452,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/suncare',
             name: 'Holika Holika Less On Skin Redness Calming Cica Sun Stick',
             description: 'Lekki, ochronny sztyft przeciwsłoneczny z wysokim filtrem SPF SPF50+ / PA++++ do skóry \n' +
                 'wrażliwej, podrażnionej. Skutecznie blokuje promienie UVA i UVB zapobiegając występowaniu \n' +
@@ -3894,6 +4096,7 @@ export default {
             ean: '8806334381288',
             image: holika8806334381288,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/suncare',
             name: 'Holika Holika Aloe Water Drop Sun Stick SPF50PA+++',
             description: 'Sztyft do ochrony przeciwsłonecznej z wysokim filtrem SPF50PA+++ oraz z łagodzącym \n' +
                 'ekstraktem z aloesu. Nawilża, koi i odświeża skórę. Zawiera aż 40% wody co nawadnia i zabezpiecza \n' +
@@ -3916,6 +4119,7 @@ export default {
             ean: '8806334375942',
             image: holika8806334375942,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/suncare',
             name: 'Holika Holika Make Up Sun Cream SPF50PA++++',
             description: 'Tonujący krem przeciwsłoneczny pod makijaż z wysokim filtrem UV. Produkt ujednolica \n' +
                 'kolor skóry, niwelując drobne przebarwienia, dzięki czemu cera wygląda na rozświetloną, \n' +
@@ -3934,6 +4138,7 @@ export default {
             ean: '8806334376543',
             image: holika8806334376543,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika AC&MILD Clear Toner',
             description: 'Oczyszczający tonik do codziennej pielęgnacji przeznaczona do skóry tłustej, \n' +
                 'problematycznej i trądzikowej. Odświeża, koi, łagodzi zaczerwienienia i poprawia koloryt \n' +
@@ -3953,6 +4158,7 @@ export default {
             ean: '8806334377311',
             image: holika8806334377311,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Soothing Essence 98% Toner',
             description: 'Nawilżający toner z ekstraktem z aloesu i centelli azjatyckiej. Produkt odświeża, \n' +
                 'wygładza i nawadnia skórę, zapewniając jej właściwe pH. Toner przeznaczony jest do każdego \n' +
@@ -3982,6 +4188,7 @@ export default {
             ean: '8806334337582',
             image: holika8806334337582,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Caviar Anti-Wrinkle Skin Toner',
             description: 'Wysoko skoncentrowany gesty tonik. Produkt szybko się wchłania, pozostawiając skórę \n' +
                 'gładką i miękką. Dzięki nasyceniu składnikami odżywczymi przeciwdziała procesom starzenia się \n' +
@@ -4002,6 +4209,7 @@ export default {
             ean: '8806334358501',
             image: holika8806334358501,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth Black Snail Repair Toner',
             description: 'Wysokoskoncentrowany, gęsty tonik do codziennej pielęgnacji twarzy. Produkt posiada \n' +
                 'składniki, które mają właściwości przeciwzmarszczkowe, nawilżające i ujędrniające skórę. Tonik \n' +
@@ -4024,6 +4232,7 @@ export default {
             ean: '8806334369453',
             image: holika8806334369453,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Skin and Good Cera Super Ceramide Toner',
             description: 'Gęsty tonik głęboko nawilżający skórę. Produkt tonizuje skórę, pozostawiając ją miękką \n' +
                 'i delikatną. Idealny jako pierwszy krok w codziennej pielęgnacji skóry. Łagodny tonik nie \n' +
@@ -4039,6 +4248,7 @@ export default {
             ean: '8806334383268',
             image: holika8806334383268,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Prime Youth 24K Gold Repair Toner',
             description: 'Prime Youth 24K Gold Repair to seria luksusowych, profesjonalnych kosmetyków \n' +
                 'przeciwstarzeniowych do skóry dojrzałej i pozbawionej jędrności. Głównym składnikiem jest \n' +
@@ -4057,6 +4267,7 @@ export default {
             ean: '8806334382766',
             image: holika8806334382766,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Aloe Soothing Essence 80% Gel Cream Set',
             description: 'Promocyjny zestaw produktów aloesowych: pełnowymiarowy żelowy krem 60ml+ 3x wersja mini \n' +
                 'tego produktu po 20ml. Lekka żelowa forma kremu z olejkami i sokiem z aloesu dogłębnie nawilża \n' +
@@ -4074,6 +4285,7 @@ export default {
             ean: '8806334380588',
             image: holika8806334380588,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Aloe Soothing Essence Skin Care Special Kit',
             description: 'Zestaw 3 produktów z sokiem z aloesu do kompleksowej pielęgnacji suchej, podrażnionej \n' +
                 'skóry. W skład zestawu wchodzą: 1. Holika Holika Aloe Soothing Essence 98% TONER 50 ml. \n' +
@@ -4093,6 +4305,7 @@ export default {
             ean: '8806334382797',
             image: holika8806334382797,
             brand: 'Holika Holika',
+            category: 'hair/care, skincare/body',
             name: 'Holika Holika Biotin Travel Kit',
             description: 'Podróżny zestaw 4 produktów do ciała i włosów zapakowany w elegancką kosmetyczke. W \n' +
                 'skład zestawu wchodzi: 1 Biotin Hair Loss Control Shampoo 30ml. Szampon do włosów z biotyną i \n' +
@@ -4120,6 +4333,7 @@ export default {
             ean: '8806334358549',
             image: holika8806334358549,
             brand: 'Holika Holika',
+            category: 'skincare/face',
             name: 'Holika Holika Black Snail Skin Care Repair Travel Kit',
             description: 'Zestaw 4 miniaturowych produktów z ekstraktem ze śluzu ślimaka. Główne składniki: \n' +
                 'Ekstrakt ze śluzu czarnego ślimaka - przyśpiesza regenerację skóry, która goi się szybciej, a \n' +
@@ -4140,6 +4354,7 @@ export default {
             ean: '8806334361440',
             image: holika8806334361440,
             brand: 'Holika Holika',
+            category: 'skincare/face, skincare/body',
             name: 'Holika Holika Jeju Aloe Face and Body Care Set',
             description: 'Zestaw mini produktów z wysoką zawartością ekstraktu z aloesu. W skład zestawu wchodzą: \n' +
                 '- Holika Holika Aloe 99% Soothing Gel (55 ml) - wielofunkcyjny żel z aloesem. Nawilża, orzeźwia \n' +
@@ -4159,6 +4374,7 @@ export default {
             ean: '8806334383633',
             image: holika8806334383633,
             brand: 'Holika Holika',
+            category: 'hair/care',
             name: 'Holika Holika Biotin Damage Care Essence',
             description: 'Odżywcza esencja do włosów, która nawilża, wygładza. Zawiera biotynę oraz inne \n' +
                 'naturalne składniki, które wpływają na wygląd i kondycję włosów. Esencja dodaje również objętości \n' +
@@ -4175,6 +4391,7 @@ export default {
             ean: '8806334372279',
             image: holika8806334372279,
             brand: 'Holika Holika',
+            category: 'hair/styling',
             name: 'Holika Holika Biotin Damage Care Essence Wax',
             description: 'Wosk do stylizacji włosów z biotyną o właściwościach regenerujących, odżywczych i \n' +
                 'nawilżających. Pozostawia włosy miękkie, gładkie pełne blasku. Pozwala stworzyć wymarzoną i \n' +
@@ -4196,6 +4413,7 @@ export default {
             ean: '8806334372248',
             image: holika8806334372248,
             brand: 'Holika Holika',
+            category: 'hair/care',
             name: 'Holika Holika Biotin Damage Care Oil Mist',
             description: 'Dwufazowa, odżywcza mgiełka do włosów z biotyną ułatwiająca rozczesywanie. Produkt \n' +
                 'nawilża, odżywia, regeneruje włosy, pozostawiając je gładkie, pełne naturalnego blasku. \n' +
@@ -4220,6 +4438,7 @@ export default {
             ean: '8806334372262',
             image: holika8806334372262,
             brand: 'Holika Holika',
+            category: 'hair/care',
             name: 'Holika Holika Biotin Damage Care Oil Serum',
             description: 'Odżywczy olejek do włosów z biotyną, który chroni je przed uszkodzeniami oraz wysoką \n' +
                 'temperaturą. Odżywia i regeneruje zniszczone końcówki. Sprawia, że włosy stają się gładsze, \n' +
@@ -4240,6 +4459,7 @@ export default {
             ean: '8806334372255',
             image: holika8806334372255,
             brand: 'Holika Holika',
+            category: 'hair/care',
             name: 'Holika Holika Biotin Damage Care Treatment',
             description: 'Ekstremalnie wygładzająca odżywka do włosów zniszczonych i puszących się. Obecność \n' +
                 'biotyny, protein oraz naturalnych olejków roślinnych odżywia i regeneruje włosy, pozostawiając \n' +
@@ -4261,6 +4481,7 @@ export default {
             ean: '8806334382780',
             image: holika8806334382780,
             brand: 'Holika Holika',
+            category: 'hair/care',
             name: 'Holika Holika Biotin Damage Care Shampoo',
             description: 'Szampon do włosów suchych, zniszczonych, wypadających z biotyną. Doskonale oczyszcza \n' +
                 'włosy i skórę głowy z kurzu, łoju i innych zanieczyszczeń. Ma właściowości nawilżające, \n' +
@@ -4278,6 +4499,7 @@ export default {
             ean: '8806334376833',
             image: holika8806334376833,
             brand: 'Holika Holika',
+            category: 'hair/styling',
             name: 'Holika Holika Biotin Style Care Fix Stick',
             description: 'Sztyft w postaci wosku z biotyną do utrwalenia niewielkich włosków w okolicy skroni, \n' +
                 'uszu lub czoła tzw „baby hair”. Świetnie wygładza puszące się włosy. Główne składniki: Biotyna - \n' +
@@ -4294,6 +4516,7 @@ export default {
             ean: '8806334376819',
             image: holika8806334376819,
             brand: 'Holika Holika',
+            category: 'hair/styling',
             name: 'Holika Holika Biotin Style Care Natural Volume Wax',
             description: 'Wosk do stylizacji fryzury do włosów o średniej długości. Utrzymuje włosy w ryzach \n' +
                 'nadając im naturalnego, sprężystego wyglądu. Lekka kremowa konsystencja ułatwia nakładanie, nie \n' +
@@ -4311,6 +4534,7 @@ export default {
             ean: '8806334376826',
             image: holika8806334376826,
             brand: 'Holika Holika',
+            category: 'hair/styling',
             name: 'Holika Holika Biotin Style Care Ultra Fixing Spray',
             description: 'Super mocny lakier do włosów z zawartością biotyny. Utrwala i pielęgnuje włosy. Chroni \n' +
                 'przed wilgocią i niweluje puszenie się włosów. Główne składniki: Biotyna- nazywana inaczej \n' +
@@ -4327,6 +4551,7 @@ export default {
             ean: '8806334376802',
             image: holika8806334376802,
             brand: 'Holika Holika',
+            category: 'hair/styling',
             name: 'Holika Holika Biotin Style Care Ultra Holding Matt Wax',
             description: 'Super mocny wosk do stylizacji fryzury z matowym wykończeniem w formie pasty z biotyną, \n' +
                 'dzięki któremu nadasz swoim włosom nowoczesny wygląd i utrwalenie. Główne składniki: Biotyna - \n' +
@@ -4343,6 +4568,7 @@ export default {
             ean: '5907670800006',
             image: krayna5907670800006,
             brand: 'Krayna',
+            category: 'skincare/face',
             name: 'AY 1 Cornflower',
             description: 'Krem z chabrem. Ujędrniający krem przeciwzmarszczkowy. Wyjątkowy krem do zadań \n' +
                 'specjalnych. Regenerująca bomba rozświetlająca o działaniu przeciwzmarszczkowym. Koi i regeneruje \n' +
@@ -4370,6 +4596,7 @@ export default {
             ean: '5907670800013',
             image: krayna5907670800013,
             brand: 'Krayna',
+            category: 'skincare/face',
             name: 'AY 2 Water Pepper',
             description: 'Krem z rdestem. Kojący krem wielofunkcyjny do twarzy. Kojący krem z innowacyjną formułą \n' +
                 'opartą na starannie dobranych składnikach. Wpływa na lepszą kondycję skóry i zachowuje jej \n' +
@@ -4393,6 +4620,7 @@ export default {
             ean: '5907670800020',
             image: krayna5907670800020,
             brand: 'Krayna',
+            category: 'skincare/face',
             name: 'AY 3 Chestnut',
             description: 'Krem z kasztanowcem. Odżywczy krem redukujący zaczerwienienia do cery naczynkowej, \n' +
                 'atopowej. Krem o aktywnej formule odżywczej, który zmniejsza widoczność naczyń krwionośnych oraz \n' +
@@ -4416,6 +4644,7 @@ export default {
             ean: '5907670800037',
             image: krayna5907670800037,
             brand: 'Krayna',
+            category: 'skincare/face, man/face',
             name: 'AY 4 Plantain',
             description: 'Krem z babką lancetowatą. Nawilżający krem dla mężczyzn do cery suchej i mieszanej. \n' +
                 'Poprawia elastyczność skóry, odżywia i nawilża. Kompleks substancji ochronnych wzmacnia naturalną \n' +
@@ -4646,6 +4875,7 @@ export default {
             ean: '1000000000012',
             image: ministerstwo1000000000012,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Serum Róża-Malina',
             description: 'Wieloskładnikowe, olejowe serum do twarzy. Efektem kilkuletniej pracy nad tą jedną, \n' +
                 'jedyną recepturą, jest właśnie Róża - Malina, która podczas finalnych testów na konsumentkach \n' +
@@ -4674,6 +4904,7 @@ export default {
             ean: '1000000000013',
             image: ministerstwo1000000000013,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Sklawan z trzciny cukrowej',
             description: 'O skwalanie można by mówić długo i obszernie. Początkowo pozyskiwany był z wątroby \n' +
                 'rekina, później z oliwek. Obecnie najczystszą, najstabilniejszą i cechującą się najlepszymi \n' +
@@ -4692,6 +4923,7 @@ export default {
             ean: '1000000000014',
             image: ministerstwo1000000000014,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face, skincare/body',
             name: 'Olej maliny',
             description: 'Olej z nasion maliny właściwej (Rubus idaeus L.) jest jednym z najciekawszych i zarazem \n' +
                 'najbardziej wszechstronnych olejów stosowanych w codziennej pielęgnacji skóry. Posiada nasienny, \n' +
@@ -4715,6 +4947,7 @@ export default {
             ean: '1000000000015',
             image: ministerstwo1000000000015,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Olej śliwkowy',
             description: 'Olej z pestek śliwki domowej (Prunus domestica L.) jest jednym z ukochanych przez nas \n' +
                 'olejów. Jest to lekki, szybko wchłaniający się olej o rozkosznym, marcepanowym aromacie. Bogaty w \n' +
@@ -4734,6 +4967,7 @@ export default {
             ean: '1000000000016',
             image: ministerstwo1000000000016,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Olej z opuncji figowej',
             description: 'Organiczny, nierafinowany i zimnotłoczony olej z opuncji kaktusowej. Mały, ale wariat! ;) \n' +
                 'Jeśli nas już Państwo nieco znają to wiecie, że wolimy taniej niż drożej oraz też prosto i bez \n' +
@@ -4765,6 +4999,7 @@ export default {
             ean: '1000000000017',
             image: ministerstwo1000000000017,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Olej orzechowy',
             description: 'Zimnotłoczony, nierafinowany olej z orzechów laskowych. Nasz absolutny jesienny numer \n' +
                 'jeden. Faworyt w walce z chandrą i stresem. Sprawdzony w stanach ekstremalnego przemarznięcia \n' +
@@ -4783,6 +5018,7 @@ export default {
             ean: '1000000000018',
             image: ministerstwo1000000000018,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Peeling do ciała Śliwka',
             description: 'Nasz sztos i bestseller, numero uno prezentowe na każdą okazję i zbieracz nagród \n' +
                 'wszelakich: pysznie pachnący, odżywczy, olejowy scrub do ciała na bazie cukru trzcinowego. \n' +
@@ -4810,6 +5046,7 @@ export default {
             ean: '1000000000019',
             image: ministerstwo1000000000019,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Balsam w sztyfcie Śliwka',
             description: 'Jest! Powód bezsennych nocy, mikrozawałów i makroekscytacji. Produkt, który stał się \n' +
                 'naszym bestsellerem na długo przed tym zanim udało nam się wprowadzić go do sprzedaży. Zjadający \n' +
@@ -4845,6 +5082,7 @@ export default {
             ean: '1000000000020',
             image: ministerstwo1000000000020,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Balsam w sztyfcie Czekocynamon',
             description: 'I znów! Znów nieoddawalny, znów modyfikowany do upadłego, aż się udał i jesteśmy \n' +
                 'szczęśliwe. Słodki, nietuczący, totalnie na zimę - czekocynamonowy efekt awantury firmowej. Bo \n' +
@@ -4886,6 +5124,7 @@ export default {
             ean: '1000000000021',
             image: ministerstwo1000000000021,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Balsam w sztyfcie Banan',
             description: 'Kto pracował z woskami roślinnymi ten wie, że sprawa nie jest łatwa i trzeba się nieźle \n' +
                 'natrudzić, aby produkt trzymał fason, a przy okazji ładnie się smarował i nie paćkał wszystkiego \n' +
@@ -4921,6 +5160,7 @@ export default {
             ean: '1000000000022',
             image: ministerstwo1000000000022,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Balsam w sztyfcie Baobab',
             description: 'Nareszcie jest! Nasz absolutny, topowy, hitowy musiszposiadacz (z ang. must-have). Kiedy \n' +
                 'raz trafi już do kieszeni płaszcza, natychmiast zajmuje tam miejscówkę permanentną a niepokój \n' +
@@ -4955,6 +5195,7 @@ export default {
             ean: '1000000000023',
             image: ministerstwo1000000000023,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Mus do ciała Len i konopie',
             description: 'Super odżywczy, organiczny mus do ciała po brzegi wypakowany naturalnymi antyoksydantami, \n' +
                 'składnikami nawilżającymi i regenerującymi, a także zbawienną dla skóry witaminą E. Przyjemna, \n' +
@@ -4980,6 +5221,7 @@ export default {
             ean: '1000000000024',
             image: ministerstwo1000000000024,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body',
             name: 'Mus do ciała Szafran',
             description: 'Super odżywczy, organiczny mus do ciała po brzegi wypakowany naturalnymi antyoksydantami, \n' +
                 'składnikami nawilżającymi i regenerującymi, a także zbawienną dla skóry witaminą E. Przyjemna, \n' +
@@ -5082,6 +5324,7 @@ export default {
             ean: '1000000000029',
             image: ministerstwo1000000000029,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Róża Damasceńska',
             description: 'Ekologiczny hydrolat z róży damasceńskiej sprowadzamy z niewielkiej destylarni, położonej \n' +
                 'na malowniczym południu Francji. Zapach ma piękny, różany, ale różany prawdziwie, bez zadęcia i \n' +
@@ -5101,6 +5344,7 @@ export default {
             ean: '1000000000030',
             image: ministerstwo1000000000030,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Rumianek',
             description: 'Ekologiczny hydrolat z rumianku rzymskiego sprowadzamy z niewielkiej destylarni, \n' +
                 'położonej na malowniczym południu Francji. Pachnący zielskiem, koszoną trawą, ciepłem lata i \n' +
@@ -5120,6 +5364,7 @@ export default {
             ean: '1000000000031',
             image: ministerstwo1000000000031,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Lawenda',
             description: 'Sprowadzamy go z niewielkiej destylarni, położonej na malowniczym południu Francji. \n' +
                 'Prawdziwie, naturalnie lawendowy śmierdziuch dla klientów "level master" ;). Zapomnijmy o \n' +
@@ -5139,6 +5384,7 @@ export default {
             ean: '1000000000032',
             image: ministerstwo1000000000032,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Oczar',
             description: 'Wołają na niego "złoto Indian", a czasem Hammamelis, ale my mówimy Oczar i to też brzmi \n' +
                 'całkiem w porządku. Ekologiczny hydrolat z oczaru wirginijskiego zaprzyjaźniona destylarnia \n' +
@@ -5163,6 +5409,7 @@ export default {
             ean: '1000000000033',
             image: ministerstwo1000000000033,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Lipa',
             description: 'Ultradelikatna, mocno łagodząca mgiełka lipowa sprowadzana z niewielkiej destylarni, \n' +
                 'położonej na malowniczym południu Francji. Nawadnia, zmiękcza i koi podrażnioną skórę, łagodząc \n' +
@@ -5183,6 +5430,7 @@ export default {
             ean: '1000000000034',
             image: ministerstwo1000000000034,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Rozmaryn',
             description: 'Sprowadzany z niewielkiej destylarni, położonej na malowniczym południu Francji. To \n' +
                 'nasz kolejny ulubiony, ziołowy dzikus. Dla tych, którzy kochają rozmaryn i kiedy gdzieś spotkają \n' +
@@ -5209,6 +5457,7 @@ export default {
             ean: '1000000000035',
             image: ministerstwo1000000000035,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Laur',
             description: 'Gdzieś na południu Francji, pośrodku przepięknego, dzikiego Parku Narodowego, stoi stary \n' +
                 'dom z łupka. Małe kawałki tego materiału układane ciasno i imponująco wysoko, często w ogóle bez \n' +
@@ -5242,6 +5491,7 @@ export default {
             ean: '1000000000036',
             image: ministerstwo1000000000036,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/body, skincare/face',
             name: 'Hydrolat - Kocanka',
             description: 'Ekologiczny hydrolat z kocanki, sprowadzany z niewielkiej destylarni, położonej na \n' +
                 'malowniczym południu Francji. Kocanka, ponieważ pracowałyśmy nad nią długo i zdalnie (szykując \n' +
@@ -5265,6 +5515,7 @@ export default {
             ean: '1000000000037',
             image: ministerstwo1000000000037,
             brand: 'Ministerstwo Dobrego Mydła',
+            category: 'skincare/face',
             name: 'Krem Konfitura Róża-Malina',
             description: 'Ten krem to nie jest mały ptyś. To absolutnie wyjątkowa historia o wszystkim tym, czego w \n' +
                 'życiu powinno być więcej. To opowieść o kobiecej mocy, przyjaźni, wyrozumiałości i wsparciu. O tym, \n' +

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Building from "./components/Building";
+import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -12,6 +13,7 @@ import PrivatePolicy from "./components/PrivatePolicy";
 import Product from "./components/Product";
 import Regulations from "./components/Regulations";
 import Shop from "./components/Shop";
+import Subcategories from "./components/Subcategories";
 import discountCodes from "./data/discount";
 import CheckOut from "./components/CheckOut";
 
@@ -24,6 +26,7 @@ function App() {
     const [value, setValue] = useState();
     const [discount, setDiscount] = useState(false);
     const [discountActive, setDiscountActive] = useState();
+    const [category, setCategory] = useState();
 
     const checkDiscount = () => {
         if (discountCodes.hasOwnProperty(discount)) {
@@ -104,7 +107,28 @@ function App() {
                 <Header active={active} setActive={setActive} search={search} setSearch={setSearch} setText={setText} openCart={openCart} setOpenCart={setOpenCart} cart={cart} add={add} subtract={subtract} remove={remove} discountActive={discountActive} value={value} check={check} checkD={checkD} checkAll={checkAll} checkDiscount={checkDiscount} setDiscount={setDiscount} />
                 <Switch>
                     <Route path="/" exact component={ Main } />
-                    <Route path="/sklep" exact component={ () => <Shop text={text} addToCart={addToCart} /> }/>
+                    <Route path="/sklep" exact component={ props => <Shop {...props} text={text} addToCart={addToCart} /> } />
+                    <Route path="/sklep/pielegnacja" exact component={ props => <Categories {...props} text={text} addToCart={addToCart} setCategory={setCategory} /> }/>
+                    <Route path="/sklep/pielegnacja/twarz" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/pielegnacja/cialo" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/pielegnacja/dlonie-i-stopy" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/pielegnacja/ochrona-przeciwsloneczna" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/makijaz" exact component={ props => <Categories {...props} text={text} addToCart={addToCart} setCategory={setCategory} /> }/>
+                    <Route path="/sklep/makijaz/twarz" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/makijaz/oczy" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/makijaz/usta" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/wlosy" exact component={ props => <Categories {...props} text={text} addToCart={addToCart} setCategory={setCategory} /> }/>
+                    <Route path="/sklep/wlosy/pielegnacja" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/wlosy/stylizacja" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/dla-mezczyzn" exact component={ props => <Categories {...props} text={text} addToCart={addToCart} setCategory={setCategory} /> }/>
+                    <Route path="/sklep/dla-mezczyzn/twarz" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/dla-mezczyzn/cialo" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/dla-mezczyzn/wlosy" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/marki" exact component={ props => <Categories {...props} text={text} addToCart={addToCart} setCategory={setCategory} /> }/>
+                    <Route path="/sklep/marki/holika-holika" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/marki/krayna" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/marki/ministerstwo-dobrego-mydla" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
+                    <Route path="/sklep/marki/mokosh-cosmetics" exact component={ props => <Subcategories {...props} addToCart={addToCart} category={category} /> } />
                     <Route path="/sklep/:id" render={ props => <Product {...props} cart={cart} setCart={setCart} value={value} setValue={setValue} /> }/>
                     <Route path="/regulamin" component={ Regulations } />
                     <Route path="/polityka-prywatnosci" component={ PrivatePolicy } />
